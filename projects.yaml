@@ -419,6 +419,16 @@ projects:
     github_id: allenai/scispacy
     pypi_id: scispacy
     category: nlp
+  - name: sense2vec
+    github_id: explosion/sense2vec
+    pypi_id: sense2vec
+    conda_id: conda-forge/sense2vec
+    category: nlp
+  - name: spark-nlp
+    github_id: JohnSnowLabs/spark-nlp
+    pypi_id: spark-nlp
+    category: nlp
+    labels: ["spark"]
   - name: Texthero
     github_id: jbesomi/texthero
     pypi_id: texthero
@@ -912,6 +922,11 @@ projects:
     github_id: bokeh/bokeh
     pypi_id: bokeh
     conda_id: conda-forge/bokeh
+    category: data-viz
+  - name: dash
+    github_id: plotly/dash
+    pypi_id: dash
+    conda_id: conda-forge/dash
     category: data-viz
   - name: AutoViz
     github_id: AutoViML/AutoViz
@@ -1553,6 +1568,15 @@ projects:
     pypi_id: autokeras
     category: hyperopt
     labels: ["tensorflow"]
+  - name: mljar-supervised
+    github_id: mljar/mljar-supervised
+    pypi_id: mljar-supervised
+    conda_id: conda-forge/mljar-supervised
+    category: hyperopt
+  - name: Neuraxle
+    github_id: Neuraxio/Neuraxle
+    pypi_id: neuraxle
+    category: hyperopt
   - name: AdaNet
     github_id: tensorflow/adanet
     pypi_id: adanet
@@ -1641,6 +1665,10 @@ projects:
   - name: ml-metadata
     github_id: google/ml-metadata
     pypi_id: ml-metadata
+    category: ml-experiments
+  - name: gokart
+    github_id: m3dev/gokart
+    pypi_id: gokart
     category: ml-experiments
   - name: traintool
     github_id: jrieke/traintool
@@ -2208,6 +2236,10 @@ projects:
     pypi_id: SpeechRecognition
     conda_id: conda-forge/speechrecognition
     category: audio
+  - name: espnet
+    github_id: espnet/espnet
+    pypi_id: espnet
+    category: audio
   - name: torchaudio
     github_id: pytorch/audio
     pypi_id: torchaudio
@@ -2428,3 +2460,262 @@ projects:
     conda_id: conda-forge/cleverhans
     category: adversarial
     labels: ["tensorflow"]
+  - name: AdaBound
+    github_id: Luolc/AdaBound
+    pypi_id: adabound
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: Poutyne
+    github_id: GRAAL-Research/poutyne
+    pypi_id: poutyne
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: PML
+    github_id: KevinMusgrave/pytorch-metric-learning
+    pypi_id: pytorch-metric-learning
+    conda_id: metric-learning/pytorch-metric-learning
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: Performer Pytorch
+    github_id: lucidrains/performer-pytorch
+    pypi_id: performer-pytorch
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: Antialiased CNNs
+    github_id: adobe/antialiased-cnns
+    pypi_id: antialiased-cnns
+    category: pytorch-utils
+    labels: ["pytorch"]
+    license: CC BY-NC-SA 4.0
+  - name: torch-scatter
+    github_id: rusty1s/pytorch_scatter
+    pypi_id: torch-scatter
+    conda_id: conda-forge/pytorch_scatter
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: facenet-pytorch
+    github_id: timesler/facenet-pytorch
+    pypi_id: facenet-pytorch
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: Higher
+    github_id: facebookresearch/higher
+    pypi_id: higher
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: PyTorch Sparse
+    github_id: rusty1s/pytorch_sparse
+    pypi_id: torch-sparse
+    conda_id: conda-forge/pytorch_sparse
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: torchinfo
+    github_id: TylerYep/torchinfo
+    pypi_id: torchinfo
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: Pytorch Toolbelt
+    github_id: BloodAxe/pytorch-toolbelt
+    pypi_id: pytorch_toolbelt
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: Torch-Struct
+    github_id: harvardnlp/pytorch-struct
+    pypi_id: torch-struct
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: TabNet
+    github_id: dreamquark-ai/tabnet
+    pypi_id: pytorch-tabnet
+    conda_id: conda-forge/pytorch-tabnet
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: torchdiffeq
+    github_id: rtqichen/torchdiffeq
+    pypi_id: torchdiffeq
+    conda_id: conda-forge/torchdiffeq
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: torchsde
+    github_id: google-research/torchsde
+    pypi_id: torchsde
+    conda_id: conda-forge/torchsde
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: Saliency
+    github_id: PAIR-code/saliency
+    pypi_id: saliency
+    category: tensorflow-utils
+    labels: ["tensorflow"]
+  - name: TF Compression
+    github_id: tensorflow/compression
+    pypi_id: tensorflow-compression
+    category: tensorflow-utils
+    labels: ["tensorflow"]
+  - name: tensorflow-hub
+    github_id: tensorflow/hub
+    pypi_id: tensorflow-hub
+    conda_id: conda-forge/tensorflow-hub
+    category: tensorflow-utils
+    labels: ["tensorflow"]
+  - name: TensorFlow I/O
+    github_id: tensorflow/io
+    pypi_id: tensorflow-io
+    category: tensorflow-utils
+    labels: ["tensorflow"]
+  - name: Neural Structured Learning
+    github_id: tensorflow/neural-structured-learning
+    pypi_id: neural-structured-learning
+    category: tensorflow-utils
+    labels: ["tensorflow"]
+  - name: TensorFlow Transform
+    github_id: tensorflow/transform
+    pypi_id: tensorflow-transform
+    category: tensorflow-utils
+    labels: ["tensorflow"]
+  - name: TensorFlow Cloud
+    github_id: tensorflow/cloud
+    pypi_id: tensorflow-cloud
+    category: tensorflow-utils
+    labels: ["tensorflow"]
+  - name: TF Model Optimization
+    github_id: tensorflow/model-optimization
+    pypi_id: tensorflow-model-optimization
+    category: tensorflow-utils
+    labels: ["tensorflow"]
+  - name: sklearn-contrib-lightning
+    github_id: scikit-learn-contrib/lightning
+    pypi_id: sklearn-contrib-lightning
+    conda_id: conda-forge/sklearn-contrib-lightning
+    category: sklearn-utils
+    labels: ["sklearn"]
+  - name: scikit-multilearn
+    github_id: scikit-multilearn/scikit-multilearn
+    pypi_id: scikit-multilearn
+    category: sklearn-utils
+    labels: ["sklearn"]
+  - name: MLxtend
+    github_id: rasbt/mlxtend
+    pypi_id: mlxtend
+    conda_id: conda-forge/mlxtend
+    category: sklearn-utils
+    labels: ["sklearn"]
+  - name: metric-learn
+    github_id: scikit-learn-contrib/metric-learn
+    pypi_id: metric-learn
+    conda_id: conda-forge/metric-learn
+    category: sklearn-utils
+    labels: ["sklearn"]
+  - name: dabl
+    github_id: dabl/dabl
+    pypi_id: dabl
+    category: sklearn-utils
+    labels: ["sklearn"]
+  - name: imbalanced-learn
+    github_id: scikit-learn-contrib/imbalanced-learn
+    pypi_id: imbalanced-learn
+    conda_id: conda-forge/imbalanced-learn
+    category: sklearn-utils
+    labels: ["sklearn"]
+  - name: category_encoders
+    github_id: scikit-learn-contrib/category_encoders
+    pypi_id: category_encoders
+    conda_id: conda-forge/category_encoders
+    category: sklearn-utils
+    labels: ["sklearn"]
+  - name: Prince
+    github_id: MaxHalford/prince
+    pypi_id: prince
+    conda_id: conda-forge/prince-factor-analysis
+    category: sklearn-utils
+    labels: ["sklearn"]
+
+  - name: alibi-detect
+    github_id: SeldonIO/alibi-detect
+    pypi_id: alibi-detect
+  - name: PDPbox
+    github_id: SauceCat/PDPbox
+    pypi_id: pdpbox
+    conda_id: conda-forge/pdpbox
+    category: data-viz
+  - name: Feature Engine
+    github_id: feature-engine/feature_engine
+    pypi_id: feature_engine
+    conda_id: conda-forge/feature_engine
+  - name: PennyLane
+    github_id: PennyLaneAI/PennyLane
+    pypi_id: pennylane
+    conda_id: conda-forge/pennylane
+  - name: BioPandas
+    github_id: rasbt/biopandas
+    pypi_id: biopandas
+    conda_id: conda-forge/biopandas
+    labels: ["pandas"]
+  - name: Streamlit
+    github_id: streamlit/streamlit
+    pypi_id: streamlit
+  - name: River
+    github_id: online-ml/river
+    pypi_id: river
+    conda_id: conda-forge/river
+  - name: tensorly
+    github_id: tensorly/tensorly
+    pypi_id: tensorly
+    conda_id: conda-forge/tensorly
+  - name: kmodes
+    github_id: nicodv/kmodes
+    pypi_id: kmodes
+    conda_id: conda-forge/kmodes
+  - name: SymPy
+    github_id: sympy/sympy
+    pypi_id: sympy
+    conda_id: conda-forge/sympy
+  - name: gplearn
+    github_id: trevorstephens/gplearn
+    pypi_id: gplearn
+    conda_id: conda-forge/gplearn
+    labels: ["sklearn"]
+  - name: pyjanitor
+    github_id: pyjanitor-devs/pyjanitor
+    pypi_id: pyjanitor
+    conda_id: conda-forge/pyjanitor
+  - name: PyOD
+    github_id: yzhao062/pyod
+    pypi_id: pyod
+    conda_id: conda-forge/pyod
+  - name: AstroML
+    github_id: astroML/astroML
+    pypi_id: astroML
+    conda_id: conda-forge/astroml
+    labels: ["sklearn"]
+  - name: Mars
+    github_id: mars-project/mars
+    pypi_id: pymars
+  - name: modAL
+    github_id: modAL-python/modAL
+    pypi_id: modAL
+    labels: ["sklearn"]
+  - name: apricot
+    github_id: jmschrei/apricot
+    pypi_id: apricot-select
+  - name: DeepChem
+    github_id: deepchem/deepchem
+    pypi_id: deepchem
+    conda_id: conda-forge/deepchem
+    labels: ["tensorflow"]
+  - name: StreamAlert
+    github_id: airbnb/streamalert
+  - name: cleanlab
+    github_id: cleanlab/cleanlab
+    pypi_id: cleanlab
+    conda_id: conda-forge/cleanlab
+  - name: carla
+    github_id: carla-simulator/carla
+    pypi_id: carla
+  - name: pysc2
+    github_id: deepmind/pysc2
+    pypi_id: pysc2
+  - name: PaddleHub
+    github_id: PaddlePaddle/PaddleHub
+    pypi_id: paddlehub
+    labels: ["paddle"]
