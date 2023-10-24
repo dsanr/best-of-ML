@@ -5,8 +5,6 @@ configuration:
   allowed_licenses:
     [
       "all",
-      "Unlicense",
-      "Unlicensed",
       "CC-BY-4.0",
       "Apache-2.0",
       "MIT",
@@ -997,3 +995,552 @@ projects:
     pypi_id: wordcloud
     conda_id: conda-forge/wordcloud
     category: data-viz
+  - name: data-describe
+    github_id: data-describe/data-describe
+    pypi_id: data-describe
+    category: data-viz
+  - name: ydata-profiling
+    github_id: ydataai/ydata-profiling
+    pypi_id: ydata-profiling
+    conda_id: conda-forge/ydata-profiling
+    category: data-viz
+    labels: ["jupyter", "pandas"]
+  - name: PandasGUI
+    github_id: adamerose/pandasgui
+    pypi_id: pandasgui
+    conda_id: conda-forge/pandasgui
+    category: data-viz
+    labels: ["pandas"]
+  - name: Sweetviz
+    github_id: fbdesignpro/sweetviz
+    pypi_id: sweetviz
+    conda_id: conda-forge/sweetviz
+    category: data-viz
+  - name: HyperTools
+    github_id: ContextLab/hypertools
+    pypi_id: hypertools
+    category: data-viz
+  - name: Pandas-Bokeh
+    github_id: PatrikHlobil/Pandas-Bokeh
+    pypi_id: pandas-bokeh
+    category: data-viz
+    labels: ["pandas"]
+  - name: VisPy
+    github_id: vispy/vispy
+    pypi_id: vispy
+    conda_id: conda-forge/vispy
+    category: data-viz
+    labels: ["jupyter"]
+    description: High-performance interactive 2D/3D data visualization library.
+    npm_id: vispy
+  - name: PyVista
+    github_id: pyvista/pyvista
+    pypi_id: pyvista
+    conda_id: conda-forge/pyvista
+    category: data-viz
+    labels: ["jupyter"]
+  - name: nx-altair
+    github_id: Zsailer/nx_altair
+    pypi_id: nx-altair
+    category: data-viz
+    labels: ["jupyter"]
+  - name: pythreejs
+    github_id: jupyter-widgets/pythreejs
+    pypi_id: pythreejs
+    conda_id: conda-forge/pythreejs
+    category: data-viz
+    labels: ["jupyter"]
+    npm_id: jupyter-threejs
+  - name: Facets Overview
+    github_id: pair-code/facets
+    pypi_id: facets-overview
+    category: data-viz
+    labels: ["jupyter"]
+  - name: Perspective
+    github_id: finos/perspective
+    pypi_id: perspective-python
+    conda_id: conda-forge/perspective
+    category: data-viz
+    labels: ["jupyter"]
+    npm_id: '@finos/perspective-jupyterlab'
+  - name: pyecharts
+    github_id: pyecharts/pyecharts
+    pypi_id: pyecharts
+    docs_url: https://github.com/pyecharts/pyecharts/blob/master/README.en.md
+    category: data-viz
+    labels: ["jupyter"]
+  - name: PyWaffle
+    github_id: gyli/PyWaffle
+    pypi_id: pywaffle
+    conda_id: conda-forge/pywaffle
+    category: data-viz
+  - name: openTSNE
+    github_id: pavlin-policar/openTSNE
+    pypi_id: opentsne
+    conda_id: conda-forge/opentsne
+    category: data-viz
+  - name: HiPlot
+    github_id: facebookresearch/hiplot
+    pypi_id: hiplot
+    conda_id: conda-forge/hiplot
+    category: data-viz
+  - name: PyQtGraph
+    github_id: pyqtgraph/pyqtgraph
+    pypi_id: pyqtgraph
+    conda_id: conda-forge/pyqtgraph
+    category: data-viz
+  - name: What-If Tool
+    github_id: PAIR-code/what-if-tool
+    pypi_id: witwidget
+    conda_id: conda-forge/tensorboard-plugin-wit
+    category: interpretability
+    npm_id: wit-widget
+  - name: LIT
+    github_id: PAIR-code/lit
+    pypi_id: lit-nlp
+    conda_id: conda-forge/lit-nlp
+    category: interpretability
+  - name: yellowbrick
+    github_id: DistrictDataLabs/yellowbrick
+    pypi_id: yellowbrick
+    conda_id: conda-forge/yellowbrick
+    category: interpretability
+    labels: ["sklearn"]
+  - name: FlashTorch
+    github_id: MisaOgura/flashtorch
+    pypi_id: flashtorch
+    category: interpretability
+    labels: ["pytorch"]
+  - name: DoWhy
+    github_id: py-why/dowhy
+    pypi_id: dowhy
+    conda_id: conda-forge/dowhy
+    category: interpretability
+  - name: eli5
+    github_id: TeamHG-Memex/eli5
+    pypi_id: eli5
+    conda_id: conda-forge/eli5
+    category: interpretability
+  - name: imodels
+    github_id: csinva/imodels
+    pypi_id: imodels
+    category: interpretability
+  - name: shap
+    github_id: slundberg/shap
+    pypi_id: shap
+    conda_id: conda-forge/shap
+    category: interpretability
+  - name: Lime
+    github_id: marcotcr/lime
+    pypi_id: lime
+    conda_id: conda-forge/lime
+    category: interpretability
+  - name: scikit-plot
+    github_id: reiinakano/scikit-plot
+    pypi_id: scikit-plot
+    conda_id: conda-forge/scikit-plot
+    category: interpretability
+    labels: ["sklearn"]
+  - name: pyLDAvis
+    github_id: bmabey/pyLDAvis
+    pypi_id: pyldavis
+    conda_id: conda-forge/pyldavis
+    category: interpretability
+    labels: ["jupyter"]
+  - name: Alibi
+    github_id: SeldonIO/alibi
+    pypi_id: alibi
+    category: interpretability
+  - name: keract
+    github_id: philipperemy/keract
+    pypi_id: keract
+    category: interpretability
+    labels: ["tensorflow"]
+  - name: tf-explain
+    github_id: sicara/tf-explain
+    pypi_id: tf-explain
+    category: interpretability
+    labels: ["tensorflow"]
+  - name: InterpretML
+    github_id: interpretml/interpret
+    pypi_id: interpret
+    category: interpretability
+    labels: ["jupyter"]
+  - name: sklearn-evaluation
+    github_id: edublancas/sklearn-evaluation
+    pypi_id: sklearn-evaluation
+    category: interpretability
+    labels: ["sklearn"]
+  - name: Captum
+    github_id: pytorch/captum
+    pypi_id: captum
+    conda_id: conda-forge/captum
+    category: interpretability
+    labels: ["pytorch"]
+  - name: Deep Checks
+    github_id: deepchecks/deepchecks
+    pypi_id: deepchecks
+    category: interpretability
+  - name: Model Analysis
+    github_id: tensorflow/model-analysis
+    pypi_id: tensorflow-model-analysis
+    category: interpretability
+    labels: ["tensorflow", "jupyter"]
+  - name: bias-detector
+    github_id: intuit/bias-detector
+    pypi_id: bias-detector
+    category: interpretability
+  - name: iNNvestigate
+    github_id: albermax/innvestigate
+    pypi_id: innvestigate
+    category: interpretability
+    labels: ["tensorflow"]
+    license: BSD-2-Clause
+  - name: LOFO
+    github_id: aerdem4/lofo-importance
+    pypi_id: lofo-importance
+    category: interpretability
+  - name: Skater
+    github_id: oracle/Skater
+    pypi_id: skater
+    conda_id: conda-forge/skater
+    category: interpretability
+  - name: XAI
+    github_id: EthicalML/xai
+    pypi_id: xai
+    category: interpretability
+  - name: tf-keras-vis
+    github_id: keisen/tf-keras-vis
+    pypi_id: tf-keras-vis
+    category: interpretability
+    labels: ["tensorflow"]
+  - name: Explainability 360
+    github_id: Trusted-AI/AIX360
+    pypi_id: aix360
+    category: interpretability
+  - name: Anchor
+    github_id: marcotcr/anchor
+    pypi_id: anchor_exp
+    category: interpretability
+  - name: Attribution Priors
+    github_id: suinleelab/attributionpriors
+    pypi_id: attributionpriors
+    category: interpretability
+    labels: ["tensorflow", "pytorch"]
+  - name: Fairness 360
+    github_id: Trusted-AI/AIF360
+    pypi_id: aif360
+    conda_id: conda-forge/aif360
+    category: interpretability
+  - name: ExplainX.ai
+    github_id: explainX/explainx
+    pypi_id: explainx
+    category: interpretability
+  - name: DiCE
+    github_id: interpretml/DiCE
+    pypi_id: dice-ml
+    category: interpretability
+    labels: ["tensorflow", "pytorch"]
+  - name: Paddle Graph Learning
+    github_id: PaddlePaddle/PGL
+    pypi_id: pgl
+    category: graph
+    labels: ["paddle"]
+  - name: Karate Club
+    github_id: benedekrozemberczki/karateclub
+    pypi_id: karateclub
+    conda_id: conda-forge/karateclub
+    category: graph
+  - name: GraphVite
+    github_id: DeepGraphLearning/graphvite
+    conda_id: milagraph/graphvite
+    category: graph
+  - name: networkx
+    github_id: networkx/networkx
+    pypi_id: networkx
+    conda_id: conda-forge/networkx
+    category: graph
+  - name: dgl
+    github_id: dmlc/dgl
+    pypi_id: dgl
+    category: graph
+  - name: graph-nets
+    github_id: deepmind/graph_nets
+    pypi_id: graph-nets
+    category: graph
+    labels: ["tensorflow"]
+  - name: torch-cluster
+    github_id: rusty1s/pytorch_cluster
+    pypi_id: torch-cluster
+    conda_id: conda-forge/pytorch_cluster
+    category: graph
+    labels: ["pytorch"]
+  - name: PyTorch Geometric
+    github_id: pyg-team/pytorch_geometric
+    pypi_id: torch-geometric
+    conda_id: conda-forge/pytorch_geometric
+    category: graph
+    labels: ["pytorch"]
+  - name: PyTorch-BigGraph
+    github_id: facebookresearch/PyTorch-BigGraph
+    pypi_id: torchbiggraph
+    category: graph
+    labels: ["pytorch"]
+  - name: PyKEEN
+    github_id: pykeen/pykeen
+    pypi_id: pykeen
+    category: graph
+  - name: AmpliGraph
+    github_id: Accenture/AmpliGraph
+    pypi_id: ampligraph
+    category: graph
+    labels: ["tensorflow"]
+  - name: OpenKE
+    github_id: thunlp/OpenKE
+    category: graph
+  - name: GraphSAGE
+    github_id: williamleif/GraphSAGE
+    category: graph
+    labels: ["tensorflow"]
+    license: MIT
+  - name: StellarGraph
+    github_id: stellargraph/stellargraph
+    pypi_id: stellargraph
+    category: graph
+    labels: ["tensorflow"]
+  - name: Node2Vec
+    github_id: eliorc/node2vec
+    pypi_id: node2vec
+    conda_id: conda-forge/node2vec
+    category: graph
+  - name: OpenNE
+    github_id: thunlp/OpenNE
+    category: graph
+    labels: ["tensorflow"]
+  - name: Spektral
+    github_id: danielegrattarola/spektral
+    pypi_id: spektral
+    category: graph
+    labels: ["tensorflow"]
+  - name: GraphEmbedding
+    github_id: shenweichen/GraphEmbedding
+    category: graph
+    labels: ["sklearn"]
+  - name: igraph
+    github_id: igraph/python-igraph
+    pypi_id: python-igraph
+    conda_id: conda-forge/igraph
+    category: graph
+  - name: DeepGraph
+    github_id: deepgraph/deepgraph
+    pypi_id: deepgraph
+    conda_id: conda-forge/deepgraph
+    category: graph
+    labels: ["pandas"]
+  - name: GeoViews
+    github_id: holoviz/geoviews
+    pypi_id: geoviews
+    conda_id: conda-forge/geoviews
+    category: geospatial-data
+  - name: Sentinelsat
+    github_id: sentinelsat/sentinelsat
+    pypi_id: sentinelsat
+    conda_id: conda-forge/sentinelsat
+    category: geospatial-data
+  - name: EarthPy
+    github_id: earthlab/earthpy
+    pypi_id: earthpy
+    conda_id: conda-forge/earthpy
+    category: geospatial-data
+  - name: pyproj
+    github_id: pyproj4/pyproj
+    pypi_id: pyproj
+    conda_id: conda-forge/pyproj
+    category: geospatial-data
+    license: MIT
+  - name: GeoPandas
+    github_id: geopandas/geopandas
+    pypi_id: geopandas
+    conda_id: conda-forge/geopandas
+    category: geospatial-data
+    labels: ["pandas"]
+  - name: folium
+    github_id: python-visualization/folium
+    pypi_id: folium
+    conda_id: conda-forge/folium
+    category: geospatial-data
+  - name: geopy
+    github_id: geopy/geopy
+    pypi_id: geopy
+    conda_id: conda-forge/geopy
+    category: geospatial-data
+  - name: geojson
+    github_id: jazzband/geojson
+    pypi_id: geojson
+    conda_id: conda-forge/geojson
+    category: geospatial-data
+  - name: PySAL
+    github_id: pysal/pysal
+    pypi_id: pysal
+    conda_id: conda-forge/pysal
+    category: geospatial-data
+  - name: ArcGIS API
+    github_id: Esri/arcgis-python-api
+    pypi_id: arcgis
+    dockerhub_id: esridocker/arcgis-api-python-notebook
+    category: geospatial-data
+  - name: Rasterio
+    github_id: rasterio/rasterio
+    pypi_id: rasterio
+    conda_id: conda-forge/rasterio
+    category: geospatial-data
+  - name: Fiona
+    github_id: Toblerity/Fiona
+    pypi_id: fiona
+    conda_id: conda-forge/fiona
+    category: geospatial-data
+  - name: Satpy
+    github_id: pytroll/satpy
+    pypi_id: satpy
+    conda_id: conda-forge/satpy
+    category: geospatial-data
+  - name: Geocoder
+    github_id: DenisCarriere/geocoder
+    pypi_id: geocoder
+    conda_id: conda-forge/geocoder
+    category: geospatial-data
+    snap_id: geocoder
+  - name: Mapbox GL
+    github_id: mapbox/mapboxgl-jupyter
+    pypi_id: mapboxgl
+    category: geospatial-data
+    labels: ["jupyter"]
+  - name: ipyleaflet
+    github_id: jupyter-widgets/ipyleaflet
+    pypi_id: ipyleaflet
+    conda_id: conda-forge/ipyleaflet
+    category: geospatial-data
+    labels: ["jupyter"]
+    npm_id: jupyter-leaflet
+  - name: gmaps
+    github_id: pbugnion/gmaps
+    pypi_id: gmaps
+    conda_id: conda-forge/gmaps
+    category: geospatial-data
+    labels: ["jupyter"]
+    license: BSD-3-Clause
+    npm_id: jupyter-gmaps
+  - name: pymap3d
+    github_id: geospace-code/pymap3d
+    pypi_id: pymap3d
+    conda_id: conda-forge/pymap3d
+    category: geospatial-data
+  - name: Backtesting.py
+    github_id: kernc/backtesting.py
+    pypi_id: backtesting
+    category: financial-data
+  - name: TensorTrade
+    github_id: tensortrade-org/tensortrade
+    pypi_id: tensortrade
+    conda_id: conda-forge/tensortrade
+    category: financial-data
+  - name: empyrical
+    github_id: quantopian/empyrical
+    pypi_id: empyrical
+    conda_id: conda-forge/empyrical
+    category: financial-data
+  - name: pyfolio
+    github_id: quantopian/pyfolio
+    pypi_id: pyfolio
+    conda_id: conda-forge/pyfolio
+    category: financial-data
+  - name: Alphalens
+    github_id: quantopian/alphalens
+    pypi_id: alphalens
+    conda_id: conda-forge/alphalens
+    category: financial-data
+  - name: zipline
+    github_id: quantopian/zipline
+    pypi_id: zipline
+    conda_id: conda-forge/zipline
+    category: financial-data
+  - name: ffn
+    github_id: pmorissette/ffn
+    pypi_id: ffn
+    conda_id: conda-forge/ffn
+    category: financial-data
+  - name: bt
+    github_id: pmorissette/bt
+    pypi_id: bt
+    conda_id: conda-forge/bt
+    category: financial-data
+  - name: backtrader
+    github_id: mementum/backtrader
+    pypi_id: backtrader
+    category: financial-data
+  - name: IB-insync
+    github_id: erdewit/ib_insync
+    pypi_id: ib_insync
+    conda_id: conda-forge/ib-insync
+    category: financial-data
+  - name: finmarketpy
+    github_id: cuemacro/finmarketpy
+    pypi_id: finmarketpy
+    category: financial-data
+  - name: ta-lib-python
+    github_id: TA-Lib/ta-lib-python
+    pypi_id: TA-Lib
+    conda_id: conda-forge/ta-lib
+    category: financial-data
+  - name: arch
+    github_id: bashtage/arch
+    pypi_id: arch
+    conda_id: conda-forge/arch-py
+    category: financial-data
+  - name: Alpha Vantage
+    github_id: RomelTorres/alpha_vantage
+    pypi_id: alpha_vantage
+    conda_id: conda-forge/alpha_vantage
+    category: financial-data
+  - name: yfinance
+    github_id: ranaroussi/yfinance
+    pypi_id: yfinance
+    conda_id: ranaroussi/yfinance
+    category: financial-data
+  - name: Qlib
+    github_id: microsoft/qlib
+    pypi_id: pyqlib
+    category: financial-data
+    labels: ["pytorch"]
+  - name: Hyperopt
+    github_id: hyperopt/hyperopt
+    pypi_id: hyperopt
+    conda_id: conda-forge/hyperopt
+    category: hyperopt
+  - name: Talos
+    github_id: autonomio/talos
+    pypi_id: talos
+    category: hyperopt
+    labels: ["tensorflow"]
+  - name: scikit-optimize
+    github_id: scikit-optimize/scikit-optimize
+    pypi_id: scikit-optimize
+    conda_id: conda-forge/scikit-optimize
+    category: hyperopt
+  - name: Optuna
+    github_id: optuna/optuna
+    pypi_id: optuna
+    conda_id: conda-forge/optuna
+    category: hyperopt
+  - name: Keras Tuner
+    github_id: keras-team/keras-tuner
+    pypi_id: keras-tuner
+    conda_id: conda-forge/keras-tuner
+    category: hyperopt
+    labels: ["tensorflow"]
+  - name: TPOT
+    github_id: EpistasisLab/tpot
+    pypi_id: tpot
+    conda_id: conda-forge/tpot
+    category: hyperopt
+    labels: ["sklearn"]
