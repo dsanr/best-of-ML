@@ -1,6 +1,7 @@
 configuration:
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
+  require_license: False
   allowed_licenses:
     [
       "all",
@@ -495,3 +496,504 @@ projects:
     pypi_id: stanza
     conda_id: stanfordnlp/stanza
     category: nlp
+  - name: transformers
+    github_id: huggingface/transformers
+    pypi_id: transformers
+    conda_id: conda-forge/transformers
+    category: nlp
+    labels: ["pytorch", "tensorflow"]
+  - name: allennlp-light
+    github_id: MaksymDel/allennlp-light
+    pypi_id: allennlp-light
+    category: nlp
+    labels: ["pytorch"]
+  - name: DELTA
+    github_id: Delta-ML/delta
+    pypi_id: delta-nlp
+    dockerhub_id: zh794390558/delta
+    category: nlp
+    labels: ["tensorflow"]
+  - name: ParlAI
+    github_id: facebookresearch/ParlAI
+    pypi_id: parlai
+    category: nlp
+    labels: ["pytorch"]
+  - name: pytorch-nlp
+    github_id: PetrochukM/PyTorch-NLP
+    pypi_id: pytorch-nlp
+    category: nlp
+    labels: ["pytorch"]
+  - name: spacy-transformers
+    github_id: explosion/spacy-transformers
+    pypi_id: spacy-transformers
+    conda_id: conda-forge/spacy-transformers
+    category: nlp
+    labels: ["spacy"]
+  - name: Camphr
+    github_id: PKSHATechnology-Research/camphr
+    pypi_id: camphr
+    category: nlp
+    labels: ["spacy"]
+  - name: finetune
+    github_id: IndicoDataSolutions/finetune
+    pypi_id: finetune
+    category: nlp
+    labels: ["tensorflow", "sklearn"]
+  - name: fast-bert
+    github_id: utterworks/fast-bert
+    pypi_id: fast-bert
+    category: nlp
+  - name: fastText
+    github_id: facebookresearch/fastText
+    pypi_id: fasttext
+    conda_id: conda-forge/fasttext
+    category: nlp
+  - name: Rasa
+    github_id: RasaHQ/rasa
+    pypi_id: rasa
+    category: nlp
+    labels: ["tensorflow"]
+  - name: ChatterBot
+    github_id: gunthercox/ChatterBot
+    pypi_id: chatterbot
+    category: nlp
+  - name: DeepPavlov
+    github_id: deepmipt/DeepPavlov
+    pypi_id: deeppavlov
+    category: nlp
+    labels: ["tensorflow"]
+  - name: OpenNMT
+    github_id: OpenNMT/OpenNMT-py
+    pypi_id: OpenNMT-py
+    category: nlp
+    labels: ["pytorch"]
+  - name: GluonNLP
+    github_id: dmlc/gluon-nlp
+    pypi_id: gluonnlp
+    category: nlp
+    labels: ["mxnet"]
+    description: Toolkit that enables easy text preprocessing, datasets loading and
+      neural models building to help you speed up your Natural Language Processing (NLP)
+      research.
+  - name: Sockeye
+    github_id: awslabs/sockeye
+    pypi_id: sockeye
+    category: nlp
+    labels: ["mxnet"]
+  - name: Snips NLU
+    github_id: snipsco/snips-nlu
+    pypi_id: snips-nlu
+    category: nlp
+  - name: fairseq
+    github_id: facebookresearch/fairseq
+    pypi_id: fairseq
+    conda_id: conda-forge/fairseq
+    category: nlp
+    labels: ["pytorch"]
+  - name: Kashgari
+    github_id: BrikerMan/Kashgari
+    pypi_id: kashgari-tf
+    category: nlp
+    labels: ["tensorflow"]
+  - name: TensorFlow Text
+    github_id: tensorflow/text
+    pypi_id: tensorflow-text
+    category: nlp
+    labels: ["tensorflow"]
+  - name: YouTokenToMe
+    github_id: vkcom/youtokentome
+    pypi_id: youtokentome
+    conda_id: conda-forge/youtokentome
+    category: nlp
+  - name: CLTK
+    github_id: cltk/cltk
+    pypi_id: cltk
+    category: nlp
+  - name: jellyfish
+    github_id: jamesturk/jellyfish
+    pypi_id: jellyfish
+    conda_id: conda-forge/jellyfish
+    category: nlp
+  - name: t5x
+    github_id: google-research/t5x
+    category: nlp
+    labels: ["tensorflow"]
+  - name: polyglot
+    github_id: aboSamoor/polyglot
+    pypi_id: polyglot
+    category: nlp
+  - name: Dedupe
+    github_id: dedupeio/dedupe
+    pypi_id: dedupe
+    conda_id: conda-forge/dedupe
+    category: nlp
+  - name: Sumy
+    github_id: miso-belica/sumy
+    pypi_id: sumy
+    conda_id: conda-forge/sumy
+    category: nlp
+  - name: TextDistance
+    github_id: life4/textdistance
+    pypi_id: textdistance
+    conda_id: conda-forge/textdistance
+    category: nlp
+  - name: TransferNLP
+    github_id: feedly/transfer-nlp
+    pypi_id: transfer-nlp
+    category: nlp
+    labels: ["pytorch"]
+  - name: haystack
+    github_id: deepset-ai/haystack
+    pypi_id: farm-haystack
+    category: nlp
+    labels: ["pytorch"]
+  - name: NeMo
+    github_id: NVIDIA/NeMo
+    pypi_id: nemo-toolkit
+    category: nlp
+    labels: ["pytorch"]
+  - name: MatchZoo
+    github_id: NTMC-Community/MatchZoo
+    pypi_id: matchzoo
+    category: nlp
+    labels: ["tensorflow"]
+  - name: Texar
+    github_id: asyml/texar
+    pypi_id: texar
+    category: nlp
+    labels: ["tensorflow"]
+  - name: PyTextRank
+    github_id: DerwenAI/pytextrank
+    pypi_id: pytextrank
+    category: nlp
+  - name: pySBD
+    github_id: nipunsadvilkar/pySBD
+    pypi_id: pysbd
+    conda_id: conda-forge/pysbd
+    category: nlp
+  - name: Headliner
+    github_id: as-ideas/headliner
+    pypi_id: headliner
+    category: nlp
+  - name: Tokenizers
+    github_id: huggingface/tokenizers
+    pypi_id: tokenizers
+    conda_id: conda-forge/tokenizers
+    category: nlp
+  - name: Ciphey
+    github_id: Ciphey/Ciphey
+    pypi_id: ciphey
+    dockerhub_id: remnux/ciphey
+    category: nlp
+  - name: ONNX-T5
+    github_id: abelriboulot/onnxt5
+    pypi_id: onnxt5
+    category: nlp
+  - name: Caer
+    github_id: jasmcaus/caer
+    pypi_id: caer
+    docs_url: https://caer.rtfd.io
+    category: image
+    description: A lightweight Computer Vision library. Scale your models, not boilerplate.
+  - name: torch-points3d
+    github_id: torch-points3d/torch-points3d
+    pypi_id: torch-points3d
+    category: image
+    labels: ["pytorch"]
+    license: BSD-3-Clause
+  - name: Face Alignment
+    github_id: 1adrianb/face-alignment
+    pypi_id: face-alignment
+    category: image
+    labels: ["pytorch"]
+  - name: PyTorch Image Models
+    github_id: rwightman/pytorch-image-models
+    pypi_id: timm
+    conda_id: conda-forge/timm
+    category: image
+    labels: ["pytorch"]
+  - name: torchvision
+    github_id: pytorch/vision
+    pypi_id: torchvision
+    conda_id: conda-forge/torchvision
+    category: image
+    labels: ["pytorch"]
+  - name: ImageHash
+    github_id: JohannesBuchner/imagehash
+    pypi_id: ImageHash
+    conda_id: conda-forge/imagehash
+    category: image
+  - name: imgaug
+    github_id: aleju/imgaug
+    pypi_id: imgaug
+    conda_id: conda-forge/imgaug
+    category: image
+  - name: scikit-image
+    github_id: scikit-image/scikit-image
+    pypi_id: scikit-image
+    conda_id: conda-forge/scikit-image
+    category: image
+  - name: imageio
+    github_id: imageio/imageio
+    pypi_id: imageio
+    conda_id: conda-forge/imageio
+    category: image
+  - name: Augmentor
+    github_id: mdbloice/Augmentor
+    pypi_id: Augmentor
+    category: image
+  - name: opencv-python
+    github_id: opencv/opencv-python
+    pypi_id: opencv-python
+    category: image
+  - name: imageai
+    github_id: OlafenwaMoses/ImageAI
+    pypi_id: imageai
+    conda_id: conda-forge/imageai
+    category: image
+  - name: Pillow
+    github_id: python-pillow/Pillow
+    pypi_id: Pillow
+    conda_id: conda-forge/pillow
+    category: image
+    license: PIL
+    show: true
+  - name: PyTorch3D
+    github_id: facebookresearch/pytorch3d
+    pypi_id: pytorch3d
+    conda_id: pytorch3d/pytorch3d
+    category: image
+    labels: ["pytorch"]
+  - name: Pillow-SIMD
+    github_id: uploadcare/pillow-simd
+    pypi_id: pillow-simd
+    category: image
+    license: PIL
+  - name: GluonCV
+    github_id: dmlc/gluon-cv
+    pypi_id: gluoncv
+    category: image
+    labels: ["mxnet"]
+  - name: MMF
+    github_id: facebookresearch/mmf
+    pypi_id: mmf
+    category: image
+    labels: ["pytorch"]
+    license: BSD-3-Clause
+  - name: Image Deduplicator
+    github_id: idealo/imagededup
+    pypi_id: imagededup
+    category: image
+    labels: ["tensorflow"]
+  - name: Kornia
+    github_id: kornia/kornia
+    pypi_id: kornia
+    conda_id: conda-forge/kornia
+    category: image
+    labels: ["pytorch"]
+  - name: detectron2
+    github_id: facebookresearch/detectron2
+    pypi_id: detectron2
+    conda_id: conda-forge/detectron2
+    category: image
+    labels: ["pytorch"]
+  - name: tensorflow-graphics
+    github_id: tensorflow/graphics
+    pypi_id: tensorflow-graphics
+    category: image
+    labels: ["tensorflow"]
+  - name: MMDetection
+    github_id: open-mmlab/mmdetection
+    pypi_id: mmdet
+    category: image
+    labels: ["pytorch"]
+  - name: Albumentations
+    github_id: albumentations-team/albumentations
+    pypi_id: albumentations
+    conda_id: conda-forge/albumentations
+    category: image
+    labels: ["pytorch"]
+  - name: Face Recognition
+    github_id: ageitgey/face_recognition
+    pypi_id: face_recognition
+    conda_id: conda-forge/face_recognition
+    category: image
+    labels: ["pytorch"]
+  - name: imutils
+    github_id: PyImageSearch/imutils
+    pypi_id: imutils
+    conda_id: conda-forge/imutils
+    category: image
+  - name: InsightFace
+    github_id: deepinsight/insightface
+    pypi_id: insightface
+    category: image
+    labels: ["mxnet"]
+  - name: Image Super-Resolution
+    github_id: idealo/image-super-resolution
+    pypi_id: ISR
+    dockerhub_id: idealo/image-super-resolution-gpu
+    category: image
+    labels: ["tensorflow"]
+  - name: pycls
+    github_id: facebookresearch/pycls
+    pypi_id: pycls
+    category: image
+    labels: ["pytorch"]
+  - name: PySlowFast
+    github_id: facebookresearch/SlowFast
+    pypi_id: pyslowfast
+    category: image
+    labels: ["pytorch"]
+  - name: MoviePy
+    github_id: Zulko/moviepy
+    pypi_id: moviepy
+    conda_id: conda-forge/moviepy
+    category: image
+  - name: "DE\u2AF6TR"
+    github_id: facebookresearch/detr
+    category: image
+    labels: ["pytorch"]
+  - name: PaddleDetection
+    github_id: PaddlePaddle/PaddleDetection
+    pypi_id: paddledet
+    category: image
+    labels: ["paddle"]
+  - name: Tesseract
+    github_id: madmaze/pytesseract
+    pypi_id: pytesseract
+    conda_id: conda-forge/pytesseract
+    category: ocr
+    description: Python-tesseract is an optical character recognition (OCR) tool for python.
+  - name: PaddleOCR
+    github_id: PaddlePaddle/PaddleOCR
+    pypi_id: paddleocr
+    category: ocr
+    labels: ["paddle"]
+  - name: keras-ocr
+    github_id: faustomorales/keras-ocr
+    pypi_id: keras-ocr
+    conda_id: anaconda/keras-ocr
+    category: ocr
+    labels: ["tensorflow"]
+  - name: tesserocr
+    github_id: sirfz/tesserocr
+    pypi_id: tesserocr
+    conda_id: conda-forge/tesserocr
+    category: ocr
+  - name: attention-ocr
+    github_id: emedvedev/attention-ocr
+    pypi_id: aocr
+    category: ocr
+    labels: ["tensorflow"]
+  - name: doc2text
+    github_id: jlsutherland/doc2text
+    pypi_id: doc2text
+    category: ocr
+  - name: OCRmyPDF
+    github_id: ocrmypdf/OCRmyPDF
+    pypi_id: ocrmypdf
+    conda_id: conda-forge/ocrmypdf
+    category: ocr
+    brew_id: ocrmypdf
+    apt_id: ocrmypdf
+  - name: EasyOCR
+    github_id: JaidedAI/EasyOCR
+    pypi_id: easyocr
+    category: ocr
+  - name: MMOCR
+    github_id: open-mmlab/mmocr
+    pypi_id: mmocr
+    category: ocr
+    labels: ["pytorch"]
+  - name: calamari
+    github_id: Calamari-OCR/calamari
+    pypi_id: calamari_ocr
+    category: ocr
+  - name: Bokeh
+    github_id: bokeh/bokeh
+    pypi_id: bokeh
+    conda_id: conda-forge/bokeh
+    category: data-viz
+  - name: AutoViz
+    github_id: AutoViML/AutoViz
+    pypi_id: autoviz
+    conda_id: conda-forge/autoviz
+    category: data-viz
+  - name: Plotly
+    github_id: plotly/plotly.py
+    pypi_id: plotly
+    conda_id: conda-forge/plotly
+    category: data-viz
+    npm_id: plotlywidget
+  - name: Plotly-Resampler
+    github_id: predict-idlab/plotly-resampler
+    pypi_id: plotly-resampler
+    conda_id: conda-forge/plotly-resampler
+    category: data-viz
+  - name: HoloViews
+    github_id: holoviz/holoviews
+    pypi_id: holoviews
+    conda_id: conda-forge/holoviews
+    category: data-viz
+    labels: ["jupyter"]
+    npm_id: '@pyviz/jupyterlab_pyviz'
+  - name: Chartify
+    github_id: spotify/chartify
+    pypi_id: chartify
+    conda_id: conda-forge/chartify
+    category: data-viz
+  - name: Seaborn
+    github_id: mwaskom/seaborn
+    pypi_id: seaborn
+    conda_id: conda-forge/seaborn
+    category: data-viz
+  - name: Matplotlib
+    github_id: matplotlib/matplotlib
+    pypi_id: matplotlib
+    conda_id: conda-forge/matplotlib
+    category: data-viz
+    show: true
+  - name: Altair
+    github_id: altair-viz/altair
+    pypi_id: altair
+    conda_id: conda-forge/altair
+    category: data-viz
+  - name: bqplot
+    github_id: bqplot/bqplot
+    pypi_id: bqplot
+    conda_id: conda-forge/bqplot
+    category: data-viz
+    labels: ["jupyter"]
+    npm_id: bqplot
+  - name: hvPlot
+    github_id: holoviz/hvplot
+    pypi_id: hvplot
+    conda_id: conda-forge/hvplot
+    category: data-viz
+  - name: datashader
+    github_id: holoviz/datashader
+    pypi_id: datashader
+    conda_id: conda-forge/datashader
+    category: data-viz
+  - name: vega
+    github_id: vega/ipyvega
+    pypi_id: vega
+    conda_id: conda-forge/vega
+    category: data-viz
+    labels: ["jupyter"]
+  - name: missingno
+    github_id: ResidentMario/missingno
+    pypi_id: missingno
+    conda_id: conda-forge/missingno
+    category: data-viz
+  - name: UMAP
+    github_id: lmcinnes/umap
+    pypi_id: umap-learn
+    conda_id: conda-forge/umap-learn
+    category: data-viz
+  - name: wordcloud
+    github_id: amueller/word_cloud
+    pypi_id: wordcloud
+    conda_id: conda-forge/wordcloud
+    category: data-viz
