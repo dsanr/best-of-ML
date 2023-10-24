@@ -2176,3 +2176,255 @@ projects:
     pypi_id: cornac
     conda_id: conda-forge/cornac
     category: recommender-systems
+  - name: librosa
+    github_id: librosa/librosa
+    pypi_id: librosa
+    conda_id: conda-forge/librosa
+    category: audio
+  - name: Madmom
+    github_id: CPJKU/madmom
+    pypi_id: madmom
+    category: audio
+  - name: Muda
+    github_id: bmcfee/muda
+    pypi_id: muda
+    category: audio
+  - name: Magenta
+    github_id: magenta/magenta
+    pypi_id: magenta
+    category: audio
+    labels: ["tensorflow"]
+  - name: Pydub
+    github_id: jiaaro/pydub
+    pypi_id: pydub
+    conda_id: conda-forge/pydub
+    category: audio
+  - name: pyAudioAnalysis
+    github_id: tyiannak/pyAudioAnalysis
+    pypi_id: pyAudioAnalysis
+    category: audio
+  - name: SpeechRecognition
+    github_id: Uberi/speech_recognition
+    pypi_id: SpeechRecognition
+    conda_id: conda-forge/speechrecognition
+    category: audio
+  - name: torchaudio
+    github_id: pytorch/audio
+    pypi_id: torchaudio
+    category: audio
+    labels: ["pytorch"]
+  - name: aubio
+    github_id: aubio/aubio
+    pypi_id: aubio
+    conda_id: conda-forge/aubio
+    category: audio
+  - name: DeepSpeech
+    github_id: mozilla/DeepSpeech
+    pypi_id: deepspeech
+    conda_id: conda-forge/deepspeech
+    category: audio
+    labels: ["tensorflow"]
+  - name: Porcupine
+    github_id: Picovoice/Porcupine
+    pypi_id: pvporcupine
+    category: audio
+  - name: spleeter
+    github_id: deezer/spleeter
+    pypi_id: spleeter
+    conda_id: conda-forge/spleeter
+    category: audio
+    labels: ["tensorflow"]
+  - name: DDSP
+    github_id: magenta/ddsp
+    pypi_id: ddsp
+    conda_id: conda-forge/ddsp
+    category: audio
+    labels: ["tensorflow"]
+  - name: nebullvm
+    github_id: nebuly-ai/nebullvm
+    pypi_id: nebullvm
+    category: model-serialisation
+  - name: onnx
+    github_id: onnx/onnx
+    pypi_id: onnx
+    conda_id: conda-forge/onnx
+    category: model-serialisation
+  - name: TorchServe
+    github_id: pytorch/serve
+    pypi_id: torchserve
+    conda_id: pytorch/torchserve
+    dockerhub_id: pytorch/torchserve
+    category: model-serialisation
+    labels: ["pytorch"]
+  - name: Larq Compute Engine
+    github_id: larq/compute-engine
+    pypi_id: larq-compute-engine
+    category: model-serialisation
+  - name: mmdnn
+    github_id: Microsoft/MMdnn
+    pypi_id: mmdnn
+    category: model-serialisation
+  - name: Core ML Tools
+    github_id: apple/coremltools
+    pypi_id: coremltools
+    conda_id: conda-forge/coremltools
+    category: model-serialisation
+  - name: Hummingbird
+    github_id: microsoft/hummingbird
+    pypi_id: hummingbird-ml
+    conda_id: conda-forge/hummingbird-ml
+    category: model-serialisation
+  - name: FATE
+    github_id: FederatedAI/FATE
+    pypi_id: ETAF
+    category: privacy-ml
+  - name: PySyft
+    github_id: OpenMined/PySyft
+    pypi_id: syft
+    category: privacy-ml
+    labels: ["pytorch"]
+  - name: TensorFlow Privacy
+    github_id: tensorflow/privacy
+    pypi_id: tensorflow-privacy
+    category: privacy-ml
+    labels: ["tensorflow"]
+  - name: TFEncrypted
+    github_id: tf-encrypted/tf-encrypted
+    pypi_id: tf-encrypted
+    category: privacy-ml
+    labels: ["tensorflow"]
+  - name: CrypTen
+    github_id: facebookresearch/CrypTen
+    pypi_id: crypten
+    category: privacy-ml
+    labels: ["pytorch"]
+  - name: Opacus
+    github_id: pytorch/opacus
+    pypi_id: opacus
+    conda_id: conda-forge/opacus
+    category: privacy-ml
+    labels: ["pytorch"]
+  - name: gpustat
+    github_id: wookayin/gpustat
+    pypi_id: gpustat
+    conda_id: conda-forge/gpustat
+    category: gpu-utilities
+  - name: ArrayFire
+    github_id: arrayfire/arrayfire
+    pypi_id: arrayfire
+    category: gpu-utilities
+  - name: cuGraph
+    github_id: rapidsai/cugraph
+    pypi_id: cugraph
+    conda_id: conda-forge/libcugraph
+    category: gpu-utilities
+  - name: cuDF
+    github_id: rapidsai/cudf
+    pypi_id: cudf
+    category: gpu-utilities
+  - name: cuML
+    github_id: rapidsai/cuml
+    pypi_id: cuml
+    category: gpu-utilities
+  - name: CuPy
+    github_id: cupy/cupy
+    pypi_id: cupy
+    conda_id: conda-forge/cupy
+    dockerhub_id: cupy/cupy
+    category: gpu-utilities
+  - name: PyCUDA
+    github_id: inducer/pycuda
+    pypi_id: pycuda
+    conda_id: conda-forge/pycuda
+    category: gpu-utilities
+  - name: Apex
+    github_id: NVIDIA/apex
+    conda_id: conda-forge/nvidia-apex
+    category: gpu-utilities
+    labels: ["pytorch"]
+  - name: DALI
+    github_id: NVIDIA/DALI
+    category: gpu-utilities
+    license: Apache-2.0
+  - name: BlazingSQL
+    github_id: BlazingDB/blazingsql
+    conda_id: blazingsql/blazingsql-protocol
+    category: gpu-utilities
+  - name: Baal
+    github_id: baal-org/baal
+    pypi_id: baal
+    conda_id: conda-forge/baal
+    category: probabilistics
+  - name: Funsor
+    github_id: pyro-ppl/funsor
+    pypi_id: funsor
+    category: probabilistics
+    labels: ["pytorch"]
+  - name: Orbit
+    github_id: uber/orbit
+    pypi_id: orbit-ml
+    category: probabilistics
+  - name: pomegranate
+    github_id: jmschrei/pomegranate
+    pypi_id: pomegranate
+    conda_id: conda-forge/pomegranate
+    category: probabilistics
+  - name: Pyro
+    github_id: pyro-ppl/pyro
+    pypi_id: pyro-ppl
+    conda_id: conda-forge/pyro-ppl
+    category: probabilistics
+    labels: ["pytorch"]
+  - name: GPyTorch
+    github_id: cornellius-gp/gpytorch
+    pypi_id: gpytorch
+    conda_id: conda-forge/gpytorch
+    category: probabilistics
+    labels: ["pytorch"]
+  - name: tensorflow-probability
+    github_id: tensorflow/probability
+    pypi_id: tensorflow-probability
+    conda_id: conda-forge/tensorflow-probability
+    category: probabilistics
+    labels: ["tensorflow"]
+  - name: pgmpy
+    github_id: pgmpy/pgmpy
+    pypi_id: pgmpy
+    category: probabilistics
+  - name: GPflow
+    github_id: GPflow/GPflow
+    pypi_id: gpflow
+    conda_id: conda-forge/gpflow
+    category: probabilistics
+    labels: ["tensorflow"]
+  - name: PyStan
+    github_id: stan-dev/pystan
+    pypi_id: pystan
+    conda_id: conda-forge/pystan
+    category: probabilistics
+  - name: pymc
+    github_id: pymc-devs/pymc
+    pypi_id: pymc
+    conda_id: conda-forge/pymc
+    category: probabilistics
+  - name: ART
+    github_id: Trusted-AI/adversarial-robustness-toolbox
+    pypi_id: adversarial-robustness-toolbox
+    conda_id: conda-forge/adversarial-robustness-toolbox
+    category: adversarial
+  - name: Foolbox
+    github_id: bethgelab/foolbox
+    pypi_id: foolbox
+    conda_id: conda-forge/foolbox
+    category: adversarial
+  - name: TextAttack
+    github_id: QData/TextAttack
+    pypi_id: textattack
+    conda_id: conda-forge/textattack
+    category: adversarial
+  - name: CleverHans
+    github_id: cleverhans-lab/cleverhans
+    pypi_id: cleverhans
+    conda_id: conda-forge/cleverhans
+    category: adversarial
+    labels: ["tensorflow"]
