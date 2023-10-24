@@ -429,6 +429,10 @@ projects:
     pypi_id: spark-nlp
     category: nlp
     labels: ["spark"]
+  - name: litellm
+    github_id: BerriAI/litellm
+    pypi_id: litellm
+    category: nlp
   - name: Texthero
     github_id: jbesomi/texthero
     pypi_id: texthero
@@ -494,6 +498,10 @@ projects:
     github_id: rspeer/python-ftfy
     pypi_id: ftfy
     conda_id: conda-forge/ftfy
+    category: nlp
+  - name: haystack
+    github_id: deepset-ai/haystack
+    pypi_id: haystack
     category: nlp
   - name: stop-words
     github_id: Alir3z4/python-stop-words
@@ -746,6 +754,12 @@ projects:
     pypi_id: imageio
     conda_id: conda-forge/imageio
     category: image
+  - name: Wand
+    github_id: emcconville/wand
+    pypi_id: wand
+    conda_id: conda-forge/wand
+    category: image
+    license: MIT
   - name: Augmentor
     github_id: mdbloice/Augmentor
     pypi_id: Augmentor
@@ -782,6 +796,37 @@ projects:
     pypi_id: gluoncv
     category: image
     labels: ["mxnet"]
+  - name: pyvips
+    github_id: libvips/pyvips
+    pypi_id: pyvips
+    conda_id: conda-forge/pyvips
+    category: image
+  - name: nude.py
+    github_id: hhatto/nude.py
+    pypi_id: nudepy
+    category: image
+  - name: Norfair
+    github_id: tryolabs/norfair
+    pypi_id: norfair
+    category: image
+  - name: mahotas
+    github_id: luispedro/mahotas
+    pypi_id: mahotas
+    conda_id: conda-forge/mahotas
+    category: image
+  - name: vidgear
+    github_id: abhiTronix/vidgear
+    pypi_id: vidgear
+    category: image
+  - name: vit-pytorch
+    github_id: lucidrains/vit-pytorch
+    pypi_id: vit-pytorch
+    category: image
+    labels: ["pytorch"]
+  - name: CellProfiler
+    github_id: CellProfiler/CellProfiler
+    pypi_id: cellprofiler
+    category: image
   - name: MMF
     github_id: facebookresearch/mmf
     pypi_id: mmf
@@ -793,6 +838,11 @@ projects:
     pypi_id: imagededup
     category: image
     labels: ["tensorflow"]
+  - name: lightly
+    github_id: lightly-ai/lightly
+    pypi_id: lightly
+    category: image
+    labels: ["pytorch"]
   - name: Kornia
     github_id: kornia/kornia
     pypi_id: kornia
@@ -979,6 +1029,35 @@ projects:
     category: data-viz
     labels: ["jupyter"]
     npm_id: bqplot
+  - name: Graphviz
+    github_id: xflr6/graphviz
+    pypi_id: graphviz
+    conda_id: anaconda/python-graphviz
+    category: data-viz
+  - name: plotnine
+    github_id: has2k1/plotnine
+    pypi_id: plotnine
+    conda_id: conda-forge/plotnine
+    category: data-viz
+  - name: python-ternary
+    github_id: marcharper/python-ternary
+    pypi_id: python-ternary
+    conda_id: conda-forge/python-ternary
+    category: data-viz
+  - name: joypy
+    github_id: leotac/joypy
+    pypi_id: joypy
+    conda_id: conda-forge/joypy
+    category: data-viz
+  - name: data-validation
+    github_id: tensorflow/data-validation
+    pypi_id: tensorflow-data-validation
+    category: data-viz
+    labels: ["tensorflow", "jupyter"]
+  - name: lets-plot
+    github_id: JetBrains/lets-plot
+    pypi_id: lets-plot
+    category: data-viz
   - name: hvPlot
     github_id: holoviz/hvplot
     pypi_id: hvplot
@@ -1162,6 +1241,27 @@ projects:
     conda_id: conda-forge/pyldavis
     category: interpretability
     labels: ["jupyter"]
+  - name: arviz
+    github_id: arviz-devs/arviz
+    pypi_id: arviz
+    conda_id: conda-forge/arviz
+    category: interpretability
+  - name: dtreeviz
+    github_id: parrt/dtreeviz
+    pypi_id: dtreeviz
+    conda_id: conda-forge/dtreeviz
+    category: interpretability
+  - name: fairlearn
+    github_id: fairlearn/fairlearn
+    pypi_id: fairlearn
+    conda_id: conda-forge/fairlearn
+    category: interpretability
+    labels: ["sklearn"]
+  - name: explainerdashboard
+    github_id: oegedijk/explainerdashboard
+    pypi_id: explainerdashboard
+    conda_id: conda-forge/explainerdashboard
+    category: interpretability
   - name: Alibi
     github_id: SeldonIO/alibi
     pypi_id: alibi
@@ -1278,6 +1378,15 @@ projects:
   - name: dgl
     github_id: dmlc/dgl
     pypi_id: dgl
+    category: graph
+  - name: typedb-ml
+    github_id: vaticle/typedb-ml
+    pypi_id: typedb-ml
+    category: graph
+  - name: ogb
+    github_id: snap-stanford/ogb
+    pypi_id: ogb
+    conda_id: conda-forge/ogb
     category: graph
   - name: graph-nets
     github_id: deepmind/graph_nets
@@ -1473,6 +1582,15 @@ projects:
     github_id: quantopian/alphalens
     pypi_id: alphalens
     conda_id: conda-forge/alphalens
+    category: financial-data
+  - name: ta
+    github_id: bukosabino/ta
+    pypi_id: ta
+    conda_id: conda-forge/ta
+    category: financial-data
+  - name: stockstats
+    github_id: jealous/stockstats
+    pypi_id: stockstats
     category: financial-data
   - name: zipline
     github_id: quantopian/zipline
@@ -1680,6 +1798,16 @@ projects:
     pypi_id: neptune-client
     conda_id: conda-forge/neptune-client
     category: ml-experiments
+  - name: wandb client
+    github_id: wandb/client
+    pypi_id: wandb
+    conda_id: conda-forge/wandb
+    category: ml-experiments
+  - name: livelossplot
+    github_id: stared/livelossplot
+    pypi_id: livelossplot
+    category: ml-experiments
+    labels: ["jupyter"]
   - name: Studio.ml
     github_id: studioml/studio
     pypi_id: studioml
@@ -1964,6 +2092,17 @@ projects:
     pypi_id: dask-ml
     conda_id: conda-forge/dask-ml
     category: distributed-ml
+  - name: FairScale
+    github_id: facebookresearch/fairscale
+    pypi_id: fairscale
+    conda_id: conda-forge/fairscale
+    category: distributed-ml
+    labels: ["pytorch"]
+    license: BSD-3-Clause
+  - name: petastorm
+    github_id: uber/petastorm
+    pypi_id: petastorm
+    category: distributed-ml
   - name: dask.distributed
     github_id: dask/distributed
     pypi_id: distributed
@@ -1983,6 +2122,11 @@ projects:
     pypi_id: ray
     conda_id: conda-forge/ray-tune
     category: distributed-ml
+  - name: BigDL
+    github_id: intel-analytics/BigDL
+    pypi_id: bigdl
+    category: distributed-ml
+    labels: ["spark"]
   - name: mpi4py
     github_id: mpi4py/mpi4py
     pypi_id: mpi4py
@@ -2056,6 +2200,11 @@ projects:
     pypi_id: tslumen
     conda_id: conda-forge/tslumen
     category: time-series-data
+  - name: pytorch-forecasting
+    github_id: jdb78/pytorch-forecasting
+    pypi_id: pytorch-forecasting
+    conda_id: conda-forge/pytorch-forecasting
+    category: time-series-data
   - name: tslearn
     github_id: tslearn-team/tslearn
     pypi_id: tslearn
@@ -2103,6 +2252,10 @@ projects:
     pypi_id: adtk
     conda_id: conda-forge/adtk
     category: time-series-data
+  - name: ANN Benchmarks
+    github_id: erikbern/ann-benchmarks
+    category: nn-search
+    resource: true
   - name: Annoy
     github_id: spotify/annoy
     pypi_id: annoy
@@ -2245,6 +2398,24 @@ projects:
     pypi_id: torchaudio
     category: audio
     labels: ["pytorch"]
+  - name: python_speech_features
+    github_id: jameslyons/python_speech_features
+    pypi_id: python_speech_features
+    category: audio
+  - name: tinytag
+    github_id: devsnd/tinytag
+    pypi_id: tinytag
+    category: audio
+  - name: kapre
+    github_id: keunwoochoi/kapre
+    pypi_id: kapre
+    category: audio
+    labels: ["tensorflow"]
+  - name: python-soundfile
+    github_id: bastibe/python-soundfile
+    pypi_id: soundfile
+    conda_id: anaconda/pysoundfile
+    category: audio
   - name: aubio
     github_id: aubio/aubio
     pypi_id: aubio
@@ -2300,6 +2471,10 @@ projects:
     github_id: apple/coremltools
     pypi_id: coremltools
     conda_id: conda-forge/coremltools
+    category: model-serialisation
+  - name: m2cgen
+    github_id: BayesWitnesses/m2cgen
+    pypi_id: m2cgen
     category: model-serialisation
   - name: Hummingbird
     github_id: microsoft/hummingbird
@@ -2413,6 +2588,16 @@ projects:
     conda_id: conda-forge/gpytorch
     category: probabilistics
     labels: ["pytorch"]
+  - name: hmmlearn
+    github_id: hmmlearn/hmmlearn
+    pypi_id: hmmlearn
+    conda_id: conda-forge/hmmlearn
+    category: probabilistics
+    labels: ["sklearn"]
+  - name: formulaic
+    github_id: matthewwardrop/formulaic
+    pypi_id: formulaic
+    category: probabilistics
   - name: tensorflow-probability
     github_id: tensorflow/probability
     pypi_id: tensorflow-probability
@@ -2491,6 +2676,10 @@ projects:
     github_id: rusty1s/pytorch_scatter
     pypi_id: torch-scatter
     conda_id: conda-forge/pytorch_scatter
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: tinygrad
+    github_id: geohot/tinygrad
     category: pytorch-utils
     labels: ["pytorch"]
   - name: facenet-pytorch
@@ -2629,6 +2818,18 @@ projects:
     conda_id: conda-forge/prince-factor-analysis
     category: sklearn-utils
     labels: ["sklearn"]
+  - name: best-of-web-python - Web Scraping
+    github_id: ml-tooling/best-of-web-python
+    category: web-scraping
+    description: Collection of web-scraping and crawling libraries.
+    resource: true
+    homepage: https://github.com/ml-tooling/best-of-web-python#web-scraping--crawling
+  - name: best-of-python - Data Extraction
+    github_id: ml-tooling/best-of-python
+    category: data-loading
+    description: Collection of data-loading and -extraction libraries.
+    resource: true
+    homepage: https://github.com/ml-tooling/best-of-python#data-loading--extraction
 
   - name: alibi-detect
     github_id: SeldonIO/alibi-detect
@@ -2719,3 +2920,41 @@ projects:
     github_id: PaddlePaddle/PaddleHub
     pypi_id: paddlehub
     labels: ["paddle"]
+  - name: agate
+    github_id: wireservice/agate
+    pypi_id: agate
+    conda_id: conda-forge/agate
+  - name: datalad
+    github_id: datalad/datalad
+    pypi_id: datalad
+    conda_id: conda-forge/datalad
+  - name: Datasette
+    github_id: simonw/datasette
+    pypi_id: datasette
+    conda_id: conda-forge/datasette
+    brew_id: datasette
+  - name: causalml
+    github_id: uber/causalml
+    pypi_id: causalml
+    category: others
+  - name: TabPy
+    github_id: tableau/TabPy
+    pypi_id: tabpy
+    conda_id: anaconda/tabpy-client
+    category: others
+  - name: pycm
+    github_id: sepandhaghighi/pycm
+    pypi_id: pycm
+    category: others
+  - name: minisom
+    github_id: JustGlowing/minisom
+    pypi_id: minisom
+    category: others
+    license: CC-BY-3.0
+  - name: rrcf
+    github_id: kLabUM/rrcf
+    pypi_id: rrcf
+    category: others
+  - name: traingenerator
+    github_id: jrieke/traingenerator
+
