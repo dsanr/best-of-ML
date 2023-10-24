@@ -1,6 +1,500 @@
 configuration:
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
+  allowed_licenses:
+    [
+      "all",
+      "Unlicense",
+      "Unlicensed",
+      "CC-BY-4.0",
+      "Apache-2.0",
+      "MIT",
+      "BSD-3-Clause",
+      "BSD-2-Clause",
+      "ISC",
+      "MPL-2.0",
+      "LGPL-2.1"
+    ]
+
+categories:
+  - category: "data-science"
+    title: "Machine Learning & Data Science"
+    subtitle: "Best-of lists about machine learning, data science, or other topics related to ML."
+  - category: "ml-frameworks"
+    title: "Machine Learning Frameworks"
+    subtitle: "General-purpose machine learning and deep learning frameworks."
+  - category: "data-viz"
+    title: "Data Visualization"
+    subtitle: "General-purpose and task-specific data visualization libraries."
+  - category: "nlp"
+    title: "Text Data & NLP"
+    subtitle: "Libraries for processing, cleaning, manipulating, and analyzing text data as well as libraries for NLP tasks such as language detection, fuzzy matching, classification, seq2seq learning, conversational AI, keyword extraction, and translation."
+  - category: "image"
+    title: "Image Data"
+    subtitle: "Libraries for image & video processing, manipulation, and augmentation as well as libraries for computer vision tasks such as facial recognition, object detection, and classification."
+  - category: "graph"
+    title: "Graph Data"
+    subtitle: "Libraries for graph processing, clustering, embedding, and machine learning tasks."
+  - category: "audio"
+    title: "Audio Data"
+    subtitle: "Libraries for audio analysis, manipulation, transformation, and extraction, as well as speech recognition and music generation tasks."
+  - category: "geospatial-data"
+    title: "Geospatial Data"
+    subtitle: "Libraries to load, process, analyze, and write geographic data as well as libraries for spatial analysis, map visualization, and geocoding."
+  - category: "financial-data"
+    title: "Financial Data"
+    subtitle: "Libraries for algorithmic stock/crypto trading, risk analytics, backtesting, technical analysis, and other tasks on financial data."
+  - category: "time-series-data"
+    title: "Time Series Data"
+    subtitle: "Libraries for forecasting, anomaly detection, feature extraction, and machine learning on time-series and sequential data."
+  - category: "medical-data"
+    title: "Medical Data"
+    subtitle: "Libraries for processing and analyzing medical data such as MRIs, EEGs, genomic data, and other medical imaging formats."
+  - category: "tabular"
+    title: "Tabular Data"
+    subtitle: "Libraries for processing tabular and structured data."
+  - category: "ocr"
+    title: "Optical Character Recognition"
+    subtitle: "Libraries for optical character recognition (OCR) and text extraction from images or videos."
+  - category: "data-containers"
+    title: "Data Containers & Structures"
+    subtitle: "General-purpose data containers & structures as well as utilities & extensions for pandas."
+  - category: "data-loading"
+    title: "Data Loading & Extraction"
+    subtitle: "Libraries for loading, collecting, and extracting data from a variety of data sources and formats."
+  - category: "web-scraping"
+    title: "Web Scraping & Crawling"
+    subtitle: "Libraries for web scraping, crawling, downloading, and mining as well as libraries."
+  - category: "data-pipelines"
+    title: "Data Pipelines & Streaming"
+    subtitle: "Libraries for data batch- and stream-processing, workflow automation, job scheduling, and other data pipeline tasks."
+  - category: "distributed-ml"
+    title: "Distributed Machine Learning"
+    subtitle: "Libraries that provide capabilities to distribute and parallelize machine learning tasks across large-scale compute infrastructure."
+  - category: "hyperopt"
+    title: "Hyperparameter Optimization & AutoML"
+    subtitle: "Libraries for hyperparameter optimization, automl and neural architecture search."
+  - category: "reinforcement-learning"
+    title: "Reinforcement Learning"
+    subtitle: "Libraries for building and evaluating reinforcement learning & agent-based systems."
+  - category: "recommender-systems"
+    title: "Recommender Systems"
+    subtitle: "Libraries for building and evaluating recommendation systems."
+  - category: "privacy-ml"
+    title: "Privacy Machine Learning"
+    subtitle: "Libraries for encrypted and privacy-preserving machine learning using methods like federated learning & differential privacy."
+  - category: "ml-experiments"
+    title: "Workflow & Experiment Tracking"
+    subtitle: "Libraries to organize, track, and visualize machine learning experiments."
+  - category: "model-serialisation"
+    title: "Model Serialization & Deployment"
+    subtitle: "Libraries to serialize models to files, convert between a variety of model formats, and optimize models for deployment."
+  - category: "interpretability"
+    title: "Model Interpretability"
+    subtitle: "Libraries to visualize, explain, debug, evaluate, and interpret machine learning models."
+  - category: "nn-search"
+    title: "Vector Similarity Search (ANN)"
+    subtitle: "Libraries for Approximate Nearest Neighbor Search and Vector Indexing/Similarity Search."
+  - category: "probabilistics"
+    title: "Probabilistics & Statistics"
+    subtitle: "Libraries providing capabilities for probabilistic programming/reasoning, bayesian inference, gaussian processes, or statistics."
+  - category: "adversarial"
+    title: "Adversarial Robustness"
+    subtitle: "Libraries for testing the robustness of machine learning models against attacks with adversarial/malicious examples."
+  - category: "gpu-utilities"
+    title: "GPU & Accelerator Utilities"
+    subtitle: "Libraries that require and make use of CUDA/GPU or other accelerator hardware capabilities to optimize machine learning tasks."
+  - category: "tensorflow-utils"
+    title: "Tensorflow Utilities"
+    subtitle: "Libraries that extend TensorFlow with additional capabilities."
+  - category: "jax-utils"
+    title: "Jax Utilities"
+    subtitle: "Libraries that extend Jax with additional capabilities."
+  - category: "sklearn-utils"
+    title: "Sklearn Utilities"
+    subtitle: "Libraries that extend scikit-learn with additional capabilities."
+  - category: "pytorch-utils"
+    title: "Pytorch Utilities"
+    subtitle: "Libraries that extend Pytorch with additional capabilities."
+  - category: "db-clients"
+    title: "Database Clients"
+    subtitle: "Libraries for connecting to, operating, and querying databases."
+  - category: "chinese-nlp"
+    title: "Chinese NLP"
+    ignore: True
+
+labels:
+  - label: "tensorflow"
+    image: "https://git.io/JLy1A"
+    description: "Tensorflow related project"
+  - label: "sklearn"
+    image: "https://git.io/JLy1F"
+    description: "Sklearn related project"
+  - label: "pytorch"
+    image: "https://git.io/JLy1Q"
+    description: "PyTorch related project"
+  - label: "mxnet"
+    image: "https://git.io/JLy1X"
+    description: "MxNet related project"
+  - label: "spark"
+    image: "https://git.io/JLy1N"
+    description: "Apache Spark related project"
+  - label: "jupyter"
+    image: "https://git.io/JLy1E"
+    description: "Jupyter related project"
+  - label: "paddle"
+    image: "https://git.io/JLy1M"
+    description: "PaddlePaddle related project"
+  - label: "pandas"
+    image: "https://git.io/JLy1S"
+    description: "Pandas related project"
+  - label: "jax"
+    image: "https://jax.readthedocs.io/en/latest/_static/favicon.png"
+    description: "Jax related project"
+
+projects:
+  - name: awesome-python-data-science
+    github_id: krzjoa/awesome-python-data-science
+    category: "data-science"
+    
+  - name: awesome-semantic-segmentation
+    github_id: mrgloom/awesome-semantic-segmentation
+    category: "data-science"
+    
+  - name: awesome-RecSys
+    github_id: jihoo-kim/awesome-RecSys
+    category: "data-science"
+    
+  - name: awesome-time-series
+    github_id: lmmentel/awesome-time-series
+    category: "data-science"
+    
+  - name: awesome_time_series_in_python
+    github_id: MaxBenChrist/awesome_time_series_in_python
+    category: "data-science"
+    
+  - name: awesome-datascience
+    github_id: academic/awesome-datascience
+    category: "data-science"
+    
+  - name: best-of-ml-python
+    github_id: ml-tooling/best-of-ml-python
+    category: "data-science"
+    
+  - name: awesome-machine-learning
+    github_id: josephmisiti/awesome-machine-learning
+    category: "data-science"
+
+  - name: Tensorflow
+    github_id: tensorflow/tensorflow
+    pypi_id: tensorflow
+    conda_id: conda-forge/tensorflow
+    dockerhub_id: tensorflow/tensorflow
+    docs_url: https://www.tensorflow.org/overview
+    category: ml-frameworks
+    labels: ["tensorflow"]
+  - name: PyTorch
+    github_id: pytorch/pytorch
+    pypi_id: torch
+    conda_id: pytorch/pytorch
+    docs_url: https://pytorch.org/docs/stable/index.html
+    category: ml-frameworks
+    labels: ["pytorch"]
+    license: BSD-3-Clause
+  - name: Keras
+    github_id: keras-team/keras
+    pypi_id: keras
+    conda_id: conda-forge/keras
+    docs_url: https://keras.io
+    category: ml-frameworks
+    labels: ["tensorflow"]
+  - name: XGBoost
+    github_id: dmlc/xgboost
+    pypi_id: xgboost
+    conda_id: conda-forge/xgboost
+    docs_url: https://xgboost.readthedocs.io/en/latest/
+    category: ml-frameworks
+  - name: scikit-learn
+    github_id: scikit-learn/scikit-learn
+    pypi_id: scikit-learn
+    conda_id: conda-forge/scikit-learn
+    category: ml-frameworks
+    labels: ["sklearn"]
+  - name: MXNet
+    github_id: apache/incubator-mxnet
+    pypi_id: mxnet
+    conda_id: mxnet
+    category: ml-frameworks
+    labels: ["mxnet"]
+  - name: Catboost
+    github_id: catboost/catboost
+    pypi_id: catboost
+    conda_id: conda-forge/catboost
+    category: ml-frameworks
+  - name: Fastai
+    github_id: fastai/fastai
+    pypi_id: fastai
+    category: ml-frameworks
+    labels: ["pytorch"]
+  - name: LightGBM
+    github_id: microsoft/LightGBM
+    pypi_id: lightgbm
+    conda_id: conda-forge/lightgbm
+    category: ml-frameworks
+  - name: Geomstats
+    github_id: geomstats/geomstats
+    pypi_id: geomstats
+    conda_id: conda-forge/geomstats
+    docs_url: https://geomstats.github.io/
+    category: ml-frameworks
+  - name: Aesara
+    github_id: aesara-devs/aesara
+    pypi_id: aesara
+    conda_id: conda-forge/aesara
+    category: ml-frameworks
+  - name: TFlearn
+    github_id: tflearn/tflearn
+    pypi_id: tflearn
+    category: ml-frameworks
+    labels: ["tensorflow"]
+  - name: Sonnet
+    github_id: deepmind/sonnet
+    pypi_id: dm-sonnet
+    conda_id: conda-forge/sonnet
+    category: ml-frameworks
+    labels: ["tensorflow"]
+  - name: Vowpal Wabbit
+    github_id: VowpalWabbit/vowpal_wabbit
+    pypi_id: vowpalwabbit
+    conda_id: conda-forge/vowpalwabbit
+    category: ml-frameworks
+    license: BSD-3-Clause
+  - name: Ludwig
+    github_id: ludwig-ai/ludwig
+    pypi_id: ludwig
+    category: ml-frameworks
+    labels: ["tensorflow"]
+  - name: PaddlePaddle
+    github_id: PaddlePaddle/Paddle
+    pypi_id: paddlepaddle
+    category: ml-frameworks
+    labels: ["paddle"]
+  - name: PySpark
+    github_id: apache/spark
+    pypi_id: pyspark
+    conda_id: conda-forge/pyspark
+    category: ml-frameworks
+    labels: ["spark"]
+    helm_id: stable/spark
+    description: Apache Spark Python API.
+  - name: PyFlink
+    github_id: apache/flink
+    pypi_id: apache-flink
+    category: ml-frameworks
+    description: Apache Flink Python API.
+  - name: ktrain
+    github_id: amaiya/ktrain
+    pypi_id: ktrain
+    category: ml-frameworks
+    labels: ["tensorflow"]
+  - name: tensorpack
+    github_id: tensorpack/tensorpack
+    pypi_id: tensorpack
+    conda_id: conda-forge/tensorpack
+    category: ml-frameworks
+    labels: ["tensorflow"]
+  - name: Ignite
+    github_id: pytorch/ignite
+    pypi_id: pytorch-ignite
+    conda_id: pytorch/ignite
+    category: ml-frameworks
+    labels: ["pytorch"]
+  - name: pytorch-lightning
+    github_id: Lightning-AI/lightning
+    pypi_id: pytorch-lightning
+    conda_id: conda-forge/pytorch-lightning
+    category: ml-frameworks
+    labels: ["pytorch"]
+  - name: skorch
+    github_id: skorch-dev/skorch
+    pypi_id: skorch
+    conda_id: conda-forge/skorch
+    category: ml-frameworks
+    labels: ["pytorch", "sklearn"]
+  - name: Neural Network Libraries
+    github_id: sony/nnabla
+    pypi_id: nnabla
+    category: ml-frameworks
+  - name: mlpack
+    github_id: mlpack/mlpack
+    pypi_id: mlpack
+    conda_id: conda-forge/mlpack
+    category: ml-frameworks
+  - name: Turi Create
+    github_id: apple/turicreate
+    pypi_id: turicreate
+    category: ml-frameworks
+  - name: StarSpace
+    github_id: facebookresearch/StarSpace
+    category: ml-frameworks
+  - name: nupic.torch
+    github_id: numenta/nupic.torch
+    pypi_id: nupic.torch
+    category: ml-frameworks
+  - name: MindsDB
+    github_id: mindsdb/mindsdb
+    pypi_id: mindsdb
+    category: ml-frameworks
+    labels: ["pytorch"]
+  - name: EvaDB
+    github_id: georgia-tech-db/eva
+    pypi_id: evadb
+    category: ml-frameworks
+    labels: ["pytorch"]  
+  - name: StatsModels
+    github_id: statsmodels/statsmodels
+    pypi_id: statsmodels
+    conda_id: conda-forge/statsmodels
+    category: ml-frameworks
+  - name: Neural Tangents
+    github_id: google/neural-tangents
+    pypi_id: neural-tangents
+    category: ml-frameworks
+    license: Apache-2.0
+  - name: mace
+    github_id: XiaoMi/mace
+    category: ml-frameworks
+  - name: NeoML
+    github_id: neoml-lib/neoml
+    pypi_id: neoml
+    category: ml-frameworks
+    license: Apache-2.0
+  - name: Thinc
+    github_id: explosion/thinc
+    pypi_id: thinc
+    conda_id: conda-forge/thinc
+    category: ml-frameworks
+  - name: jax
+    github_id: google/jax
+    pypi_id: jax
+    conda_id: conda-forge/jaxlib
+    category: ml-frameworks
+  - name: Flax
+    github_id: google/flax
+    pypi_id: flax
+    conda_id: conda-forge/flax
+    category: ml-frameworks
+    labels: ["jax"]
+  - name: Objax
+    github_id: google/objax
+    pypi_id: objax
+    category: ml-frameworks
+    labels: ["jax"]
+  - name: einops
+    github_id: arogozhnikov/einops
+    pypi_id: einops
+    conda_id: conda-forge/einops
+    category: ml-frameworks  
+  - name: Jina
+    github_id: jina-ai/jina
+    pypi_id: jina
+    conda_id: conda-forge/jina-core
+    dockerhub_id: jinaai/jina
+    category: ml-frameworks
+  - name: Determined
+    github_id: determined-ai/determined
+    pypi_id: determined
+    docs_url: https://docs.determined.ai
+    category: ml-frameworks
+    labels: ["pytorch", "tensorflow"]
+    license: Apache-2.0
+  - name: VizSeq
+    github_id: facebookresearch/vizseq
+    pypi_id: vizseq
+    category: nlp
+  - name: NeuralQA
+    github_id: victordibia/neuralqa
+    pypi_id: neuralqa
+    category: nlp
+  - name: SciSpacy
+    github_id: allenai/scispacy
+    pypi_id: scispacy
+    category: nlp
+  - name: Texthero
+    github_id: jbesomi/texthero
+    pypi_id: texthero
+    category: nlp
+  - name: spaCy
+    github_id: explosion/spaCy
+    pypi_id: spacy
+    conda_id: conda-forge/spacy
+    category: nlp
+  - name: gensim
+    github_id: RaRe-Technologies/gensim
+    pypi_id: gensim
+    conda_id: conda-forge/gensim
+    category: nlp
+  - name: thefuzz
+    github_id: seatgeek/thefuzz
+    pypi_id: thefuzz
+    conda_id: conda-forge/thefuzz
+    category: nlp
+  - name: nltk
+    github_id: nltk/nltk
+    pypi_id: nltk
+    conda_id: conda-forge/nltk
+    category: nlp
+    description: Suite of libraries and programs for symbolic and statistical natural language processing for English.
+  - name: torchtext
+    github_id: pytorch/text
+    pypi_id: torchtext
+    category: nlp
+    labels: ["pytorch"]
+  - name: textacy
+    github_id: chartbeat-labs/textacy
+    pypi_id: textacy
+    conda_id: conda-forge/textacy
+    category: nlp
+  - name: TextBlob
+    github_id: sloria/TextBlob
+    pypi_id: textblob
+    conda_id: conda-forge/textblob
+    category: nlp
+  - name: flashtext
+    github_id: vi3k6i5/flashtext
+    pypi_id: flashtext
+    conda_id: conda-forge/flashtext
+    category: nlp
+  - name: scattertext
+    github_id: JasonKessler/scattertext
+    pypi_id: scattertext
+    conda_id: conda-forge/scattertext
+    category: nlp
+  - name: sentencepiece
+    github_id: google/sentencepiece
+    pypi_id: sentencepiece
+    conda_id: conda-forge/sentencepiece
+    category: nlp
+  - name: flair
+    github_id: flairNLP/flair
+    pypi_id: flair
+    conda_id: conda-forge/python-flair
+    category: nlp
+    labels: ["pytorch"]
+  - name: ftfy
+    github_id: rspeer/python-ftfy
+    pypi_id: ftfy
+    conda_id: conda-forge/ftfy
+    category: nlp
+  - name: stop-words
+    github_id: Alir3z4/python-stop-words
+    pypi_id: stop-words
+    category: nlp
+  - name: stanza
+    github_id: stanfordnlp/stanza
+    pypi_id: stanza
+    conda_id: stanfordnlp/stanza
+    category: nlp
 
 categories:
   # - category: "data-engineering"
