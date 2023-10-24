@@ -2228,6 +2228,10 @@ projects:
     conda_id: anaconda/gluonts
     category: time-series-data
     labels: ["mxnet"]
+  - name: pydlm
+    github_id: wwrechard/pydlm
+    pypi_id: pydlm
+    category: time-series-data
   - name: Streamz
     github_id: python-streamz/streamz
     pypi_id: streamz
@@ -2365,6 +2369,9 @@ projects:
   - name: Madmom
     github_id: CPJKU/madmom
     pypi_id: madmom
+    category: audio
+  - name: TTS
+    github_id: mozilla/TTS
     category: audio
   - name: Muda
     github_id: bmcfee/muda
@@ -2624,6 +2631,22 @@ projects:
     pypi_id: pymc
     conda_id: conda-forge/pymc
     category: probabilistics
+  - name: SALib
+    github_id: SALib/SALib
+    pypi_id: salib
+    conda_id: conda-forge/salib
+    category: probabilistics
+  - name: pingouin
+    github_id: raphaelvallat/pingouin
+    pypi_id: pingouin
+    conda_id: conda-forge/pingouin
+    category: probabilistics
+  - name: scikit-posthocs
+    github_id: maximtrp/scikit-posthocs
+    pypi_id: scikit-posthocs
+    conda_id: conda-forge/scikit-posthocs
+    category: probabilistics
+    labels: ["sklearn"]
   - name: ART
     github_id: Trusted-AI/adversarial-robustness-toolbox
     pypi_id: adversarial-robustness-toolbox
@@ -2653,6 +2676,12 @@ projects:
   - name: Poutyne
     github_id: GRAAL-Research/poutyne
     pypi_id: poutyne
+    category: pytorch-utils
+    labels: ["pytorch"]
+  - name: pytorch-optimizer
+    github_id: jettify/pytorch-optimizer
+    pypi_id: torch_optimizer
+    conda_id: conda-forge/torch-optimizer
     category: pytorch-utils
     labels: ["pytorch"]
   - name: PML
@@ -2804,6 +2833,32 @@ projects:
     github_id: scikit-learn-contrib/imbalanced-learn
     pypi_id: imbalanced-learn
     conda_id: conda-forge/imbalanced-learn
+    category: sklearn-utils
+    labels: ["sklearn"]
+  - name: combo
+    github_id: yzhao062/combo
+    pypi_id: combo
+    category: sklearn-utils
+    labels: ["sklearn", "xgboost"]
+  - name: scikit-opt
+    github_id: guofei9987/scikit-opt
+    pypi_id: scikit-opt
+    category: sklearn-utils
+    labels: ["sklearn"]
+  - name: scikit-lego
+    github_id: koaning/scikit-lego
+    pypi_id: scikit-lego
+    conda_id: conda-forge/scikit-lego
+    category: sklearn-utils
+    labels: ["sklearn"]
+  - name: iterative-stratification
+    github_id: trent-b/iterative-stratification
+    pypi_id: iterative-stratification
+    category: sklearn-utils
+    labels: ["sklearn"]
+  - name: scikit-tda
+    github_id: scikit-tda/scikit-tda
+    pypi_id: scikit-tda
     category: sklearn-utils
     labels: ["sklearn"]
   - name: category_encoders
