@@ -152,37 +152,55 @@ projects:
   - name: awesome-python-data-science
     github_id: krzjoa/awesome-python-data-science
     category: "data-science"
-    
-  - name: awesome-semantic-segmentation
-    github_id: mrgloom/awesome-semantic-segmentation
+  - name: awesome-machine-learning
+    github_id: josephmisiti/awesome-machine-learning
     category: "data-science"
-    
-  - name: awesome-RecSys
-    github_id: jihoo-kim/awesome-RecSys
-    category: "data-science"
-    
-  - name: awesome-time-series
-    github_id: lmmentel/awesome-time-series
-    category: "data-science"
-    
-  - name: awesome_time_series_in_python
-    github_id: MaxBenChrist/awesome_time_series_in_python
-    category: "data-science"
-    
   - name: awesome-datascience
     github_id: academic/awesome-datascience
     category: "data-science"
-    
   - name: best-of-ml-python
     github_id: ml-tooling/best-of-ml-python
     category: "data-science"
     
-  - name: awesome-machine-learning
-    github_id: josephmisiti/awesome-machine-learning
+  - name: awesome-semantic-segmentation
+    github_id: mrgloom/awesome-semantic-segmentation
     category: "data-science"
-
-  - name: data-science
+  - name: awesome-RecSys
+    github_id: jihoo-kim/awesome-RecSys
+    category: "data-science"
+  - name: awesome-time-series
+    github_id: lmmentel/awesome-time-series
+    category: "data-science"
+  - name: awesome_time_series_in_python
+    github_id: MaxBenChrist/awesome_time_series_in_python
+    category: "data-science"
+    
+  - name: Data-science
     github_id: khuyentran1401/Data-science
+    category: "data-science"
+  - name: datascience
+    github_id: r0f1/datascience
+    category: "data-science"
+  - name: Production-Level-Deep-Learning
+    github_id: alirezadir/Production-Level-Deep-Learning
+    category: "data-science"
+  - name: awesome-quant
+    github_id: wilsonfreitas/awesome-quant
+    category: "data-science"
+  - name: Machine-Learning-Tutorials
+    github_id: ujjwalkarn/Machine-Learning-Tutorials
+    category: "data-science"
+  - name: kaggle-solutions
+    github_id: faridrashidi/kaggle-solutions
+    category: "data-science"
+  - name: ML in production
+    github_id: eugeneyan/applied-ml
+    category: "data-science"
+  - name: Awesome-LLM
+    github_id: Hannibal046/Awesome-LLM
+    category: "data-science"
+  - name: awesome-public-datasets
+    github_id: awesomedata/awesome-public-datasets
     category: "data-science"
 
 
@@ -1395,6 +1413,11 @@ projects:
     github_id: understandable-machine-intelligence-lab/quantus
     category: interpretability
     pypi_id: quantus
+  - name: PDPbox
+    github_id: SauceCat/PDPbox
+    pypi_id: pdpbox
+    conda_id: conda-forge/pdpbox
+    category: interpretability
   - name: shapash
     github_id: MAIF/shapash
     pypi_id: shapash
@@ -3512,11 +3535,6 @@ projects:
   - name: alibi-detect
     github_id: SeldonIO/alibi-detect
     pypi_id: alibi-detect
-  - name: PDPbox
-    github_id: SauceCat/PDPbox
-    pypi_id: pdpbox
-    conda_id: conda-forge/pdpbox
-    category: data-viz
   - name: Feature Engine
     github_id: feature-engine/feature_engine
     pypi_id: feature_engine
