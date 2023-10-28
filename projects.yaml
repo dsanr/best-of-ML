@@ -19,6 +19,21 @@ categories:
   - category: "data-science"
     title: "Machine Learning & Data Science"
     subtitle: "Best-of lists about machine learning, data science, or other topics related to ML."
+  - category: "web-scraping"
+    title: "Web Scraping & Crawling"
+    subtitle: "Libraries for web scraping, crawling, downloading, and mining."
+  - category: "data-containers"
+    title: "Data Containers & Structures"
+    subtitle: "General-purpose data containers & structures as well as utilities & extensions for pandas."
+  - category: "data-loading"
+    title: "Data Loading & Extraction"
+    subtitle: "Libraries for loading, collecting, and extracting data from a variety of data sources and formats."
+  - category: "db-clients"
+    title: "Database Clients"
+    subtitle: "Libraries for connecting to, operating, and querying databases."
+  - category: "data-pipelines"
+    title: "Data Pipelines & Streaming"
+    subtitle: "Libraries for data batch- and stream-processing, workflow automation, job scheduling, and other data pipeline tasks."
   - category: "ml-frameworks"
     title: "Machine Learning Frameworks"
     subtitle: "General-purpose machine learning and deep learning frameworks."
@@ -27,7 +42,7 @@ categories:
     subtitle: "General-purpose and task-specific data visualization libraries."
   - category: "nlp"
     title: "Text Data & NLP"
-    subtitle: "Libraries for processing, cleaning, manipulating, and analyzing text data as well as libraries for NLP tasks such as language detection, fuzzy matching, classification, seq2seq learning, conversational AI, keyword extraction, and translation."
+    subtitle: "Libraries for processing, cleaning, and analyzing text data as well as libraries for NLP tasks such as classification, fuzzy matching, language translation, text generation, and conversational AI."
   - category: "image"
     title: "Image Data"
     subtitle: "Libraries for image & video processing, manipulation, and augmentation as well as libraries for computer vision tasks such as facial recognition, object detection, and classification."
@@ -55,21 +70,6 @@ categories:
   - category: "ocr"
     title: "Optical Character Recognition"
     subtitle: "Libraries for optical character recognition (OCR) and text extraction from images or videos."
-  - category: "data-containers"
-    title: "Data Containers & Structures"
-    subtitle: "General-purpose data containers & structures as well as utilities & extensions for pandas."
-  - category: "data-loading"
-    title: "Data Loading & Extraction"
-    subtitle: "Libraries for loading, collecting, and extracting data from a variety of data sources and formats."
-  - category: "web-scraping"
-    title: "Web Scraping & Crawling"
-    subtitle: "Libraries for web scraping, crawling, downloading, and mining as well as libraries."
-  - category: "data-pipelines"
-    title: "Data Pipelines & Streaming"
-    subtitle: "Libraries for data batch- and stream-processing, workflow automation, job scheduling, and other data pipeline tasks."
-  - category: "distributed-ml"
-    title: "Distributed Machine Learning"
-    subtitle: "Libraries that provide capabilities to distribute and parallelize machine learning tasks across large-scale compute infrastructure."
   - category: "hyperopt"
     title: "Hyperparameter Optimization & AutoML"
     subtitle: "Libraries for hyperparameter optimization, automl and neural architecture search."
@@ -82,15 +82,18 @@ categories:
   - category: "privacy-ml"
     title: "Privacy Machine Learning"
     subtitle: "Libraries for encrypted and privacy-preserving machine learning using methods like federated learning & differential privacy."
+  - category: "interpretability"
+    title: "Model Interpretability"
+    subtitle: "Libraries to visualize, explain, debug, evaluate, and interpret machine learning models."
   - category: "ml-experiments"
     title: "Workflow & Experiment Tracking"
     subtitle: "Libraries to organize, track, and visualize machine learning experiments."
   - category: "model-serialisation"
     title: "Model Serialization & Deployment"
     subtitle: "Libraries to serialize models to files, convert between a variety of model formats, and optimize models for deployment."
-  - category: "interpretability"
-    title: "Model Interpretability"
-    subtitle: "Libraries to visualize, explain, debug, evaluate, and interpret machine learning models."
+  - category: "distributed-ml"
+    title: "Distributed Machine Learning"
+    subtitle: "Libraries that provide capabilities to distribute and parallelize machine learning tasks across large-scale compute infrastructure."
   - category: "nn-search"
     title: "Vector Similarity Search (ANN)"
     subtitle: "Libraries for Approximate Nearest Neighbor Search and Vector Indexing/Similarity Search."
@@ -115,12 +118,6 @@ categories:
   - category: "jax-utils"
     title: "Jax Utilities"
     subtitle: "Libraries that extend Jax with additional capabilities."
-  - category: "db-clients"
-    title: "Database Clients"
-    subtitle: "Libraries for connecting to, operating, and querying databases."
-  - category: "chinese-nlp"
-    title: "Chinese NLP"
-    ignore: True
 
 labels:
   - label: "tensorflow"
@@ -2691,12 +2688,6 @@ projects:
     pypi_id: annoy
     conda_id: conda-forge/python-annoy
     category: nn-search
-  - name: NMSLIB
-    github_id: nmslib/nmslib
-    pypi_id: nmslib
-    conda_id: conda-forge/nmslib
-    category: nn-search
-    license: Apache-2.0
   - name: Milvus
     github_id: milvus-io/milvus
     pypi_id: pymilvus
@@ -2711,10 +2702,6 @@ projects:
     github_id: nmslib/hnswlib
     pypi_id: hnswlib
     conda_id: conda-forge/hnswlib
-    category: nn-search
-  - name: Magnitude
-    github_id: plasticityai/magnitude
-    pypi_id: pymagnitude
     category: nn-search
   - name: PyNNDescent
     github_id: lmcinnes/pynndescent
