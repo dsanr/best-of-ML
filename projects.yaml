@@ -17,8 +17,8 @@ configuration:
 
 categories:
   - category: "data-science"
-    title: "Machine Learning & Data Science"
-    subtitle: "Best-of lists about machine learning, data science, or other topics related to ML."
+    title: "List of Machine Learning & Data Science Resources"
+    subtitle: "Best-of and Awesome lists about machine learning, data science, or other topics related to ML."
   - category: "web-scraping"
     title: "Web Scraping & Crawling"
     subtitle: "Libraries for web scraping, crawling, downloading, and mining."
@@ -180,6 +180,11 @@ projects:
   - name: awesome-machine-learning
     github_id: josephmisiti/awesome-machine-learning
     category: "data-science"
+
+  - name: data-science
+    github_id: khuyentran1401/Data-science
+    category: "data-science"
+
 
   - name: Tensorflow
     github_id: tensorflow/tensorflow
@@ -1562,7 +1567,7 @@ projects:
     pypi_id: attributionpriors
     category: interpretability
     labels: ["tensorflow", "pytorch"]
-  - name: Fairness 360
+  - name: AIF 360
     github_id: Trusted-AI/AIF360
     pypi_id: aif360
     conda_id: conda-forge/aif360
@@ -1595,6 +1600,11 @@ projects:
     github_id: benedekrozemberczki/karateclub
     pypi_id: karateclub
     conda_id: conda-forge/karateclub
+    category: graph
+  - name: pygod
+    github_id: pygod-team/pygod
+    pypi_id: pygod
+    conda_id: conda-forge/pygod
     category: graph
   - name: pyRDF2Vec
     github_id: IBCNServices/pyRDF2Vec
@@ -2589,6 +2599,11 @@ projects:
     github_id: hsbc/tslumen
     pypi_id: tslumen
     conda_id: conda-forge/tslumen
+    category: time-series-data
+  - name: tsai
+    github_id: timeseriesAI/tsai
+    pypi_id: tsai
+    conda_id: conda-forge/tsai
     category: time-series-data
   - name: pytorch-forecasting
     github_id: jdb78/pytorch-forecasting
