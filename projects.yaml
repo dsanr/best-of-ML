@@ -348,6 +348,11 @@ projects:
     github_id: sony/nnabla
     pypi_id: nnabla
     category: ml-frameworks
+  - name: ngboost
+    github_id: stanfordmlgroup/ngboost
+    pypi_id: ngboost
+    conda_id: conda-forge/ngboost
+    category: ml-frameworks
   - name: mlpack
     github_id: mlpack/mlpack
     pypi_id: mlpack
@@ -1379,6 +1384,10 @@ projects:
     category: interpretability
     labels: ["pytorch", "sklearn"]
     license: Apache-2.0
+  - name: causalml
+    github_id: uber/causalml
+    pypi_id: causalml
+    category: interpretability
   - name: yellowbrick
     github_id: DistrictDataLabs/yellowbrick
     pypi_id: yellowbrick
@@ -1996,6 +2005,11 @@ projects:
     github_id: SimonBlanke/Hyperactive
     pypi_id: hyperactive
     category: hyperopt
+  - name: PyCaret
+    github_id: pycaret/pycaret
+    pypi_id: pycaret
+    conda_id: conda-forge/pycaret
+    category: hyperopt
   - name: TPOT
     github_id: EpistasisLab/tpot
     pypi_id: tpot
@@ -2244,11 +2258,6 @@ projects:
     conda_id: conda-forge/sagemaker-python-sdk
     category: ml-experiments
     labels: ["mxnet", "tensorflow"]
-  - name: TNT
-    github_id: pytorch/tnt
-    pypi_id: torchnet
-    category: ml-experiments
-    labels: ["pytorch"]
   - name: SKLL
     github_id: EducationalTestingService/skll
     pypi_id: skll
@@ -2257,11 +2266,6 @@ projects:
     labels: ["sklearn"]
   - name: azureml-examples
     github_id: Azure/azureml-examples
-    category: ml-experiments
-  - name: PyCaret
-    github_id: pycaret/pycaret
-    pypi_id: pycaret
-    conda_id: conda-forge/pycaret
     category: ml-experiments
   - name: PFRL
     github_id: pfnet/pfrl
@@ -3215,6 +3219,11 @@ projects:
     pypi_id: adabound
     category: pytorch-utils
     labels: ["pytorch"]
+  - name: tnt
+    github_id: pytorch/tnt
+    pypi_id: torchtnt
+    category: pytorch-utils
+    labels: ["pytorch"]
   - name: Poutyne
     github_id: GRAAL-Research/poutyne
     pypi_id: poutyne
@@ -3636,10 +3645,6 @@ projects:
     pypi_id: datasette
     conda_id: conda-forge/datasette
     brew_id: datasette
-  - name: causalml
-    github_id: uber/causalml
-    pypi_id: causalml
-    category: others
   - name: anomalib
     github_id: openvinotoolkit/anomalib
     pypi_id: anomalib
