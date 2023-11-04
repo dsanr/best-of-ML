@@ -245,6 +245,15 @@ projects:
     conda_id: mxnet
     category: ml-frameworks
     labels: ["mxnet"]
+  - name: PyOD
+    github_id: yzhao062/pyod
+    pypi_id: pyod
+    conda_id: conda-forge/pyod
+    category: ml-frameworks
+  - name: anomalib
+    github_id: openvinotoolkit/anomalib
+    pypi_id: anomalib
+    category: ml-frameworks
   - name: Catboost
     github_id: catboost/catboost
     pypi_id: catboost
@@ -318,6 +327,11 @@ projects:
   - name: ktrain
     github_id: amaiya/ktrain
     pypi_id: ktrain
+    category: ml-frameworks
+    labels: ["tensorflow"]
+  - name: larq
+    github_id: larq/larq
+    pypi_id: larq
     category: ml-frameworks
     labels: ["tensorflow"]
   - name: tensorpack
@@ -496,6 +510,10 @@ projects:
     github_id: seatgeek/thefuzz
     pypi_id: thefuzz
     conda_id: conda-forge/thefuzz
+    category: nlp
+  - name: nebuly
+    github_id: nebuly-ai/nebuly
+    pypi_id: nebuly
     category: nlp
   - name: nltk
     github_id: nltk/nltk
@@ -2941,10 +2959,6 @@ projects:
     conda_id: conda-forge/ddsp
     category: audio
     labels: ["tensorflow"]
-  - name: nebullvm
-    github_id: nebuly-ai/nebullvm
-    pypi_id: nebullvm
-    category: model-serialisation
   - name: onnx
     github_id: onnx/onnx
     pypi_id: onnx
@@ -2980,10 +2994,6 @@ projects:
     category: model-serialisation
     labels: ["pytorch"]
     pypi_id: ane-transformers
-  - name: mmdnn
-    github_id: Microsoft/MMdnn
-    pypi_id: mmdnn
-    category: model-serialisation
   - name: Core ML Tools
     github_id: apple/coremltools
     pypi_id: coremltools
@@ -3001,6 +3011,14 @@ projects:
   - name: BentoML
     github_id: bentoml/BentoML
     pypi_id: bentoml
+    category: model-serialisation
+  - name: Gradio
+    github_id: gradio-app/gradio
+    pypi_id: gradio
+    category: model-serialisation
+  - name: Streamlit
+    github_id: streamlit/streamlit
+    pypi_id: streamlit
     category: model-serialisation
   - name: huggingface_hub
     github_id: huggingface/huggingface_hub
@@ -3537,10 +3555,6 @@ projects:
     homepage: https://github.com/ml-tooling/best-of-python#data-pipelines--streaming
 
 
-  - name: Gradio
-    github_id: gradio-app/gradio
-    pypi_id: gradio
-    description: Wrap UIs around any model, share with anyone.
   - name: alibi-detect
     github_id: SeldonIO/alibi-detect
     pypi_id: alibi-detect
@@ -3561,9 +3575,6 @@ projects:
     pypi_id: biopandas
     conda_id: conda-forge/biopandas
     labels: ["pandas"]
-  - name: Streamlit
-    github_id: streamlit/streamlit
-    pypi_id: streamlit
   - name: River
     github_id: online-ml/river
     pypi_id: river
@@ -3592,10 +3603,6 @@ projects:
     github_id: pyjanitor-devs/pyjanitor
     pypi_id: pyjanitor
     conda_id: conda-forge/pyjanitor
-  - name: PyOD
-    github_id: yzhao062/pyod
-    pypi_id: pyod
-    conda_id: conda-forge/pyod
   - name: AstroML
     github_id: astroML/astroML
     pypi_id: astroML
@@ -3645,9 +3652,6 @@ projects:
     pypi_id: datasette
     conda_id: conda-forge/datasette
     brew_id: datasette
-  - name: anomalib
-    github_id: openvinotoolkit/anomalib
-    pypi_id: anomalib
   - name: pymdp
     github_id: infer-actively/pymdp
     category: others
