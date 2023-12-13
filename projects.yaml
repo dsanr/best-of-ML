@@ -199,6 +199,9 @@ projects:
   - name: Awesome-LLM
     github_id: Hannibal046/Awesome-LLM
     category: "data-science"
+  - name: Awesome-LLMOps
+    github_id: tensorchord/Awesome-LLMOps
+    category: "data-science"
   - name: awesome-public-datasets
     github_id: awesomedata/awesome-public-datasets
     category: "data-science"
