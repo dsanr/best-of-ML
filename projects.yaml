@@ -242,12 +242,6 @@ projects:
     conda_id: conda-forge/scikit-learn
     category: ml-frameworks
     labels: ["sklearn"]
-  - name: MXNet
-    github_id: apache/incubator-mxnet
-    pypi_id: mxnet
-    conda_id: mxnet
-    category: ml-frameworks
-    labels: ["mxnet"]
   - name: PyOD
     github_id: yzhao062/pyod
     pypi_id: pyod
@@ -705,19 +699,11 @@ projects:
     pypi_id: OpenNMT-py
     category: nlp
     labels: ["pytorch"]
-  - name: GluonNLP
-    github_id: dmlc/gluon-nlp
-    pypi_id: gluonnlp
-    category: nlp
-    labels: ["mxnet"]
-    description: Toolkit that enables easy text preprocessing, datasets loading and
-      neural models building to help you speed up your Natural Language Processing (NLP)
-      research.
   - name: Sockeye
     github_id: awslabs/sockeye
     pypi_id: sockeye
     category: nlp
-    labels: ["mxnet"]
+    labels: ["pytorch"]
   - name: Snips NLU
     github_id: snipsco/snips-nlu
     pypi_id: snips-nlu
@@ -965,11 +951,6 @@ projects:
     pypi_id: pillow-simd
     category: image
     license: PIL
-  - name: GluonCV
-    github_id: dmlc/gluon-cv
-    pypi_id: gluoncv
-    category: image
-    labels: ["mxnet"]
   - name: pyvips
     github_id: libvips/pyvips
     pypi_id: pyvips
@@ -2287,7 +2268,6 @@ projects:
     pypi_id: sagemaker
     conda_id: conda-forge/sagemaker-python-sdk
     category: ml-experiments
-    labels: ["mxnet", "tensorflow"]
   - name: SKLL
     github_id: EducationalTestingService/skll
     pypi_id: skll
@@ -2726,7 +2706,7 @@ projects:
     pypi_id: gluonts
     conda_id: anaconda/gluonts
     category: time-series-data
-    labels: ["mxnet"]
+    labels: ["pytorch"]
   - name: pydlm
     github_id: wwrechard/pydlm
     pypi_id: pydlm
