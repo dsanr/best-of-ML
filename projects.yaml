@@ -70,9 +70,6 @@ categories:
   - category: "ocr"
     title: "Optical Character Recognition"
     subtitle: "Libraries for optical character recognition (OCR) and text extraction from images or videos."
-  - category: "hyperopt"
-    title: "Hyperparameter Optimization & AutoML"
-    subtitle: "Libraries for hyperparameter optimization, automl and neural architecture search."
   - category: "reinforcement-learning"
     title: "Reinforcement Learning"
     subtitle: "Libraries for building and evaluating reinforcement learning & agent-based systems."
@@ -82,6 +79,9 @@ categories:
   - category: "privacy-ml"
     title: "Privacy Machine Learning"
     subtitle: "Libraries for encrypted and privacy-preserving machine learning using methods like federated learning & differential privacy."
+  - category: "hyperopt"
+    title: "Hyperparameter Optimization & AutoML"
+    subtitle: "Libraries for hyperparameter optimization, automl and neural architecture search."
   - category: "interpretability"
     title: "Model Interpretability"
     subtitle: "Libraries to visualize, explain, debug, evaluate, and interpret machine learning models."
@@ -375,9 +375,13 @@ projects:
     pypi_id: mlpack
     conda_id: conda-forge/mlpack
     category: ml-frameworks
-  - name: Turi Create
-    github_id: apple/turicreate
-    pypi_id: turicreate
+  - name: mlx
+    github_id: ml-explore/mlx
+    pypi_id: mlx
+    category: ml-frameworks
+  - name: puncc
+    github_id: deel-ai/puncc
+    pypi_id: puncc
     category: ml-frameworks
   - name: StarSpace
     github_id: facebookresearch/StarSpace
@@ -564,9 +568,6 @@ projects:
     pypi_id: happytransformer
     category: nlp
     labels: ["huggingface"]
-  - name: qdrant
-    github_id: qdrant/qdrant
-    category: nlp
   - name: argilla
     github_id: argilla-io/argilla
     pypi_id: argilla
@@ -602,6 +603,14 @@ projects:
     github_id: rspeer/python-ftfy
     pypi_id: ftfy
     conda_id: conda-forge/ftfy
+    category: nlp
+  - name: langchain
+    github_id: langchain-ai/langchain
+    pypi_id: langchain
+    category: nlp
+  - name: llama_index
+    github_id: run-llama/llama_index
+    pypi_id: llama-index
     category: nlp
   - name: haystack
     github_id: deepset-ai/haystack
@@ -2298,6 +2307,10 @@ projects:
     conda_id: conda-forge/gymnasium
     category: reinforcement-learning
     license: MIT
+  - name: trl
+    github_id: huggingface/trl
+    pypi_id: trl
+    category: reinforcement-learning
   - name: Dopamine
     github_id: google/dopamine
     pypi_id: dopamine-rl
@@ -2755,6 +2768,14 @@ projects:
     github_id: milvus-io/milvus
     pypi_id: pymilvus
     dockerhub_id: milvusdb/milvus
+    category: nn-search
+  - name: qdrant
+    github_id: qdrant/qdrant
+    pypi_id: qdrant-client
+    category: nn-search
+  - name: chroma
+    github_id: chroma-core/chroma
+    pypi_id: chromadb
     category: nn-search
   - name: Faiss
     github_id: facebookresearch/faiss
