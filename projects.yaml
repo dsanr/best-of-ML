@@ -281,11 +281,6 @@ projects:
     pypi_id: aesara
     conda_id: conda-forge/aesara
     category: ml-frameworks
-  - name: TFlearn
-    github_id: tflearn/tflearn
-    pypi_id: tflearn
-    category: ml-frameworks
-    labels: ["tensorflow"]
   - name: Sonnet
     github_id: deepmind/sonnet
     pypi_id: dm-sonnet
@@ -376,9 +371,6 @@ projects:
   - name: puncc
     github_id: deel-ai/puncc
     pypi_id: puncc
-    category: ml-frameworks
-  - name: StarSpace
-    github_id: facebookresearch/StarSpace
     category: ml-frameworks
   - name: nupic.torch
     github_id: numenta/nupic.torch
@@ -532,11 +524,6 @@ projects:
     pypi_id: textacy
     conda_id: conda-forge/textacy
     category: nlp
-  - name: TextBlob
-    github_id: sloria/TextBlob
-    pypi_id: textblob
-    conda_id: conda-forge/textblob
-    category: nlp
   - name: flashtext
     github_id: vi3k6i5/flashtext
     pypi_id: flashtext
@@ -552,9 +539,9 @@ projects:
     pypi_id: nlpaug
     conda_id: conda-forge/nlpaug
     category: nlp
-  - name: adapter-transformers
-    github_id: Adapter-Hub/adapter-transformers
-    pypi_id: adapter-transformers
+  - name: adapters
+    github_id: Adapter-Hub/adapters
+    pypi_id: adapters
     category: nlp
     labels: ["huggingface"]
   - name: happy-transformer
@@ -1239,10 +1226,10 @@ projects:
     pypi_id: python-ternary
     conda_id: conda-forge/python-ternary
     category: data-viz
-  - name: joypy
-    github_id: leotac/joypy
-    pypi_id: joypy
-    conda_id: conda-forge/joypy
+  - name: ridgeplot
+    github_id: tpvasconcelos/ridgeplot
+    pypi_id: ridgeplot
+    conda_id: conda-forge/ridgeplot
     category: data-viz
   - name: data-validation
     github_id: tensorflow/data-validation
@@ -1284,10 +1271,6 @@ projects:
     pypi_id: wordcloud
     conda_id: conda-forge/wordcloud
     category: data-viz
-  - name: data-describe
-    github_id: data-describe/data-describe
-    pypi_id: data-describe
-    category: data-viz
   - name: ydata-profiling
     github_id: ydataai/ydata-profiling
     pypi_id: ydata-profiling
@@ -1328,11 +1311,10 @@ projects:
     conda_id: conda-forge/pyvista
     category: data-viz
     labels: ["jupyter"]
-  - name: nx-altair
-    github_id: Zsailer/nx_altair
-    pypi_id: nx-altair
+  - name: pyvis
+    github_id: WestHealth/pyvis
+    pypi_id: pyvis
     category: data-viz
-    labels: ["jupyter"]
   - name: pythreejs
     github_id: jupyter-widgets/pythreejs
     pypi_id: pythreejs
