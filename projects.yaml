@@ -755,6 +755,10 @@ projects:
     conda_id: conda-forge/torchvision
     category: image
     labels: ["pytorch"]
+  - name: ultralytics
+    github_id: ultralytics/ultralytics
+    pypi_id: ultralytics
+    category: image
   - name: ImageHash
     github_id: JohannesBuchner/imagehash
     pypi_id: ImageHash
@@ -1137,11 +1141,6 @@ projects:
     category: data-viz
     labels: ["jupyter"]
     npm_id: bqplot
-  - name: Graphviz
-    github_id: xflr6/graphviz
-    pypi_id: graphviz
-    conda_id: anaconda/python-graphviz
-    category: data-viz
   - name: plotnine
     github_id: has2k1/plotnine
     pypi_id: plotnine
@@ -1594,11 +1593,6 @@ projects:
     pypi_id: ogb
     conda_id: conda-forge/ogb
     category: graph
-  - name: graph-nets
-    github_id: deepmind/graph_nets
-    pypi_id: graph-nets
-    category: graph
-    labels: ["tensorflow"]
   - name: torch-cluster
     github_id: rusty1s/pytorch_cluster
     pypi_id: torch-cluster
@@ -1642,11 +1636,6 @@ projects:
   - name: OpenKE
     github_id: thunlp/OpenKE
     category: graph
-  - name: GraphSAGE
-    github_id: williamleif/GraphSAGE
-    category: graph
-    labels: ["tensorflow"]
-    license: MIT
   - name: StellarGraph
     github_id: stellargraph/stellargraph
     pypi_id: stellargraph
@@ -1765,17 +1754,6 @@ projects:
     pypi_id: satpy
     conda_id: conda-forge/satpy
     category: geospatial-data
-  - name: Geocoder
-    github_id: DenisCarriere/geocoder
-    pypi_id: geocoder
-    conda_id: conda-forge/geocoder
-    category: geospatial-data
-    snap_id: geocoder
-  - name: Mapbox GL
-    github_id: mapbox/mapboxgl-jupyter
-    pypi_id: mapboxgl
-    category: geospatial-data
-    labels: ["jupyter"]
   - name: ipyleaflet
     github_id: jupyter-widgets/ipyleaflet
     pypi_id: ipyleaflet
@@ -1783,14 +1761,6 @@ projects:
     category: geospatial-data
     labels: ["jupyter"]
     npm_id: jupyter-leaflet
-  - name: gmaps
-    github_id: pbugnion/gmaps
-    pypi_id: gmaps
-    conda_id: conda-forge/gmaps
-    category: geospatial-data
-    labels: ["jupyter"]
-    license: BSD-3-Clause
-    npm_id: jupyter-gmaps
   - name: pymap3d
     github_id: geospace-code/pymap3d
     pypi_id: pymap3d
@@ -2199,6 +2169,10 @@ projects:
     github_id: huggingface/trl
     pypi_id: trl
     category: reinforcement-learning
+  - name: Pearl
+    github_id: facebookresearch/Pearl
+    pypi_id: pearl
+    category: reinforcement-learning
   - name: Dopamine
     github_id: google/dopamine
     pypi_id: dopamine-rl
@@ -2244,12 +2218,6 @@ projects:
     category: reinforcement-learning
     labels: ["pytorch"]
     license: Custom
-  - name: ReAgent
-    github_id: facebookresearch/ReAgent
-    pypi_id: reagent
-    category: reinforcement-learning
-    labels: ["pytorch"]
-    license: BSD-3-Clause
   - name: garage
     github_id: rlworkgroup/garage
     pypi_id: garage
@@ -2534,10 +2502,6 @@ projects:
     conda_id: conda-forge/u8darts-all
     dockerhub_id: unit8/darts
     category: time-series-data
-  - name: PyFlux
-    github_id: RJT1990/pyflux
-    pypi_id: pyflux
-    category: time-series-data
   - name: tsfresh
     github_id: blue-yonder/tsfresh
     pypi_id: tsfresh
@@ -2618,11 +2582,6 @@ projects:
   - name: pydlm
     github_id: wwrechard/pydlm
     pypi_id: pydlm
-    category: time-series-data
-  - name: Streamz
-    github_id: python-streamz/streamz
-    pypi_id: streamz
-    conda_id: conda-forge/streamz
     category: time-series-data
   - name: STUMPY
     github_id: TDAmeritrade/stumpy
@@ -2767,10 +2726,6 @@ projects:
   - name: TTS
     github_id: mozilla/TTS
     category: audio
-  - name: Muda
-    github_id: bmcfee/muda
-    pypi_id: muda
-    category: audio
   - name: Magenta
     github_id: magenta/magenta
     pypi_id: magenta
@@ -2834,11 +2789,6 @@ projects:
     github_id: devsnd/tinytag
     pypi_id: tinytag
     category: audio
-  - name: kapre
-    github_id: keunwoochoi/kapre
-    pypi_id: kapre
-    category: audio
-    labels: ["tensorflow"]
   - name: python-soundfile
     github_id: bastibe/python-soundfile
     pypi_id: soundfile
