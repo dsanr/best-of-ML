@@ -2,25 +2,12 @@
 
 _Projects that have a higher project-quality score compared to the last update. There might be a variety of reasons, such as increased downloads or code activity._
 
-- <b><a href="https://github.com/opencv/opencv-python">opencv-python</a></b> (🥈37 ·  ⭐ 3.9K · 📈) - Automated CI toolchain to produce precompiled opencv-python,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/PennyLaneAI/pennylane">PennyLane</a></b> (🥇34 ·  ⭐ 2K · 📈) - PennyLane is a cross-platform Python library for differentiable.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/wookayin/gpustat">gpustat</a></b> (🥈32 ·  ⭐ 3.7K · 📈) - A simple command-line utility for querying and monitoring GPU status. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/cleanlab/cleanlab">cleanlab</a></b> (🥈31 ·  ⭐ 7.7K · 📈) - The standard data-centric AI package for data quality and.. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code>
-- <b><a href="https://github.com/ml-explore/mlx">mlx</a></b> (🥉30 ·  ⭐ 11K · 🐣) - MLX: An array framework for Apple silicon. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-
-## 📉 Trending Down
-
-_Projects that have a lower project-quality score compared to the last update. There might be a variety of reasons such as decreased downloads or code activity._
-
-- <b><a href="https://github.com/shap/shap">shap</a></b> (🥇40 ·  ⭐ 21K · 📉) - A game theoretic approach to explain the output of any machine learning.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/jina-ai/jina">Jina</a></b> (🥈39 ·  ⭐ 20K · 📉) - Build multimodal AI applications with cloud-native stack. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/dask/distributed">dask.distributed</a></b> (🥈37 ·  ⭐ 1.5K · 📉) - A distributed task scheduler for Dask. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
-- <b><a href="https://github.com/lutzroeder/netron">Netron</a></b> (🥇33 ·  ⭐ 25K · 📉) - Visualizer for neural network, deep learning and machine.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code> <code><img src="https://git.io/JLy1A" style="display:inline;" width="13" height="13"></code>
-- <b><a href="{}">CuPy</a></b> (🥉8 ·  ⭐ 11 · 📉) - CuPy: NumPy & SciPy for GPU. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/raphaelvallat/pingouin">pingouin</a></b> (🥈30 ·  ⭐ 1.5K · 📈) - Statistical package in Python based on Pandas. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code>
 
 ## ➕ Added Projects
 
 _Projects that were recently added to this best-of list._
 
-- <b><a href="https://github.com/jmorganca/ollama">ollama</a></b> (🥈35 ·  ⭐ 31K · ➕) - Get up and running with Llama 2, Mistral, and other large language.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/ultralytics/ultralytics">ultralytics</a></b> (🥈37 ·  ⭐ 18K · ➕) - NEW - YOLOv8 in PyTorch ONNX OpenVINO CoreML TFLite. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code>
+- <b><a href="https://github.com/facebookresearch/Pearl">Pearl</a></b> (🥉16 ·  ⭐ 2.1K · ➕) - A Production-ready Reinforcement Learning AI Agent Library brought by.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 
