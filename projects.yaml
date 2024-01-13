@@ -457,10 +457,6 @@ projects:
     conda_id: conda-forge/small-text
     category: nlp
     labels: ["sklearn", "pytorch"]
-  - name: NeuralQA
-    github_id: victordibia/neuralqa
-    pypi_id: neuralqa
-    category: nlp
   - name: SciSpacy
     github_id: allenai/scispacy
     pypi_id: scispacy
@@ -565,10 +561,6 @@ projects:
     github_id: bytedance/lightseq
     pypi_id: lightseq
     category: nlp
-  - name: fastT5
-    github_id: Ki6an/fastT5
-    pypi_id: fastt5
-    category: nlp
   - name: sentencepiece
     github_id: google/sentencepiece
     pypi_id: sentencepiece
@@ -593,6 +585,9 @@ projects:
     github_id: run-llama/llama_index
     pypi_id: llama-index
     category: nlp
+  - name: ollama
+    github_id: jmorganca/ollama
+    category: nlp
   - name: haystack
     github_id: deepset-ai/haystack
     pypi_id: haystack
@@ -606,10 +601,6 @@ projects:
     github_id: bigscience-workshop/promptsource
     category: nlp
     pypi_id: promptsource
-  - name: stop-words
-    github_id: Alir3z4/python-stop-words
-    pypi_id: stop-words
-    category: nlp
   - name: stanza
     github_id: stanfordnlp/stanza
     pypi_id: stanza
@@ -621,17 +612,6 @@ projects:
     conda_id: conda-forge/transformers
     category: nlp
     labels: ["pytorch", "tensorflow"]
-  - name: allennlp-light
-    github_id: MaksymDel/allennlp-light
-    pypi_id: allennlp-light
-    category: nlp
-    labels: ["pytorch"]
-  - name: DELTA
-    github_id: Delta-ML/delta
-    pypi_id: delta-nlp
-    dockerhub_id: zh794390558/delta
-    category: nlp
-    labels: ["tensorflow"]
   - name: ParlAI
     github_id: facebookresearch/ParlAI
     pypi_id: parlai
@@ -646,11 +626,6 @@ projects:
     github_id: explosion/spacy-transformers
     pypi_id: spacy-transformers
     conda_id: conda-forge/spacy-transformers
-    category: nlp
-    labels: ["spacy"]
-  - name: Camphr
-    github_id: PKSHATechnology-Research/camphr
-    pypi_id: camphr
     category: nlp
     labels: ["spacy"]
   - name: finetune
@@ -672,10 +647,6 @@ projects:
     pypi_id: rasa
     category: nlp
     labels: ["tensorflow"]
-  - name: ChatterBot
-    github_id: gunthercox/ChatterBot
-    pypi_id: chatterbot
-    category: nlp
   - name: DeepPavlov
     github_id: deepmipt/DeepPavlov
     pypi_id: deeppavlov
@@ -691,21 +662,12 @@ projects:
     pypi_id: sockeye
     category: nlp
     labels: ["pytorch"]
-  - name: Snips NLU
-    github_id: snipsco/snips-nlu
-    pypi_id: snips-nlu
-    category: nlp
   - name: fairseq
     github_id: facebookresearch/fairseq
     pypi_id: fairseq
     conda_id: conda-forge/fairseq
     category: nlp
     labels: ["pytorch"]
-  - name: Kashgari
-    github_id: BrikerMan/Kashgari
-    pypi_id: kashgari-tf
-    category: nlp
-    labels: ["tensorflow"]
   - name: TensorFlow Text
     github_id: tensorflow/text
     pypi_id: tensorflow-text
@@ -725,14 +687,6 @@ projects:
     pypi_id: jellyfish
     conda_id: conda-forge/jellyfish
     category: nlp
-  - name: t5x
-    github_id: google-research/t5x
-    category: nlp
-    labels: ["tensorflow"]
-  - name: polyglot
-    github_id: aboSamoor/polyglot
-    pypi_id: polyglot
-    category: nlp
   - name: Dedupe
     github_id: dedupeio/dedupe
     pypi_id: dedupe
@@ -748,11 +702,6 @@ projects:
     pypi_id: textdistance
     conda_id: conda-forge/textdistance
     category: nlp
-  - name: TransferNLP
-    github_id: feedly/transfer-nlp
-    pypi_id: transfer-nlp
-    category: nlp
-    labels: ["pytorch"]
   - name: haystack
     github_id: deepset-ai/haystack
     pypi_id: farm-haystack
@@ -763,28 +712,9 @@ projects:
     pypi_id: nemo-toolkit
     category: nlp
     labels: ["pytorch"]
-  - name: MatchZoo
-    github_id: NTMC-Community/MatchZoo
-    pypi_id: matchzoo
-    category: nlp
-    labels: ["tensorflow"]
-  - name: Texar
-    github_id: asyml/texar
-    pypi_id: texar
-    category: nlp
-    labels: ["tensorflow"]
   - name: PyTextRank
     github_id: DerwenAI/pytextrank
     pypi_id: pytextrank
-    category: nlp
-  - name: pySBD
-    github_id: nipunsadvilkar/pySBD
-    pypi_id: pysbd
-    conda_id: conda-forge/pysbd
-    category: nlp
-  - name: Headliner
-    github_id: as-ideas/headliner
-    pypi_id: headliner
     category: nlp
   - name: Tokenizers
     github_id: huggingface/tokenizers
@@ -795,10 +725,6 @@ projects:
     github_id: Ciphey/Ciphey
     pypi_id: ciphey
     dockerhub_id: remnux/ciphey
-    category: nlp
-  - name: ONNX-T5
-    github_id: abelriboulot/onnxt5
-    pypi_id: onnxt5
     category: nlp
   - name: Caer
     github_id: jasmcaus/caer
