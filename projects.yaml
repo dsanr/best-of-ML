@@ -2583,6 +2583,14 @@ projects:
     github_id: wwrechard/pydlm
     pypi_id: pydlm
     category: time-series-data
+  - name: luminaire
+    github_id: zillow/luminaire
+    pypi_id: luminaire
+    category: time-series-data
+  - name: Orion
+    github_id: sintel-dev/Orion
+    pypi_id: orion-ml
+    category: time-series-data
   - name: STUMPY
     github_id: TDAmeritrade/stumpy
     pypi_id: stumpy
@@ -2704,6 +2712,10 @@ projects:
   - name: recmetrics
     github_id: statisticianinstilettos/recmetrics
     pypi_id: recmetrics
+    category: recommender-systems
+  - name: rs_metrics
+    github_id: Darel13712/rs_metrics
+    pypi_id: rs_metrics
     category: recommender-systems
   - name: Recommenders
     github_id: microsoft/recommenders
