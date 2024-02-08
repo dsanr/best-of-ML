@@ -1949,7 +1949,7 @@ projects:
     pypi_id: smac
     conda_id: conda-forge/smac
     category: hyperopt
-  - name: Orion
+  - name: orion
     github_id: Epistimio/orion
     pypi_id: orion
     category: hyperopt
