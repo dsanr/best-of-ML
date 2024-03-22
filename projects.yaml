@@ -2491,6 +2491,11 @@ projects:
     pypi_id: sdv
     conda_id: conda-forge/sdv
     category: tabular
+  - name: ydata-synthetic
+    github_id: ydataai/ydata-synthetic
+    pypi_id: ydata-synthetic
+    conda_id: conda-forge/ydata-synthetic
+    category: tabular
   - name: Prophet
     github_id: facebook/prophet
     pypi_id: fbprophet
