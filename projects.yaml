@@ -326,12 +326,6 @@ projects:
     pypi_id: larq
     category: ml-frameworks
     labels: ["tensorflow"]
-  - name: tensorpack
-    github_id: tensorpack/tensorpack
-    pypi_id: tensorpack
-    conda_id: conda-forge/tensorpack
-    category: ml-frameworks
-    labels: ["tensorflow"]
   - name: Ignite
     github_id: pytorch/ignite
     pypi_id: pytorch-ignite
@@ -418,11 +412,6 @@ projects:
     github_id: google/flax
     pypi_id: flax
     conda_id: conda-forge/flax
-    category: ml-frameworks
-    labels: ["jax"]
-  - name: Objax
-    github_id: google/objax
-    pypi_id: objax
     category: ml-frameworks
     labels: ["jax"]
   - name: einops
@@ -615,11 +604,6 @@ projects:
   - name: ParlAI
     github_id: facebookresearch/ParlAI
     pypi_id: parlai
-    category: nlp
-    labels: ["pytorch"]
-  - name: pytorch-nlp
-    github_id: PetrochukM/PyTorch-NLP
-    pypi_id: pytorch-nlp
     category: nlp
     labels: ["pytorch"]
   - name: spacy-transformers
@@ -965,11 +949,6 @@ projects:
     dockerhub_id: idealo/image-super-resolution-gpu
     category: image
     labels: ["tensorflow"]
-  - name: pycls
-    github_id: facebookresearch/pycls
-    pypi_id: pycls
-    category: image
-    labels: ["pytorch"]
   - name: PySlowFast
     github_id: facebookresearch/SlowFast
     pypi_id: pyslowfast
