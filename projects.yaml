@@ -2710,6 +2710,19 @@ projects:
     pypi_id: cornac
     conda_id: conda-forge/cornac
     category: recommender-systems
+
+  - name: tts-generation-webui
+    github_id: rsxdalv/tts-generation-webui
+    category: audio
+  - name: rvc-tts-webui
+    github_id: litagin02/rvc-tts-webui
+    category: audio
+  - name: Retrieval-based-Voice-Conversion-WebUI
+    github_id: RVC-Project/Retrieval-based-Voice-Conversion-WebUI
+    category: audio
+  - name: audio-webui
+    github_id: gitmylo/audio-webui
+    category: audio
   - name: librosa
     github_id: librosa/librosa
     pypi_id: librosa
