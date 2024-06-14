@@ -25,15 +25,15 @@ jobs:
         name: set-version-via-date
         run: echo "VERSION=$(date '+%Y.%m.%d')" >> $GITHUB_ENV
       - uses: actions/checkout@v2
-        with:
-          ref: ${{ env.DEFAULT_BRANCH }}
+        # with:
+          # ref: ${{ env.DEFAULT_BRANCH }}
       - name: check-version-tag
         shell: bash
         run: |
           git fetch --tags --force
           git show-ref --tags --verify --quiet -- "refs/tags/${{ env.VERSION }}" && echo "VERSION=$(date '+%Y.%m.%d-%H.%M')" >> $GITHUB_ENV || exit 0
       - name: create-update-branch
-        uses: peterjgrainger/action-create-branch@v2.0.1
+        uses: peterjgrainger/action-create-branch@v3.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
