@@ -25,6 +25,8 @@ jobs:
         name: set-version-via-date
         run: echo "VERSION=$(date '+%Y.%m.%d')" >> $GITHUB_ENV
       - uses: actions/checkout@v2
+        with:
+          ref: ${{ env.DEFAULT_BRANCH }}
       - name: check-version-tag
         shell: bash
         run: |
