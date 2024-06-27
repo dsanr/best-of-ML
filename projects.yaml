@@ -2603,6 +2603,14 @@ projects:
     pypi_id: annoy
     conda_id: conda-forge/python-annoy
     category: nn-search
+  - name: voyager
+    github_id: spotify/voyager
+    pypi_id: voyager
+    category: nn-search
+  - name: weaviate
+    github_id: weaviate/weaviate
+    pypi_id: weaviate-client
+    category: nn-search
   - name: Milvus
     github_id: milvus-io/milvus
     pypi_id: pymilvus
