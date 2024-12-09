@@ -43,6 +43,9 @@ categories:
   - category: "nlp"
     title: "Text Data & NLP"
     subtitle: "Libraries for processing, cleaning, and analyzing text data as well as libraries for NLP tasks such as classification, fuzzy matching, language translation, text generation, and conversational AI."
+  - category: "agents"
+    title: "LLM & AI Agents"
+    subtitle: "Libraries for building LLM applications and AI agent frameworks."
   - category: "image"
     title: "Image Data"
     subtitle: "Libraries for image & video processing, manipulation, and augmentation as well as libraries for computer vision tasks such as facial recognition, object detection, and classification."
@@ -436,6 +439,10 @@ projects:
     github_id: beringresearch/ivis
     pypi_id: ivis
     category: ml-frameworks
+  - name: runhouse
+    github_id: run-house/runhouse
+    pypi_id: runhouse
+    category: ml-frameworks
   - name: VizSeq
     github_id: facebookresearch/vizseq
     pypi_id: vizseq
@@ -537,6 +544,10 @@ projects:
   - name: argilla
     github_id: argilla-io/argilla
     pypi_id: argilla
+    category: nlp
+  - name: opik
+    github_id: comet-ml/opik
+    pypi_id: opik
     category: nlp
   - name: english-words
     github_id: dwyl/english-words
@@ -710,6 +721,32 @@ projects:
     pypi_id: ciphey
     dockerhub_id: remnux/ciphey
     category: nlp
+
+  - name: langchain
+    github_id: langchain-ai/langchain
+    pypi_id: langchain
+    category: agents
+  - name: llama_index
+    github_id: run-llama/llama_index
+    pypi_id: llama_index
+    category: agents
+  - name: langgraph
+    github_id: langchain-ai/langgraph
+    pypi_id: langgraph
+    category: agents
+  - name: autogen
+    github_id: microsoft/autogen
+    pypi_id: autogen-agentchat
+    category: agents
+  - name: ag2
+    github_id: ag2ai/ag2
+    pypi_id: ag2
+    category: agents
+  - name: crewAI
+    github_id: crewAIInc/crewAI
+    pypi_id: crewai
+    category: agents
+    
   - name: Caer
     github_id: jasmcaus/caer
     pypi_id: caer
@@ -1263,6 +1300,10 @@ projects:
     github_id: pyqtgraph/pyqtgraph
     pypi_id: pyqtgraph
     conda_id: conda-forge/pyqtgraph
+    category: data-viz
+  - name: ridgeplot
+    github_id: tpvasconcelos/ridgeplot
+    pypi_id: ridgeplot
     category: data-viz
   - name: What-If Tool
     github_id: PAIR-code/what-if-tool
@@ -3053,6 +3094,10 @@ projects:
   - name: pgmpy
     github_id: pgmpy/pgmpy
     pypi_id: pgmpy
+    category: probabilistics
+  - name: torch-uncertainty
+    github_id: ENSTA-U2IS-AI/torch-uncertainty
+    pypi_id: torch-uncertainty
     category: probabilistics
   - name: GPflow
     github_id: GPflow/GPflow
