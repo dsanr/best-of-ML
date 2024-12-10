@@ -577,21 +577,6 @@ projects:
     pypi_id: ftfy
     conda_id: conda-forge/ftfy
     category: nlp
-  - name: langchain
-    github_id: langchain-ai/langchain
-    pypi_id: langchain
-    category: nlp
-  - name: llama_index
-    github_id: run-llama/llama_index
-    pypi_id: llama-index
-    category: nlp
-  - name: ollama
-    github_id: jmorganca/ollama
-    category: nlp
-  - name: haystack
-    github_id: deepset-ai/haystack
-    pypi_id: haystack
-    category: nlp
   - name: DeepKE
     github_id: zjunlp/deepke
     category: nlp
@@ -746,6 +731,17 @@ projects:
     github_id: crewAIInc/crewAI
     pypi_id: crewai
     category: agents
+  - name: ollama
+    github_id: jmorganca/ollama
+    category: nlp
+  - name: haystack
+    github_id: deepset-ai/haystack
+    pypi_id: haystack
+    category: nlp
+  - name: phidata
+    github_id: phidatahq/phidata
+    pypi_id: phidata
+    category: nlp
     
   - name: Caer
     github_id: jasmcaus/caer
