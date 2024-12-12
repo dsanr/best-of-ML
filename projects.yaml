@@ -164,6 +164,12 @@ projects:
   - name: best-of-ml-python
     github_id: ml-tooling/best-of-ml-python
     category: "data-science"
+  - name: awesome-agents
+    github_id: kyrolabs/awesome-agents
+    category: "data-science"
+  - name: awesome-ai-agents
+    github_id: e2b-dev/awesome-ai-agents
+    category: "data-science"
     
   - name: awesome-semantic-segmentation
     github_id: mrgloom/awesome-semantic-segmentation
@@ -682,11 +688,6 @@ projects:
     pypi_id: textdistance
     conda_id: conda-forge/textdistance
     category: nlp
-  - name: haystack
-    github_id: deepset-ai/haystack
-    pypi_id: farm-haystack
-    category: nlp
-    labels: ["pytorch"]
   - name: NeMo
     github_id: NVIDIA/NeMo
     pypi_id: nemo-toolkit
@@ -733,15 +734,15 @@ projects:
     category: agents
   - name: ollama
     github_id: jmorganca/ollama
-    category: nlp
+    category: agents
   - name: haystack
     github_id: deepset-ai/haystack
-    pypi_id: haystack
-    category: nlp
+    pypi_id: haystack-ai
+    category: agents
   - name: phidata
     github_id: phidatahq/phidata
     pypi_id: phidata
-    category: nlp
+    category: agents
     
   - name: Caer
     github_id: jasmcaus/caer
