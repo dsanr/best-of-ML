@@ -603,6 +603,10 @@ projects:
     conda_id: conda-forge/transformers
     category: nlp
     labels: ["pytorch", "tensorflow"]
+  - name: unsloth
+    github_id: unslothai/unsloth
+    pypi_id: unsloth
+    category: nlp
   - name: ParlAI
     github_id: facebookresearch/ParlAI
     pypi_id: parlai
