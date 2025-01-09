@@ -2773,6 +2773,9 @@ projects:
   - name: audio-webui
     github_id: gitmylo/audio-webui
     category: audio
+  - name: ultimatevocalremovergui
+    github_id: Anjok07/ultimatevocalremovergui
+    category: audio
   - name: librosa
     github_id: librosa/librosa
     pypi_id: librosa
