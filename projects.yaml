@@ -743,9 +743,9 @@ projects:
     github_id: deepset-ai/haystack
     pypi_id: haystack-ai
     category: agents
-  - name: phidata
-    github_id: phidatahq/phidata
-    pypi_id: phidata
+  - name: agno
+    github_id: agno-agi/agno
+    pypi_id: agno
     category: agents
     
   - name: Caer
