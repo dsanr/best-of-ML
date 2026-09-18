@@ -10,12 +10,12 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
-    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-43-blue.svg?color=5ac4bf"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-44-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/dsanr/best-of-ML/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/dsanr/best-of-ML?color=green&label=updated"></a>
 </p>
 
-This curated list contains 43 awesome open-source projects with a total of 210K stars grouped into 35 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/dsanr/best-of-ML/issues/new/choose), submit a [pull request](https://github.com/dsanr/best-of-ML/pulls), or directly edit the [projects.yaml](https://github.com/dsanr/best-of-ML/edit/main/projects.yaml). Contributions are very welcome!
+This curated list contains 44 awesome open-source projects with a total of 220K stars grouped into 35 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/dsanr/best-of-ML/issues/new/choose), submit a [pull request](https://github.com/dsanr/best-of-ML/pulls), or directly edit the [projects.yaml](https://github.com/dsanr/best-of-ML/edit/main/projects.yaml). Contributions are very welcome!
 
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
@@ -27,7 +27,7 @@ This curated list contains 43 awesome open-source projects with a total of 210K 
 - [Data Loading & Extraction](#data-loading--extraction) _1 projects_
 - [Database Clients](#database-clients) _1 projects_
 - [Data Pipelines & Streaming](#data-pipelines--streaming) _1 projects_
-- [Machine Learning Frameworks](#machine-learning-frameworks) _4 projects_
+- [Machine Learning Frameworks](#machine-learning-frameworks) _5 projects_
 - [Data Visualization](#data-visualization) _2 projects_
 - [Text Data & NLP](#text-data--nlp) _6 projects_
 - [LLM & AI Agents](#llm--ai-agents) _0 projects_
@@ -156,14 +156,26 @@ _Libraries for data batch- and stream-processing, workflow automation, job sched
 
 _General-purpose machine learning and deep learning frameworks._
 
-<details><summary><b><a href="https://github.com/larq/larq">larq</a></b> (🥈18 ·  ⭐ 730) - An Open-Source Library for Training Binarized Neural Networks. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1A" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/unifyai/ivy">ivy</a></b> (🥇29 ·  ⭐ 14K · 📈) - Convert Machine Learning Code Between Frameworks. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/unifyai/ivy) (👨‍💻 1.5K · 🔀 5.4K · 📋 17K - 5% open · ⏱️ 15.09.2026):
+
+	```
+	git clone https://github.com/unifyai/ivy
+	```
+- [PyPi](https://pypi.org/project/ivy) (📥 33K / month):
+	```
+	pip install ivy
+	```
+</details>
+<details><summary><b><a href="https://github.com/larq/larq">larq</a></b> (🥈19 ·  ⭐ 730) - An Open-Source Library for Training Binarized Neural Networks. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1A" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/larq/larq) (👨‍💻 20 · 🔀 85 · 📋 150 - 15% open · ⏱️ 12.06.2026):
 
 	```
 	git clone https://github.com/larq/larq
 	```
-- [PyPi](https://pypi.org/project/larq) (📥 600 / month):
+- [PyPi](https://pypi.org/project/larq) (📥 2K / month):
 	```
 	pip install larq
 	```
@@ -171,7 +183,7 @@ _General-purpose machine learning and deep learning frameworks._
 <details><summary>Show 3 hidden projects...</summary>
 
 - <b><a href="https://github.com/georgia-tech-db/evadb">EvaDB</a></b> (🥇23 ·  ⭐ 2.7K · 💀) - Database system for AI-powered apps. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/aesara-devs/aesara">Aesara</a></b> (🥇22 ·  ⭐ 1.2K · 💀) - Aesara is a Python library for defining, optimizing, and.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/aesara-devs/aesara">Aesara</a></b> (🥈22 ·  ⭐ 1.2K · 💀) - Aesara is a Python library for defining, optimizing, and.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/google/neural-tangents">Neural Tangents</a></b> (🥈18 ·  ⭐ 2.4K · 💀) - Fast and Easy Infinite Neural Networks in Python. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 </details>
 <br>
@@ -195,14 +207,14 @@ _General-purpose and task-specific data visualization libraries._
 
 _Libraries for processing, cleaning, and analyzing text data as well as libraries for NLP tasks such as classification, fuzzy matching, language translation, text generation, and conversational AI._
 
-<details><summary><b><a href="https://github.com/facebookresearch/fairseq">fairseq</a></b> (🥇32 ·  ⭐ 32K · 💤) - Facebook AI Research Sequence-to-Sequence Toolkit written in.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/facebookresearch/fairseq">fairseq</a></b> (🥇31 ·  ⭐ 32K · 💤) - Facebook AI Research Sequence-to-Sequence Toolkit written in.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/facebookresearch/fairseq) (👨‍💻 430 · 🔀 6.4K · 📥 640 · 📦 24 · 📋 4.3K - 28% open · ⏱️ 30.09.2025):
 
 	```
 	git clone https://github.com/facebookresearch/fairseq
 	```
-- [PyPi](https://pypi.org/project/fairseq) (📥 46K / month):
+- [PyPi](https://pypi.org/project/fairseq):
 	```
 	pip install fairseq
 	```
@@ -211,14 +223,14 @@ _Libraries for processing, cleaning, and analyzing text data as well as librarie
 	conda install -c conda-forge fairseq
 	```
 </details>
-<details><summary><b><a href="https://github.com/facebookresearch/ParlAI">ParlAI</a></b> (🥇28 ·  ⭐ 11K · 📈) - A framework for training and evaluating AI models on a variety of.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/facebookresearch/ParlAI">ParlAI</a></b> (🥇28 ·  ⭐ 11K) - A framework for training and evaluating AI models on a variety of.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/facebookresearch/ParlAI) (👨‍💻 220 · 🔀 2K · 📦 24 · 📋 1.5K - 3% open · ⏱️ 30.07.2026):
 
 	```
 	git clone https://github.com/facebookresearch/ParlAI
 	```
-- [PyPi](https://pypi.org/project/parlai) (📥 1.8K / month):
+- [PyPi](https://pypi.org/project/parlai) (📥 1.7K / month):
 	```
 	pip install parlai
 	```
@@ -230,7 +242,7 @@ _Libraries for processing, cleaning, and analyzing text data as well as librarie
 	```
 	git clone https://github.com/pytorch/text
 	```
-- [PyPi](https://pypi.org/project/torchtext) (📥 120K / month):
+- [PyPi](https://pypi.org/project/torchtext) (📥 97K / month):
 	```
 	pip install torchtext
 	```
@@ -259,7 +271,7 @@ _Libraries for image & video processing, manipulation, and augmentation as well 
 
 <details><summary>Show 3 hidden projects...</summary>
 
-- <b><a href="https://github.com/albumentations-team/albumentations">Albumentations</a></b> (🥇30 ·  ⭐ 15K · 💀) - Fast and flexible image augmentation library. Paper.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/albumentations-team/albumentations">Albumentations</a></b> (🥇29 ·  ⭐ 15K · 💀) - Fast and flexible image augmentation library. Paper.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/facebookresearch/vissl">vissl</a></b> (🥇18 ·  ⭐ 3.3K · 💀) - VISSL is FAIRs library of extensible, modular and scalable.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/facebookresearch/NeuralCompression">NeuralCompression</a></b> (🥈14 ·  ⭐ 600 · 💀) - A collection of tools for neural compression enthusiasts. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 </details>
@@ -290,7 +302,7 @@ _Libraries for audio analysis, manipulation, transformation, and extraction, as 
 	```
 	git clone https://github.com/magenta/magenta
 	```
-- [PyPi](https://pypi.org/project/magenta) (📥 2.2K / month):
+- [PyPi](https://pypi.org/project/magenta) (📥 1.9K / month):
 	```
 	pip install magenta
 	```
@@ -305,7 +317,7 @@ _Libraries to load, process, analyze, and write geographic data as well as libra
 
 <details><summary>Show 1 hidden projects...</summary>
 
-- <b><a href="https://github.com/sentinelsat/sentinelsat">Sentinelsat</a></b> (🥇21 ·  ⭐ 1K · 💀) - Search and download Copernicus Sentinel satellite images. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code>
+- <b><a href="https://github.com/sentinelsat/sentinelsat">Sentinelsat</a></b> (🥈19 ·  ⭐ 1K · 💀) - Search and download Copernicus Sentinel satellite images. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code>
 </details>
 <br>
 
@@ -361,7 +373,7 @@ _Libraries for building and evaluating reinforcement learning & agent-based syst
 
 <details><summary>Show 1 hidden projects...</summary>
 
-- <b><a href="https://github.com/google-research/rliable">rliable</a></b> (🥈13 ·  ⭐ 880 · 💀) - [NeurIPS21 Outstanding Paper] Library for reliable evaluation on.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/google-research/rliable">rliable</a></b> (🥇14 ·  ⭐ 880 · 💀) - [NeurIPS21 Outstanding Paper] Library for reliable evaluation on.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 </details>
 <br>
 
@@ -444,9 +456,9 @@ _Libraries to serialize models to files, convert between a variety of model form
 
 _Libraries that provide capabilities to distribute and parallelize machine learning tasks across large-scale compute infrastructure._
 
-<details><summary><b><a href="https://github.com/horovod/horovod">horovod</a></b> (🥇28 ·  ⭐ 15K · 📈) - Distributed training framework for TensorFlow, Keras,.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/horovod/horovod">horovod</a></b> (🥇28 ·  ⭐ 15K) - Distributed training framework for TensorFlow, Keras, PyTorch,.. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/horovod/horovod) (👨‍💻 180 · 🔀 2.2K · 📋 2.2K - 16% open · ⏱️ 29.07.2026):
+- [GitHub](https://github.com/horovod/horovod) (👨‍💻 180 · 🔀 2.2K · 📋 2.2K - 16% open · ⏱️ 17.09.2026):
 
 	```
 	git clone https://github.com/horovod/horovod
@@ -463,7 +475,7 @@ _Libraries that provide capabilities to distribute and parallelize machine learn
 	```
 	git clone https://github.com/intel-analytics/BigDL
 	```
-- [PyPi](https://pypi.org/project/bigdl) (📥 1.4K / month):
+- [PyPi](https://pypi.org/project/bigdl) (📥 2.9K / month):
 	```
 	pip install bigdl
 	```
@@ -480,7 +492,7 @@ _Libraries that provide capabilities to distribute and parallelize machine learn
 
 - <b><a href="https://github.com/bytedance/byteps">BytePS</a></b> (🥈17 ·  ⭐ 3.7K · 💀) - A high performance and generic framework for distributed DNN.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 - <b><a href="https://github.com/uber/fiber">Fiber</a></b> (🥈14 ·  ⭐ 1K · 💀) - Distributed Computing for AI Made Simple. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/google-deepmind/launchpad">launchpad</a></b> (🥈14 ·  ⭐ 330 · 💀) -  <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1A" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/google-deepmind/launchpad">launchpad</a></b> (🥉12 ·  ⭐ 330 · 💀) -  <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1A" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/facebookresearch/moolib">moolib</a></b> (🥉10 ·  ⭐ 370 · 💀) - A library for distributed ML training with PyTorch. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
 </details>
 <br>
@@ -525,7 +537,7 @@ _Libraries that extend scikit-learn with additional capabilities._
 
 <details><summary>Show 1 hidden projects...</summary>
 
-- <b><a href="https://github.com/scikit-learn-contrib/lightning">sklearn-contrib-lightning</a></b> (🥇16 ·  ⭐ 1.8K · 💀) - Large-scale linear classification, regression and.. <code>❗Unlicensed</code> <code><img src="https://git.io/JLy1F" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/scikit-learn-contrib/lightning">sklearn-contrib-lightning</a></b> (🥈15 ·  ⭐ 1.8K · 💀) - Large-scale linear classification, regression and.. <code>❗Unlicensed</code> <code><img src="https://git.io/JLy1F" style="display:inline;" width="13" height="13"></code>
 </details>
 <br>
 
@@ -537,8 +549,8 @@ _Libraries that extend Pytorch with additional capabilities._
 
 <details><summary>Show 2 hidden projects...</summary>
 
-- <b><a href="https://github.com/Lightning-Universe/lightning-flash">lightning-flash</a></b> (🥇26 ·  ⭐ 1.7K · 💀) - Your PyTorch AI Factory - Flash enables you to easily.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/google-research/torchsde">torchsde</a></b> (🥇23 ·  ⭐ 1.7K · 💀) - Differentiable SDE solvers with GPU support and efficient.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/Lightning-Universe/lightning-flash">lightning-flash</a></b> (🥇25 ·  ⭐ 1.7K · 💀) - Your PyTorch AI Factory - Flash enables you to easily.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/google-research/torchsde">torchsde</a></b> (🥇19 ·  ⭐ 1.7K · 💀) - Differentiable SDE solvers with GPU support and efficient.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
 </details>
 <br>
 
@@ -558,7 +570,7 @@ _Libraries that extend Jax with additional capabilities._
 
 <details><summary>Show 1 hidden projects...</summary>
 
-- <b><a href="https://github.com/google/evojax">evojax</a></b> (🥇14 ·  ⭐ 950 · 💀) - EvoJAX: Hardware-accelerated Neuroevolution. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://jax.readthedocs.io/en/latest/_static/favicon.png" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/google/evojax">evojax</a></b> (🥇13 ·  ⭐ 950 · 💀) - EvoJAX: Hardware-accelerated Neuroevolution. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://jax.readthedocs.io/en/latest/_static/favicon.png" style="display:inline;" width="13" height="13"></code>
 </details>
 
 ---
