@@ -156,14 +156,14 @@ _Libraries for data batch- and stream-processing, workflow automation, job sched
 
 _General-purpose machine learning and deep learning frameworks._
 
-<details><summary><b><a href="https://github.com/unifyai/ivy">ivy</a></b> (🥇29 ·  ⭐ 14K · 📈) - Convert Machine Learning Code Between Frameworks. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/unifyai/ivy">ivy</a></b> (🥇29 ·  ⭐ 14K) - Convert Machine Learning Code Between Frameworks. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/unifyai/ivy) (👨‍💻 1.5K · 🔀 5.4K · 📋 17K - 5% open · ⏱️ 15.09.2026):
+- [GitHub](https://github.com/unifyai/ivy) (👨‍💻 1.5K · 🔀 5.4K · 📋 17K - 5% open · ⏱️ 29.09.2026):
 
 	```
 	git clone https://github.com/unifyai/ivy
 	```
-- [PyPi](https://pypi.org/project/ivy) (📥 30K / month):
+- [PyPi](https://pypi.org/project/ivy) (📥 29K / month):
 	```
 	pip install ivy
 	```
@@ -197,7 +197,7 @@ _General-purpose and task-specific data visualization libraries._
 <details><summary>Show 2 hidden projects...</summary>
 
 - <b><a href="https://github.com/PAIR-code/facets">Facets Overview</a></b> (🥇21 ·  ⭐ 7.3K · 💀) - Visualizations for machine learning datasets. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1E" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/facebookresearch/hiplot">HiPlot</a></b> (🥇20 ·  ⭐ 2.8K · 💀) - HiPlot makes understanding high dimensional data easy. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/facebookresearch/hiplot">HiPlot</a></b> (🥈20 ·  ⭐ 2.8K · 💀) - HiPlot makes understanding high dimensional data easy. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 </details>
 <br>
 
@@ -207,49 +207,23 @@ _General-purpose and task-specific data visualization libraries._
 
 _Libraries for processing, cleaning, and analyzing text data as well as libraries for NLP tasks such as classification, fuzzy matching, language translation, text generation, and conversational AI._
 
-<details><summary><b><a href="https://github.com/facebookresearch/fairseq">fairseq</a></b> (🥇32 ·  ⭐ 32K · 💤) - Facebook AI Research Sequence-to-Sequence Toolkit written in.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code></summary>
-
-- [GitHub](https://github.com/facebookresearch/fairseq) (👨‍💻 430 · 🔀 6.4K · 📥 650 · 📦 24 · 📋 4.3K - 28% open · ⏱️ 30.09.2025):
-
-	```
-	git clone https://github.com/facebookresearch/fairseq
-	```
-- [PyPi](https://pypi.org/project/fairseq) (📥 49K / month):
-	```
-	pip install fairseq
-	```
-- [Conda](https://anaconda.org/conda-forge/fairseq) (📥 220K · ⏱️ 18.08.2026):
-	```
-	conda install -c conda-forge fairseq
-	```
-</details>
-<details><summary><b><a href="https://github.com/facebookresearch/ParlAI">ParlAI</a></b> (🥇27 ·  ⭐ 11K) - A framework for training and evaluating AI models on a variety of.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/facebookresearch/ParlAI">ParlAI</a></b> (🥇26 ·  ⭐ 11K · 📉) - A framework for training and evaluating AI models on a variety of.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/facebookresearch/ParlAI) (👨‍💻 220 · 🔀 2K · 📦 24 · 📋 1.5K - 3% open · ⏱️ 30.07.2026):
 
 	```
 	git clone https://github.com/facebookresearch/ParlAI
 	```
-- [PyPi](https://pypi.org/project/parlai) (📥 1K / month):
+- [PyPi](https://pypi.org/project/parlai) (📥 870 / month):
 	```
 	pip install parlai
 	```
 </details>
-<details><summary><b><a href="https://github.com/pytorch/text">torchtext</a></b> (🥇26 ·  ⭐ 3.6K · 💤) - Models, data loaders and abstractions for language.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary>Show 5 hidden projects...</summary>
 
-- [GitHub](https://github.com/pytorch/text) (👨‍💻 160 · 🔀 790 · 📋 810 - 35% open · ⏱️ 10.09.2025):
-
-	```
-	git clone https://github.com/pytorch/text
-	```
-- [PyPi](https://pypi.org/project/torchtext) (📥 76K / month):
-	```
-	pip install torchtext
-	```
-</details>
-<details><summary>Show 3 hidden projects...</summary>
-
+- <b><a href="https://github.com/facebookresearch/fairseq">fairseq</a></b> (🥇32 ·  ⭐ 32K · 💀) - Facebook AI Research Sequence-to-Sequence Toolkit written in.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/facebookresearch/fastText">fastText</a></b> (🥇29 ·  ⭐ 27K · 💀) - Library for fast text representation and classification. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/pytorch/text">torchtext</a></b> (🥇26 ·  ⭐ 3.6K · 💀) - Models, data loaders and abstractions for language.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/VKCOM/YouTokenToMe">YouTokenToMe</a></b> (🥈20 ·  ⭐ 980 · 💀) - Unsupervised text tokenizer focused on computational efficiency. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/bytedance/lightseq">lightseq</a></b> (🥈16 ·  ⭐ 3.3K · 💀) - LightSeq: A High Performance Library for Sequence.. <code>❗Unlicensed</code>
 </details>
@@ -302,7 +276,7 @@ _Libraries for audio analysis, manipulation, transformation, and extraction, as 
 	```
 	git clone https://github.com/magenta/magenta
 	```
-- [PyPi](https://pypi.org/project/magenta) (📥 1.4K / month):
+- [PyPi](https://pypi.org/project/magenta) (📥 1.3K / month):
 	```
 	pip install magenta
 	```
@@ -410,7 +384,7 @@ _Libraries for hyperparameter optimization, automl and neural architecture searc
 <details><summary>Show 2 hidden projects...</summary>
 
 - <b><a href="https://github.com/microsoft/nni">NNI</a></b> (🥇28 ·  ⭐ 14K · 💀) - An open source AutoML toolkit for automate machine learning lifecycle,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/tensorflow/adanet">AdaNet</a></b> (🥇21 ·  ⭐ 3.4K · 💀) - Fast and flexible AutoML with learning guarantees. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1A" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/tensorflow/adanet">AdaNet</a></b> (🥇21 ·  ⭐ 3.5K · 💀) - Fast and flexible AutoML with learning guarantees. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1A" style="display:inline;" width="13" height="13"></code>
 </details>
 <br>
 
@@ -470,7 +444,7 @@ _Libraries that provide capabilities to distribute and parallelize machine learn
 </details>
 <details><summary><b><a href="https://github.com/intel/ipex-llm">BigDL</a></b> (🥇25 ·  ⭐ 8.9K · 💤) - Accelerate local LLM inference and finetuning (LLaMA, Mistral,.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/intel/ipex-llm) (👨‍💻 120 · 🔀 1.4K · 📥 880 · 📋 3K - 40% open · ⏱️ 28.01.2026):
+- [GitHub](https://github.com/intel/ipex-llm) (👨‍💻 120 · 🔀 1.4K · 📥 900 · 📋 3K - 40% open · ⏱️ 28.01.2026):
 
 	```
 	git clone https://github.com/intel-analytics/BigDL
@@ -491,8 +465,8 @@ _Libraries that provide capabilities to distribute and parallelize machine learn
 <details><summary>Show 4 hidden projects...</summary>
 
 - <b><a href="https://github.com/bytedance/byteps">BytePS</a></b> (🥈17 ·  ⭐ 3.7K · 💀) - A high performance and generic framework for distributed DNN.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/google-deepmind/launchpad">launchpad</a></b> (🥈15 ·  ⭐ 330 · 💀) -  <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1A" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/uber/fiber">Fiber</a></b> (🥈14 ·  ⭐ 1K · 💀) - Distributed Computing for AI Made Simple. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/google-deepmind/launchpad">launchpad</a></b> (🥈14 ·  ⭐ 330 · 💀) -  <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1A" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/facebookresearch/moolib">moolib</a></b> (🥉10 ·  ⭐ 370 · 💀) - A library for distributed ML training with PyTorch. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
 </details>
 <br>
