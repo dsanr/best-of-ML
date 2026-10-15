@@ -183,7 +183,7 @@ _General-purpose machine learning and deep learning frameworks._
 <details><summary>Show 3 hidden projects...</summary>
 
 - <b><a href="https://github.com/georgia-tech-db/evadb">EvaDB</a></b> (🥇23 ·  ⭐ 2.7K · 💀) - Database system for AI-powered apps. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/aesara-devs/aesara">Aesara</a></b> (🥈22 ·  ⭐ 1.2K · 💀) - Aesara is a Python library for defining, optimizing, and.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/aesara-devs/aesara">Aesara</a></b> (🥇23 ·  ⭐ 1.2K · 💀) - Aesara is a Python library for defining, optimizing, and.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/google/neural-tangents">Neural Tangents</a></b> (🥈18 ·  ⭐ 2.4K · 💀) - Fast and Easy Infinite Neural Networks in Python. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 </details>
 <br>
@@ -466,7 +466,7 @@ _Libraries that provide capabilities to distribute and parallelize machine learn
 
 - <b><a href="https://github.com/bytedance/byteps">BytePS</a></b> (🥈17 ·  ⭐ 3.7K · 💀) - A high performance and generic framework for distributed DNN.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 - <b><a href="https://github.com/google-deepmind/launchpad">launchpad</a></b> (🥈15 ·  ⭐ 330 · 💀) -  <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1A" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/uber/fiber">Fiber</a></b> (🥈14 ·  ⭐ 1K · 💀) - Distributed Computing for AI Made Simple. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/uber/fiber">Fiber</a></b> (🥉11 ·  ⭐ 1K · 💀) - Distributed Computing for AI Made Simple. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 - <b><a href="https://github.com/facebookresearch/moolib">moolib</a></b> (🥉10 ·  ⭐ 370 · 💀) - A library for distributed ML training with PyTorch. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
 </details>
 <br>
