@@ -10,12 +10,12 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
-    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-44-blue.svg?color=5ac4bf"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-43-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/dsanr/best-of-ML/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/dsanr/best-of-ML?color=green&label=updated"></a>
 </p>
 
-This curated list contains 44 awesome open-source projects with a total of 220K stars grouped into 35 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/dsanr/best-of-ML/issues/new/choose), submit a [pull request](https://github.com/dsanr/best-of-ML/pulls), or directly edit the [projects.yaml](https://github.com/dsanr/best-of-ML/edit/main/projects.yaml). Contributions are very welcome!
+This curated list contains 43 awesome open-source projects with a total of 210K stars grouped into 35 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/dsanr/best-of-ML/issues/new/choose), submit a [pull request](https://github.com/dsanr/best-of-ML/pulls), or directly edit the [projects.yaml](https://github.com/dsanr/best-of-ML/edit/main/projects.yaml). Contributions are very welcome!
 
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
@@ -27,7 +27,7 @@ This curated list contains 44 awesome open-source projects with a total of 220K 
 - [Data Loading & Extraction](#data-loading--extraction) _1 projects_
 - [Database Clients](#database-clients) _1 projects_
 - [Data Pipelines & Streaming](#data-pipelines--streaming) _1 projects_
-- [Machine Learning Frameworks](#machine-learning-frameworks) _5 projects_
+- [Machine Learning Frameworks](#machine-learning-frameworks) _4 projects_
 - [Data Visualization](#data-visualization) _2 projects_
 - [Text Data & NLP](#text-data--nlp) _6 projects_
 - [LLM & AI Agents](#llm--ai-agents) _0 projects_
@@ -156,18 +156,6 @@ _Libraries for data batch- and stream-processing, workflow automation, job sched
 
 _General-purpose machine learning and deep learning frameworks._
 
-<details><summary><b><a href="https://github.com/unifyai/ivy">ivy</a></b> (🥇29 ·  ⭐ 14K) - Convert Machine Learning Code Between Frameworks. <code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/unifyai/ivy) (👨‍💻 1.5K · 🔀 5.4K · 📋 17K - 5% open · ⏱️ 07.10.2026):
-
-	```
-	git clone https://github.com/unifyai/ivy
-	```
-- [PyPi](https://pypi.org/project/ivy) (📥 15K / month):
-	```
-	pip install ivy
-	```
-</details>
 <details><summary><b><a href="https://github.com/larq/larq">larq</a></b> (🥈19 ·  ⭐ 730) - An Open-Source Library for Training Binarized Neural Networks. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1A" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/larq/larq) (👨‍💻 20 · 🔀 84 · 📋 150 - 15% open · ⏱️ 12.06.2026):
@@ -183,7 +171,7 @@ _General-purpose machine learning and deep learning frameworks._
 <details><summary>Show 3 hidden projects...</summary>
 
 - <b><a href="https://github.com/georgia-tech-db/evadb">EvaDB</a></b> (🥇23 ·  ⭐ 2.7K · 💀) - Database system for AI-powered apps. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1Q" style="display:inline;" width="13" height="13"></code>
-- <b><a href="https://github.com/aesara-devs/aesara">Aesara</a></b> (🥇23 ·  ⭐ 1.2K · 💀) - Aesara is a Python library for defining, optimizing, and.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/aesara-devs/aesara">Aesara</a></b> (🥇22 ·  ⭐ 1.2K · 💀) - Aesara is a Python library for defining, optimizing, and.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/google/neural-tangents">Neural Tangents</a></b> (🥈18 ·  ⭐ 2.4K · 💀) - Fast and Easy Infinite Neural Networks in Python. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
 </details>
 <br>
