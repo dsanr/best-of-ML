@@ -706,6 +706,10 @@ projects:
     category: image
     labels: ["pytorch"]
     license: BSD-3-Clause
+  - name: Open3D
+    github_id: isl-org/Open3D
+    pypi_id: open3d
+    category: image
   - name: Face Alignment
     github_id: 1adrianb/face-alignment
     pypi_id: face-alignment
@@ -732,14 +736,18 @@ projects:
     pypi_id: ImageHash
     conda_id: conda-forge/imagehash
     category: image
-  - name: NeuralCompression
-    github_id: facebookresearch/NeuralCompression
-    pypi_id: neuralcompression
+  - name: sam3
+    github_id: facebookresearch/sam3
+    pypi_id: sam3
     category: image
-  - name: imgaug
-    github_id: aleju/imgaug
-    pypi_id: imgaug
-    conda_id: conda-forge/imgaug
+  - name: CompressAI
+    github_id: InterDigitalInc/CompressAI
+    pypi_id: compressai
+    category: image
+  - name: kornia
+    github_id: kornia/kornia
+    pypi_id: kornia
+    conda_id: conda-forge/kornia
     category: image
   - name: scikit-image
     github_id: scikit-image/scikit-image
@@ -762,27 +770,15 @@ projects:
     pypi_id: sahi
     conda_id: conda-forge/sahi
     category: image
-  - name: icevision
-    github_id: airctic/icevision
-    pypi_id: icevision
-    category: image
   - name: scenic
     github_id: google-research/scenic
     category: image
     labels: ["jax"]
-  - name: Augmentor
-    github_id: mdbloice/Augmentor
-    pypi_id: Augmentor
-    category: image
   - name: pytorchvideo
     github_id: facebookresearch/pytorchvideo
     pypi_id: pytorchvideo
     category: image
     labels: ["pytorch"]
-  - name: deep-daze
-    github_id: lucidrains/deep-daze
-    pypi_id: deep-daze
-    category: image
   - name: PaddleSeg
     github_id: PaddlePaddle/PaddleSeg
     pypi_id: paddleseg
@@ -800,24 +796,10 @@ projects:
     github_id: libffcv/ffcv
     category: image
     pypi_id: ffcv
-  - name: imageai
-    github_id: OlafenwaMoses/ImageAI
-    pypi_id: imageai
-    conda_id: conda-forge/imageai
-    category: image
   - name: deepface
     github_id: serengil/deepface
     pypi_id: deepface
     category: image
-  - name: layout-parser
-    github_id: Layout-Parser/layout-parser
-    pypi_id: layoutparser
-    category: image
-  - name: vissl
-    github_id: facebookresearch/vissl
-    pypi_id: vissl
-    category: image
-    labels: ["pytorch"]
   - name: Pillow
     github_id: python-pillow/Pillow
     pypi_id: Pillow
@@ -841,9 +823,9 @@ projects:
     pypi_id: pyvips
     conda_id: conda-forge/pyvips
     category: image
-  - name: nude.py
-    github_id: hhatto/nude.py
-    pypi_id: nudepy
+  - name: NudeNet
+    github_id: notAI-tech/NudeNet
+    pypi_id: nudenet
     category: image
   - name: Norfair
     github_id: tryolabs/norfair
@@ -900,15 +882,19 @@ projects:
     pypi_id: tensorflow-graphics
     category: image
     labels: ["tensorflow"]
+  - name: supervision
+    github_id: roboflow/supervision
+    pypi_id: supervision
+    category: image
   - name: MMDetection
     github_id: open-mmlab/mmdetection
     pypi_id: mmdet
     category: image
     labels: ["pytorch"]
-  - name: Albumentations
-    github_id: albumentations-team/albumentations
-    pypi_id: albumentations
-    conda_id: conda-forge/albumentations
+  - name: AlbumentationsX
+    github_id: albumentations-team/albumentationsX
+    pypi_id: albumentationsx
+    conda_id: conda-forge/albumentationsx
     category: image
     labels: ["pytorch"]
   - name: Face Recognition
@@ -943,10 +929,6 @@ projects:
     pypi_id: moviepy
     conda_id: conda-forge/moviepy
     category: image
-  - name: "DE\u2AF6TR"
-    github_id: facebookresearch/detr
-    category: image
-    labels: ["pytorch"]
   - name: PaddleDetection
     github_id: PaddlePaddle/PaddleDetection
     pypi_id: paddledet
@@ -964,12 +946,14 @@ projects:
     pypi_id: paddleocr
     category: ocr
     labels: ["paddle"]
-  - name: keras-ocr
-    github_id: faustomorales/keras-ocr
-    pypi_id: keras-ocr
-    conda_id: anaconda/keras-ocr
+  - name: docling
+    github_id: docling-project/docling
+    pypi_id: docling
     category: ocr
-    labels: ["tensorflow"]
+  - name: surya
+    github_id: datalab-to/surya
+    pypi_id: surya-ocr
+    category: ocr
   - name: doctr
     github_id: mindee/doctr
     category: ocr
@@ -979,15 +963,6 @@ projects:
     github_id: sirfz/tesserocr
     pypi_id: tesserocr
     conda_id: conda-forge/tesserocr
-    category: ocr
-  - name: attention-ocr
-    github_id: emedvedev/attention-ocr
-    pypi_id: aocr
-    category: ocr
-    labels: ["tensorflow"]
-  - name: doc2text
-    github_id: jlsutherland/doc2text
-    pypi_id: doc2text
     category: ocr
   - name: OCRmyPDF
     github_id: ocrmypdf/OCRmyPDF
