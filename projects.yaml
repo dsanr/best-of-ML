@@ -34,21 +34,30 @@ categories:
   - category: "data-pipelines"
     title: "Data Pipelines & Streaming"
     subtitle: "Libraries for data batch- and stream-processing, workflow automation, job scheduling, and other data pipeline tasks."
-  - category: "ml-frameworks"
-    title: "Machine Learning Frameworks"
-    subtitle: "General-purpose machine learning and deep learning frameworks."
   - category: "data-viz"
     title: "Data Visualization"
     subtitle: "General-purpose and task-specific data visualization libraries."
+  - category: "ml-frameworks"
+    title: "Machine Learning Frameworks"
+    subtitle: "General-purpose machine learning and deep learning frameworks."
   - category: "nlp"
     title: "Text Data & NLP"
     subtitle: "Libraries for processing, cleaning, and analyzing text data as well as libraries for NLP tasks such as classification, fuzzy matching, language translation, text generation, and conversational AI."
+  - category: "nn-search"
+    title: "Vector Similarity Search (ANN)"
+    subtitle: "Libraries for Approximate Nearest Neighbor Search and Vector Indexing/Similarity Search."
   - category: "agents"
     title: "LLM & AI Agents"
     subtitle: "Libraries for building LLM applications and AI agent frameworks."
   - category: "image"
     title: "Image Data"
     subtitle: "Libraries for image & video processing, manipulation, and augmentation as well as libraries for computer vision tasks such as facial recognition, object detection, and classification."
+  - category: "ocr"
+    title: "Optical Character Recognition"
+    subtitle: "Libraries for optical character recognition (OCR) and text extraction from images or videos."
+  - category: "medical-data"
+    title: "Medical Data"
+    subtitle: "Libraries for processing and analyzing medical data such as MRIs, EEGs, genomic data, and other medical imaging formats."
   - category: "graph"
     title: "Graph Data"
     subtitle: "Libraries for graph processing, clustering, embedding, and machine learning tasks."
@@ -64,15 +73,9 @@ categories:
   - category: "time-series-data"
     title: "Time Series Data"
     subtitle: "Libraries for forecasting, anomaly detection, feature extraction, and machine learning on time-series and sequential data."
-  - category: "medical-data"
-    title: "Medical Data"
-    subtitle: "Libraries for processing and analyzing medical data such as MRIs, EEGs, genomic data, and other medical imaging formats."
   - category: "tabular"
     title: "Tabular Data"
     subtitle: "Libraries for processing tabular and structured data."
-  - category: "ocr"
-    title: "Optical Character Recognition"
-    subtitle: "Libraries for optical character recognition (OCR) and text extraction from images or videos."
   - category: "reinforcement-learning"
     title: "Reinforcement Learning"
     subtitle: "Libraries for building and evaluating reinforcement learning & agent-based systems."
@@ -97,9 +100,6 @@ categories:
   - category: "distributed-ml"
     title: "Distributed Machine Learning"
     subtitle: "Libraries that provide capabilities to distribute and parallelize machine learning tasks across large-scale compute infrastructure."
-  - category: "nn-search"
-    title: "Vector Similarity Search (ANN)"
-    subtitle: "Libraries for Approximate Nearest Neighbor Search and Vector Indexing/Similarity Search."
   - category: "probabilistics"
     title: "Probabilistics & Statistics"
     subtitle: "Libraries providing capabilities for probabilistic programming/reasoning, bayesian inference, gaussian processes, or statistics."
@@ -460,10 +460,6 @@ projects:
     github_id: BerriAI/litellm
     pypi_id: litellm
     category: nlp
-  - name: Texthero
-    github_id: jbesomi/texthero
-    pypi_id: texthero
-    category: nlp
   - name: spaCy
     github_id: explosion/spaCy
     pypi_id: spacy
@@ -474,37 +470,41 @@ projects:
     pypi_id: gensim
     conda_id: conda-forge/gensim
     category: nlp
+  - name: BERTopic
+    github_id: MaartenGr/BERTopic
+    pypi_id: bertopic
+    conda_id: conda-forge/bertopic
+    category: nlp
+  - name: KeyBERT
+    github_id: MaartenGr/KeyBERT
+    pypi_id: keybert
+    conda_id: conda-forge/keybert
+    category: nlp
   - name: sentence-transformers
     github_id: UKPLab/sentence-transformers
     pypi_id: sentence-transformers
     conda_id: conda-forge/sentence-transformers
     category: nlp
     labels: ["pytorch"]
-  - name: thefuzz
-    github_id: seatgeek/thefuzz
-    pypi_id: thefuzz
-    conda_id: conda-forge/thefuzz
+  - name: RapidFuzz
+    github_id: rapidfuzz/RapidFuzz
+    pypi_id: rapidfuzz
+    conda_id: conda-forge/rapidfuzz
     category: nlp
   - name: nltk
     github_id: nltk/nltk
     pypi_id: nltk
     conda_id: conda-forge/nltk
     category: nlp
-    description: Suite of libraries and programs for symbolic and statistical natural language processing for English.
-  - name: torchtext
-    github_id: pytorch/text
-    pypi_id: torchtext
-    category: nlp
-    labels: ["pytorch"]
   - name: textacy
     github_id: chartbeat-labs/textacy
     pypi_id: textacy
     conda_id: conda-forge/textacy
     category: nlp
-  - name: flashtext
-    github_id: vi3k6i5/flashtext
-    pypi_id: flashtext
-    conda_id: conda-forge/flashtext
+  - name: flashtext2
+    github_id: shner-elmo/flashtext2
+    pypi_id: flashtext2
+    conda_id: conda-forge/flashtext2
     category: nlp
   - name: scattertext
     github_id: JasonKessler/scattertext
@@ -534,17 +534,13 @@ projects:
     github_id: comet-ml/opik
     pypi_id: opik
     category: nlp
-  - name: english-words
-    github_id: dwyl/english-words
-    pypi_id: english-words
+  - name: wordfreq
+    github_id: rspeer/wordfreq
+    pypi_id: wordfreq
     category: nlp
   - name: textaugment
     github_id: dsfsi/textaugment
     pypi_id: textaugment
-    category: nlp
-  - name: lightseq
-    github_id: bytedance/lightseq
-    pypi_id: lightseq
     category: nlp
   - name: sentencepiece
     github_id: google/sentencepiece
@@ -567,10 +563,6 @@ projects:
     category: nlp
     labels: ["pytorch"]
     pypi_id: deepke
-  - name: promptsource
-    github_id: bigscience-workshop/promptsource
-    category: nlp
-    pypi_id: promptsource
   - name: stanza
     github_id: stanfordnlp/stanza
     pypi_id: stanza
@@ -602,15 +594,6 @@ projects:
     pypi_id: finetune
     category: nlp
     labels: ["tensorflow", "sklearn"]
-  - name: fast-bert
-    github_id: utterworks/fast-bert
-    pypi_id: fast-bert
-    category: nlp
-  - name: fastText
-    github_id: facebookresearch/fastText
-    pypi_id: fasttext
-    conda_id: conda-forge/fasttext
-    category: nlp
   - name: Rasa
     github_id: RasaHQ/rasa
     pypi_id: rasa
@@ -621,20 +604,9 @@ projects:
     pypi_id: deeppavlov
     category: nlp
     labels: ["tensorflow"]
-  - name: OpenNMT
-    github_id: OpenNMT/OpenNMT-py
-    pypi_id: OpenNMT-py
-    category: nlp
-    labels: ["pytorch"]
-  - name: Sockeye
-    github_id: awslabs/sockeye
-    pypi_id: sockeye
-    category: nlp
-    labels: ["pytorch"]
-  - name: fairseq
-    github_id: facebookresearch/fairseq
-    pypi_id: fairseq
-    conda_id: conda-forge/fairseq
+  - name: eole
+    github_id: eole-nlp/eole
+    pypi_id: eole
     category: nlp
     labels: ["pytorch"]
   - name: TensorFlow Text
@@ -642,11 +614,6 @@ projects:
     pypi_id: tensorflow-text
     category: nlp
     labels: ["tensorflow"]
-  - name: YouTokenToMe
-    github_id: vkcom/youtokentome
-    pypi_id: youtokentome
-    conda_id: conda-forge/youtokentome
-    category: nlp
   - name: CLTK
     github_id: cltk/cltk
     pypi_id: cltk
@@ -656,10 +623,10 @@ projects:
     pypi_id: jellyfish
     conda_id: conda-forge/jellyfish
     category: nlp
-  - name: Dedupe
-    github_id: dedupeio/dedupe
-    pypi_id: dedupe
-    conda_id: conda-forge/dedupe
+  - name: splink
+    github_id: moj-analytical-services/splink
+    pypi_id: splink
+    conda_id: conda-forge/splink
     category: nlp
   - name: Sumy
     github_id: miso-belica/sumy
@@ -727,23 +694,6 @@ projects:
     pypi_id: agno
     category: agents
     
-  - name: Caer
-    github_id: jasmcaus/caer
-    pypi_id: caer
-    docs_url: https://caer.rtfd.io
-    category: image
-    description: A lightweight Computer Vision library. Scale your models, not boilerplate.
-  - name: torch-points3d
-    github_id: torch-points3d/torch-points3d
-    pypi_id: torch-points3d
-    category: image
-    labels: ["pytorch"]
-    license: BSD-3-Clause
-  - name: Face Alignment
-    github_id: 1adrianb/face-alignment
-    pypi_id: face-alignment
-    category: image
-    labels: ["pytorch"]
   - name: PyTorch Image Models
     github_id: rwightman/pytorch-image-models
     pypi_id: timm
@@ -760,19 +710,28 @@ projects:
     github_id: ultralytics/ultralytics
     pypi_id: ultralytics
     category: image
+  - name: diffusers
+    github_id: huggingface/diffusers
+    pypi_id: diffusers
+    conda_id: conda-forge/diffusers
+    category: image
   - name: ImageHash
     github_id: JohannesBuchner/imagehash
     pypi_id: ImageHash
     conda_id: conda-forge/imagehash
     category: image
-  - name: NeuralCompression
-    github_id: facebookresearch/NeuralCompression
-    pypi_id: neuralcompression
+  - name: sam3
+    github_id: facebookresearch/sam3
+    pypi_id: sam3
     category: image
-  - name: imgaug
-    github_id: aleju/imgaug
-    pypi_id: imgaug
-    conda_id: conda-forge/imgaug
+  - name: CompressAI
+    github_id: InterDigitalInc/CompressAI
+    pypi_id: compressai
+    category: image
+  - name: kornia
+    github_id: kornia/kornia
+    pypi_id: kornia
+    conda_id: conda-forge/kornia
     category: image
   - name: scikit-image
     github_id: scikit-image/scikit-image
@@ -790,32 +749,40 @@ projects:
     conda_id: conda-forge/wand
     category: image
     license: MIT
+  - name: Caer
+    github_id: jasmcaus/caer
+    pypi_id: caer
+    docs_url: https://caer.rtfd.io
+    category: image
+  - name: torch-points3d
+    github_id: torch-points3d/torch-points3d
+    pypi_id: torch-points3d
+    category: image
+    labels: ["pytorch"]
+    license: BSD-3-Clause
+  - name: Open3D
+    github_id: isl-org/Open3D
+    pypi_id: open3d
+    category: image
+  - name: Face Alignment
+    github_id: 1adrianb/face-alignment
+    pypi_id: face-alignment
+    category: image
+    labels: ["pytorch"]
   - name: sahi
     github_id: obss/sahi
     pypi_id: sahi
     conda_id: conda-forge/sahi
     category: image
-  - name: icevision
-    github_id: airctic/icevision
-    pypi_id: icevision
-    category: image
   - name: scenic
     github_id: google-research/scenic
     category: image
     labels: ["jax"]
-  - name: Augmentor
-    github_id: mdbloice/Augmentor
-    pypi_id: Augmentor
-    category: image
   - name: pytorchvideo
     github_id: facebookresearch/pytorchvideo
     pypi_id: pytorchvideo
     category: image
     labels: ["pytorch"]
-  - name: deep-daze
-    github_id: lucidrains/deep-daze
-    pypi_id: deep-daze
-    category: image
   - name: PaddleSeg
     github_id: PaddlePaddle/PaddleSeg
     pypi_id: paddleseg
@@ -833,24 +800,10 @@ projects:
     github_id: libffcv/ffcv
     category: image
     pypi_id: ffcv
-  - name: imageai
-    github_id: OlafenwaMoses/ImageAI
-    pypi_id: imageai
-    conda_id: conda-forge/imageai
-    category: image
   - name: deepface
     github_id: serengil/deepface
     pypi_id: deepface
     category: image
-  - name: layout-parser
-    github_id: Layout-Parser/layout-parser
-    pypi_id: layoutparser
-    category: image
-  - name: vissl
-    github_id: facebookresearch/vissl
-    pypi_id: vissl
-    category: image
-    labels: ["pytorch"]
   - name: Pillow
     github_id: python-pillow/Pillow
     pypi_id: Pillow
@@ -874,9 +827,9 @@ projects:
     pypi_id: pyvips
     conda_id: conda-forge/pyvips
     category: image
-  - name: nude.py
-    github_id: hhatto/nude.py
-    pypi_id: nudepy
+  - name: NudeNet
+    github_id: notAI-tech/NudeNet
+    pypi_id: nudenet
     category: image
   - name: Norfair
     github_id: tryolabs/norfair
@@ -933,15 +886,19 @@ projects:
     pypi_id: tensorflow-graphics
     category: image
     labels: ["tensorflow"]
+  - name: supervision
+    github_id: roboflow/supervision
+    pypi_id: supervision
+    category: image
   - name: MMDetection
     github_id: open-mmlab/mmdetection
     pypi_id: mmdet
     category: image
     labels: ["pytorch"]
-  - name: Albumentations
-    github_id: albumentations-team/albumentations
-    pypi_id: albumentations
-    conda_id: conda-forge/albumentations
+  - name: AlbumentationsX
+    github_id: albumentations-team/albumentationsX
+    pypi_id: albumentationsx
+    conda_id: conda-forge/albumentationsx
     category: image
     labels: ["pytorch"]
   - name: Face Recognition
@@ -976,10 +933,6 @@ projects:
     pypi_id: moviepy
     conda_id: conda-forge/moviepy
     category: image
-  - name: "DE\u2AF6TR"
-    github_id: facebookresearch/detr
-    category: image
-    labels: ["pytorch"]
   - name: PaddleDetection
     github_id: PaddlePaddle/PaddleDetection
     pypi_id: paddledet
@@ -997,12 +950,14 @@ projects:
     pypi_id: paddleocr
     category: ocr
     labels: ["paddle"]
-  - name: keras-ocr
-    github_id: faustomorales/keras-ocr
-    pypi_id: keras-ocr
-    conda_id: anaconda/keras-ocr
+  - name: docling
+    github_id: docling-project/docling
+    pypi_id: docling
     category: ocr
-    labels: ["tensorflow"]
+  - name: surya
+    github_id: datalab-to/surya
+    pypi_id: surya-ocr
+    category: ocr
   - name: doctr
     github_id: mindee/doctr
     category: ocr
@@ -1012,15 +967,6 @@ projects:
     github_id: sirfz/tesserocr
     pypi_id: tesserocr
     conda_id: conda-forge/tesserocr
-    category: ocr
-  - name: attention-ocr
-    github_id: emedvedev/attention-ocr
-    pypi_id: aocr
-    category: ocr
-    labels: ["tensorflow"]
-  - name: doc2text
-    github_id: jlsutherland/doc2text
-    pypi_id: doc2text
     category: ocr
   - name: OCRmyPDF
     github_id: ocrmypdf/OCRmyPDF
@@ -1497,6 +1443,7 @@ projects:
     pypi_id: dice-ml
     category: interpretability
     labels: ["tensorflow", "pytorch"]
+
   - name: Paddle Graph Learning
     github_id: PaddlePaddle/PGL
     pypi_id: pgl
@@ -1512,11 +1459,6 @@ projects:
     pypi_id: torch-geometric-temporal
     category: graph
     labels: ["pytorch"]
-  - name: Karate Club
-    github_id: benedekrozemberczki/karateclub
-    pypi_id: karateclub
-    conda_id: conda-forge/karateclub
-    category: graph
   - name: pygod
     github_id: pygod-team/pygod
     pypi_id: pygod
@@ -1527,10 +1469,6 @@ projects:
     pypi_id: pyrdf2vec
     category: graph
     description: Python Implementation and Extension of RDF2Vec
-  - name: GraphVite
-    github_id: DeepGraphLearning/graphvite
-    conda_id: milagraph/graphvite
-    category: graph
   - name: networkx
     github_id: networkx/networkx
     pypi_id: networkx
@@ -1540,24 +1478,14 @@ projects:
     github_id: dmlc/dgl
     pypi_id: dgl
     category: graph
-  - name: deepsnap
-    github_id: snap-stanford/deepsnap
-    pypi_id: deepsnap
-    category: graph
-  - name: jraph
-    github_id: deepmind/jraph
-    pypi_id: jraph
-    conda_id: conda-forge/jraph
-    category: graph
-    labels: ["jax"]
-  - name: typedb-ml
-    github_id: vaticle/typedb-ml
-    pypi_id: typedb-ml
-    category: graph
   - name: ogb
     github_id: snap-stanford/ogb
     pypi_id: ogb
     conda_id: conda-forge/ogb
+    category: graph
+  - name: graphstorm
+    github_id: awslabs/graphstorm
+    pypi_id: graphstorm
     category: graph
   - name: torch-cluster
     github_id: rusty1s/pytorch_cluster
@@ -1571,20 +1499,10 @@ projects:
     conda_id: conda-forge/pytorch_geometric
     category: graph
     labels: ["pytorch"]
-  - name: PyTorch-BigGraph
-    github_id: facebookresearch/PyTorch-BigGraph
-    pypi_id: torchbiggraph
-    category: graph
-    labels: ["pytorch"]
   - name: PyKEEN
     github_id: pykeen/pykeen
     pypi_id: pykeen
     category: graph
-  - name: graph4nlp
-    github_id: graph4ai/graph4nlp
-    pypi_id: graph4nlp
-    category: graph
-    labels: ["pytorch"]
   - name: DIG
     github_id: divelab/DIG
     pypi_id: dig
@@ -1602,25 +1520,11 @@ projects:
   - name: OpenKE
     github_id: thunlp/OpenKE
     category: graph
-  - name: StellarGraph
-    github_id: stellargraph/stellargraph
-    pypi_id: stellargraph
-    category: graph
-    labels: ["tensorflow"]
   - name: Node2Vec
     github_id: eliorc/node2vec
     pypi_id: node2vec
     conda_id: conda-forge/node2vec
     category: graph
-  - name: OpenNE
-    github_id: thunlp/OpenNE
-    category: graph
-    labels: ["tensorflow"]
-  - name: Spektral
-    github_id: danielegrattarola/spektral
-    pypi_id: spektral
-    category: graph
-    labels: ["tensorflow"]
   - name: GraphEmbedding
     github_id: shenweichen/GraphEmbedding
     category: graph
@@ -1636,15 +1540,11 @@ projects:
     conda_id: conda-forge/deepgraph
     category: graph
     labels: ["pandas"]
+
   - name: GeoViews
     github_id: holoviz/geoviews
     pypi_id: geoviews
     conda_id: conda-forge/geoviews
-    category: geospatial-data
-  - name: Sentinelsat
-    github_id: sentinelsat/sentinelsat
-    pypi_id: sentinelsat
-    conda_id: conda-forge/sentinelsat
     category: geospatial-data
   - name: EarthPy
     github_id: earthlab/earthpy
@@ -1732,6 +1632,7 @@ projects:
     pypi_id: pymap3d
     conda_id: conda-forge/pymap3d
     category: geospatial-data
+
   - name: Backtesting.py
     github_id: kernc/backtesting.py
     pypi_id: backtesting
@@ -1741,24 +1642,24 @@ projects:
     pypi_id: tensortrade
     conda_id: conda-forge/tensortrade
     category: financial-data
-  - name: empyrical
-    github_id: quantopian/empyrical
-    pypi_id: empyrical
-    conda_id: conda-forge/empyrical
+  - name: empyrical-reloaded
+    github_id: stefan-jansen/empyrica-reloaded
+    pypi_id: empyrical-reloaded
+    conda_id: conda-forge/empyrical-reloaded
     category: financial-data
-  - name: pyfolio
-    github_id: quantopian/pyfolio
-    pypi_id: pyfolio
-    conda_id: conda-forge/pyfolio
+  - name: pyfolio-reloaded
+    github_id: stefan-jansen/pyfolio-reloaded
+    pypi_id: pyfolio-reloaded
+    conda_id: conda-forge/pyfolio-reloaded
     category: financial-data
   - name: FinQuant
     github_id: fmilthaler/FinQuant
     pypi_id: FinQuant
     category: financial-data
-  - name: Alphalens
-    github_id: quantopian/alphalens
-    pypi_id: alphalens
-    conda_id: conda-forge/alphalens
+  - name: Alphalens-reloaded
+    github_id: stefan-jansen/alphalens-reloaded
+    pypi_id: alphalens-reloaded
+    conda_id: conda-forge/alphalens-reloaded
     category: financial-data
   - name: ta
     github_id: bukosabino/ta
@@ -1774,13 +1675,32 @@ projects:
     pypi_id: tf-quant-finance
     category: financial-data
     labels: ["tensorflow"]
-  - name: surpriver
-    github_id: tradytics/surpriver
+  - name: zipline-reloaded
+    github_id: stefan-jansen/zipline-reloaded
+    pypi_id: zipline-reloaded
+    conda_id: conda-forge/zipline-reloaded
     category: financial-data
-  - name: zipline
-    github_id: quantopian/zipline
-    pypi_id: zipline
-    conda_id: conda-forge/zipline
+  - name: quantstats
+    github_id: ranaroussi/quantstats
+    pypi_id: quantstats
+    category: financial-data
+  - name: vectorbt
+    github_id: polakowo/vectorbt
+    pypi_id: vectorbt
+    conda_id: conda-forge/vectorbt
+    category: financial-data
+  - name: nautilus_trader
+    github_id: nautechsystems/nautilus_trader
+    pypi_id: nautilus-trader
+    conda_id: conda-forge/nautilus-trader
+    category: financial-data
+  - name: Lean
+    github_id: QuantConnect/Lean
+    pypi_id: lean
+    category: financial-data
+  - name: backtest
+    github_id: ml4t/backtest
+    pypi_id: backtest
     category: financial-data
   - name: ffn
     github_id: pmorissette/ffn
@@ -1796,10 +1716,10 @@ projects:
     github_id: mementum/backtrader
     pypi_id: backtrader
     category: financial-data
-  - name: IB-insync
-    github_id: erdewit/ib_insync
-    pypi_id: ib_insync
-    conda_id: conda-forge/ib-insync
+  - name: ib_async
+    github_id: ib-api-reloaded/ib_async
+    pypi_id: ib_async
+    conda_id: conda-forge/ib_async
     category: financial-data
   - name: finmarketpy
     github_id: cuemacro/finmarketpy
@@ -1830,6 +1750,7 @@ projects:
     pypi_id: pyqlib
     category: financial-data
     labels: ["pytorch"]
+
   - name: Hyperopt
     github_id: hyperopt/hyperopt
     pypi_id: hyperopt
@@ -2121,10 +2042,7 @@ projects:
   - name: azureml-examples
     github_id: Azure/azureml-examples
     category: ml-experiments
-  - name: PFRL
-    github_id: pfnet/pfrl
-    pypi_id: pfrl
-    category: reinforcement-learning
+
   - name: Gymnasium
     github_id: Farama-Foundation/Gymnasium
     pypi_id: gymnasium
@@ -2134,6 +2052,18 @@ projects:
   - name: trl
     github_id: huggingface/trl
     pypi_id: trl
+    category: reinforcement-learning
+  - name: tianshou
+    github_id: thu-ml/tianshou
+    pypi_id: tianshou
+    conda_id: conda-forge/tianshou
+    labels: ["pytorch"]
+    category: reinforcement-learning
+  - name: rl
+    github_id: pytorch/rl
+    pypi_id: torchrl
+    conda_id: conda-forge/torchrl
+    labels: ["pytorch"]
     category: reinforcement-learning
   - name: Pearl
     github_id: facebookresearch/Pearl
@@ -2162,21 +2092,6 @@ projects:
     pypi_id: parl
     category: reinforcement-learning
     labels: ["paddle"]
-  - name: TensorLayerx
-    github_id: tensorlayer/tensorlayerx
-    pypi_id: tensorlayerx
-    category: reinforcement-learning
-    labels: ["tensorflow"]
-  - name: TF-Agents
-    github_id: tensorflow/agents
-    pypi_id: tf-agents
-    category: reinforcement-learning
-    labels: ["tensorflow"]
-  - name: keras-rl
-    github_id: keras-rl/keras-rl
-    pypi_id: keras-rl
-    category: reinforcement-learning
-    labels: ["tensorflow"]
   - name: Maze
     github_id: enlite-ai/maze
     pypi_id: maze-rl
@@ -2184,11 +2099,6 @@ projects:
     category: reinforcement-learning
     labels: ["pytorch"]
     license: Custom
-  - name: garage
-    github_id: rlworkgroup/garage
-    pypi_id: garage
-    category: reinforcement-learning
-    labels: ["tensorflow"]
   - name: stable-baselines3
     github_id: DLR-RM/stable-baselines3
     pypi_id: stable-baselines3
@@ -2203,6 +2113,7 @@ projects:
     conda_id: conda-forge/dm-acme
     category: reinforcement-learning
     labels: ["tensorflow"]
+
   - name: Nilearn
     github_id: nilearn/nilearn
     pypi_id: nilearn
@@ -2225,23 +2136,28 @@ projects:
     pypi_id: nibabel
     conda_id: conda-forge/nibabel
     category: medical-data
-  - name: MedPy
-    github_id: loli/medpy
-    pypi_id: MedPy
-    conda_id: conda-forge/medpy
-    category: medical-data
   - name: MONAILabel
     github_id: Project-MONAI/MONAILabel
     pypi_id: monailabel-weekly
-    category: medical-data
-  - name: DeepNeuro
-    github_id: QTIM-Lab/DeepNeuro
-    pypi_id: deepneuro
     category: medical-data
   - name: nnDetection
     github_id: MIC-DKFZ/nnDetection
     category: medical-data
     labels: ["pytorch"]
+  - name: torchio
+    github_id: TorchIO-project/torchio
+    pypi_id: torchio
+    conda_id: conda-forge/torchio
+    category: medical-data
+  - name: SimpleITK
+    github_id: SimpleITK/SimpleITK
+    pypi_id: simpleitk
+    conda_id: conda-forge/simpleitk
+    category: medical-data
+  - name: nnUNet
+    github_id: MIC-DKFZ/nnUNet
+    pypi_id: nnunetv2
+    category: medical-data
   - name: NIPYPE
     github_id: nipy/nipype
     pypi_id: nipype
@@ -2252,11 +2168,6 @@ projects:
     github_id: Tencent/MedicalNet
     category: medical-data
     license: MIT
-  - name: NIPY
-    github_id: nipy/nipy
-    pypi_id: nipy
-    conda_id: conda-forge/nipy
-    category: medical-data
   - name: Brainiak
     github_id: brainiak/brainiak
     pypi_id: brainiak
@@ -2287,6 +2198,7 @@ projects:
     pypi_id: dipy
     conda_id: conda-forge/dipy
     category: medical-data
+
   - name: pyRiemann
     github_id: pyRiemann/pyRiemann
     pypi_id: pyriemann
@@ -2438,11 +2350,26 @@ projects:
     github_id: uber/fiber
     pypi_id: fiber
     category: distributed-ml
+
   - name: pytorch_tabular
     github_id: manujosephv/pytorch_tabular
     pypi_id: pytorch_tabular
     category: tabular
     labels: ["pytorch"]
+  - name: pytorch-widedeep
+    github_id: jrzaurin/pytorch-widedeep
+    pypi_id: pytorch-widedeep
+    category: tabular
+    labels: ["pytorch"]
+  - name: pytorch-frame
+    github_id: pyg-team/pytorch-frame
+    pypi_id: torch-points3d
+    category: tabular
+    labels: ["pytorch"]
+  - name: tabicl
+    github_id: soda-inria/tabicl
+    pypi_id: tabicl
+    category: tabular
   - name: miceforest
     github_id: AnotherSamWilson/miceforest
     pypi_id: miceforest
@@ -2457,11 +2384,17 @@ projects:
     pypi_id: sdv
     conda_id: conda-forge/sdv
     category: tabular
-  - name: ydata-synthetic
-    github_id: ydataai/ydata-synthetic
-    pypi_id: ydata-synthetic
-    conda_id: conda-forge/ydata-synthetic
+  - name: synthcity
+    github_id: vanderschaarlab/synthcity
+    pypi_id: synthcity
+    conda_id: conda-forge/synthcity
     category: tabular
+  - name: fg-data-synthetic
+    github_id: Data-Centric-AI-Community/fg-data-synthetic
+    pypi_id: fg-data-synthetic
+    conda_id: conda-forge/fg-data-synthetic
+    category: tabular
+
   - name: Prophet
     github_id: facebook/prophet
     pypi_id: fbprophet
@@ -2479,11 +2412,6 @@ projects:
     conda_id: conda-forge/tsfresh
     category: time-series-data
     labels: ["sklearn"]
-  - name: tslumen
-    github_id: hsbc/tslumen
-    pypi_id: tslumen
-    conda_id: conda-forge/tslumen
-    category: time-series-data
   - name: tsai
     github_id: timeseriesAI/tsai
     pypi_id: tsai
@@ -2503,6 +2431,11 @@ projects:
     github_id: Nixtla/statsforecast
     pypi_id: statsforecast
     conda_id: conda-forge/statsforecast
+    category: time-series-data
+  - name: mlforecast
+    github_id: Nixtla/mlforecast
+    pypi_id: mlforecast
+    conda_id: conda-forge/mlforecast
     category: time-series-data
   - name: orbit
     github_id: uber/orbit
@@ -2572,15 +2505,12 @@ projects:
     github_id: X-DataInitiative/tick
     pypi_id: tick
     category: time-series-data
-  - name: luminol
-    github_id: linkedin/luminol
-    pypi_id: luminol
-    category: time-series-data
   - name: ADTK
     github_id: arundo/adtk
     pypi_id: adtk
     conda_id: conda-forge/adtk
     category: time-series-data
+
   - name: ANN Benchmarks
     github_id: erikbern/ann-benchmarks
     category: nn-search
@@ -2634,11 +2564,7 @@ projects:
     github_id: kakao/n2
     pypi_id: n2
     category: nn-search
-  - name: TF Ranking
-    github_id: tensorflow/ranking
-    pypi_id: tensorflow_ranking
-    category: recommender-systems
-    labels: ["tensorflow"]
+
   - name: RecBole
     github_id: RUCAIBox/RecBole
     pypi_id: recbole
@@ -2650,10 +2576,6 @@ projects:
     pypi_id: tensorflow-recommenders
     category: recommender-systems
     labels: ["tensorflow"]
-  - name: OpenRec
-    github_id: ylongqi/openrec
-    pypi_id: openrec
-    category: recommender-systems
   - name: torchrec
     github_id: pytorch/torchrec
     category: recommender-systems
@@ -2662,6 +2584,11 @@ projects:
     github_id: NicolasHug/Surprise
     pypi_id: scikit-surprise
     conda_id: conda-forge/scikit-surprise
+    category: recommender-systems
+  - name: lkpy
+    github_id: lenskit/lkpy
+    pypi_id: lenskit
+    conda_id: conda-forge/lenskit
     category: recommender-systems
   - name: lightfm
     github_id: lyst/lightfm
@@ -2673,11 +2600,6 @@ projects:
     pypi_id: implicit
     conda_id: conda-forge/implicit
     category: recommender-systems
-  - name: Spotlight
-    github_id: maciejkula/spotlight
-    conda_id: maciejkula/spotlight
-    category: recommender-systems
-    labels: ["pytorch"]
   - name: Case Recommender
     github_id: caserec/CaseRecommender
     pypi_id: caserecommender
@@ -2704,9 +2626,6 @@ projects:
   - name: tts-generation-webui
     github_id: rsxdalv/tts-generation-webui
     category: audio
-  - name: rvc-tts-webui
-    github_id: litagin02/rvc-tts-webui
-    category: audio
   - name: Retrieval-based-Voice-Conversion-WebUI
     github_id: RVC-Project/Retrieval-based-Voice-Conversion-WebUI
     category: audio
@@ -2725,18 +2644,20 @@ projects:
     github_id: CPJKU/madmom
     pypi_id: madmom
     category: audio
-  - name: TTS
-    github_id: mozilla/TTS
+  - name: audiolm-pytorch
+    github_id: lucidrains/audiolm-pytorch
+    pypi_id: audiolm-pytorch
+    category: audio
+    labels: ["pytorch"]
+  - name: F5-TTS
+    github_id: SWivid/F5-TTS
+    pypi_id: f5-tts
     category: audio
   - name: Magenta
     github_id: magenta/magenta
     pypi_id: magenta
     category: audio
     labels: ["tensorflow"]
-  - name: textlesslib
-    github_id: facebookresearch/textlesslib
-    category: audio
-    labels: ["pytorch"]
   - name: Pydub
     github_id: jiaaro/pydub
     pypi_id: pydub
@@ -2746,20 +2667,16 @@ projects:
     github_id: tyiannak/pyAudioAnalysis
     pypi_id: pyAudioAnalysis
     category: audio
-  - name: TimeSide
-    github_id: Parisson/TimeSide
-    pypi_id: TimeSide
-    category: audio
   - name: nnAudio
     github_id: KinWaiCheuk/nnAudio
     pypi_id: nnAudio
     category: audio
   - name: Coqui TTS
-    github_id: coqui-ai/TTS
-    pypi_id: tts
-    conda_id: conda-forge/tts
+    github_id: idiap/coqui-ai-TTS
+    pypi_id: coqui-tts
+    conda_id: conda-forge/coqui-tts
     category: audio
-    labels: ["pytorch", "tensorflow"]
+    labels: ["pytorch"]
   - name: SpeechRecognition
     github_id: Uberi/speech_recognition
     pypi_id: SpeechRecognition
@@ -2783,6 +2700,11 @@ projects:
     pypi_id: torchaudio
     category: audio
     labels: ["pytorch"]
+  - name: torchcodec
+    github_id: meta-pytorch/torchcodec
+    pypi_id: torchcodec
+    category: audio
+    labels: ["pytorch"]
   - name: python_speech_features
     github_id: jameslyons/python_speech_features
     pypi_id: python_speech_features
@@ -2801,12 +2723,6 @@ projects:
     pypi_id: aubio
     conda_id: conda-forge/aubio
     category: audio
-  - name: DeepSpeech
-    github_id: mozilla/DeepSpeech
-    pypi_id: deepspeech
-    conda_id: conda-forge/deepspeech
-    category: audio
-    labels: ["tensorflow"]
   - name: Porcupine
     github_id: Picovoice/Porcupine
     pypi_id: pvporcupine
@@ -2823,6 +2739,7 @@ projects:
     conda_id: conda-forge/ddsp
     category: audio
     labels: ["tensorflow"]
+
   - name: onnx
     github_id: onnx/onnx
     pypi_id: onnx
