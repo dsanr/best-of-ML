@@ -161,6 +161,9 @@ projects:
   - name: awesome-datascience
     github_id: academic/awesome-datascience
     category: "data-science"
+  - name: awesome-data-centric-ai
+    github_id: Data-Centric-AI-Community/awesome-data-centric-ai
+    category: "data-science"
   - name: best-of-ml-python
     github_id: ml-tooling/best-of-ml-python
     category: "data-science"
@@ -192,6 +195,9 @@ projects:
     category: "data-science"
   - name: Production-Level-Deep-Learning
     github_id: alirezadir/Production-Level-Deep-Learning
+    category: "data-science"
+  - name: On-Device AI Systems
+    github_id: jeho-lee/Awesome-On-Device-AI-Systems
     category: "data-science"
   - name: awesome-quant
     github_id: wilsonfreitas/awesome-quant
@@ -285,11 +291,6 @@ projects:
     github_id: unifyai/ivy
     category: ml-frameworks
     pypi_id: ivy
-  - name: Aesara
-    github_id: aesara-devs/aesara
-    pypi_id: aesara
-    conda_id: conda-forge/aesara
-    category: ml-frameworks
   - name: Sonnet
     github_id: deepmind/sonnet
     pypi_id: dm-sonnet
@@ -325,11 +326,6 @@ projects:
     pypi_id: apache-flink
     category: ml-frameworks
     description: Apache Flink Python API.
-  - name: ktrain
-    github_id: amaiya/ktrain
-    pypi_id: ktrain
-    category: ml-frameworks
-    labels: ["tensorflow"]
   - name: larq
     github_id: larq/larq
     pypi_id: larq
@@ -394,14 +390,6 @@ projects:
     pypi_id: statsmodels
     conda_id: conda-forge/statsmodels
     category: ml-frameworks
-  - name: Neural Tangents
-    github_id: google/neural-tangents
-    pypi_id: neural-tangents
-    category: ml-frameworks
-    license: Apache-2.0
-  - name: mace
-    github_id: XiaoMi/mace
-    category: ml-frameworks
   - name: NeoML
     github_id: neoml-lib/neoml
     pypi_id: neoml
@@ -427,12 +415,6 @@ projects:
     github_id: arogozhnikov/einops
     pypi_id: einops
     conda_id: conda-forge/einops
-    category: ml-frameworks  
-  - name: Jina
-    github_id: jina-ai/jina
-    pypi_id: jina
-    conda_id: conda-forge/jina-core
-    dockerhub_id: jinaai/jina
     category: ml-frameworks
   - name: Determined
     github_id: determined-ai/determined
@@ -449,6 +431,7 @@ projects:
     github_id: run-house/runhouse
     pypi_id: runhouse
     category: ml-frameworks
+
   - name: VizSeq
     github_id: facebookresearch/vizseq
     pypi_id: vizseq
@@ -501,10 +484,6 @@ projects:
     github_id: seatgeek/thefuzz
     pypi_id: thefuzz
     conda_id: conda-forge/thefuzz
-    category: nlp
-  - name: nebuly
-    github_id: nebuly-ai/nebuly
-    pypi_id: nebuly
     category: nlp
   - name: nltk
     github_id: nltk/nltk
@@ -1006,6 +985,7 @@ projects:
     pypi_id: paddledet
     category: image
     labels: ["paddle"]
+
   - name: Tesseract
     github_id: madmaze/pytesseract
     pypi_id: pytesseract
@@ -1025,7 +1005,7 @@ projects:
     labels: ["tensorflow"]
   - name: doctr
     github_id: mindee/doctr
-    category: image
+    category: ocr
     labels: ["tensorflow", "pytorch"]
     pypi_id: python-doctr
   - name: tesserocr
@@ -1062,6 +1042,7 @@ projects:
     github_id: Calamari-OCR/calamari
     pypi_id: calamari_ocr
     category: ocr
+
   - name: Bokeh
     github_id: bokeh/bokeh
     pypi_id: bokeh
@@ -1088,6 +1069,16 @@ projects:
     pypi_id: plotly-resampler
     conda_id: conda-forge/plotly-resampler
     category: data-viz
+  - name: dash-cytoscape
+    github_id: plotly/dash-cytoscape
+    pypi_id: dash-cytoscape
+    conda_id: conda-forge/dash-cytoscape
+    category: data-viz
+  - name: K3D-jupyter
+    github_id: K3D-tools/K3D-jupyter
+    pypi_id: k3d
+    conda_id: conda-forge/k3d
+    category: data-viz
   - name: Popmon
     github_id: ing-bank/popmon
     pypi_id: popmon
@@ -1099,12 +1090,6 @@ projects:
     npm_id: mpld3
     conda_id: conda-forge/mpld3
     pypi_id: mpld3
-  - name: vegafusion
-    github_id: vegafusion/vegafusion
-    category: data-viz
-    npm_id: vegafusion-jupyter
-    conda_id: conda-forge/vegafusion-python-embed
-    pypi_id: vegafusion-jupyter
   - name: HoloViews
     github_id: holoviz/holoviews
     pypi_id: holoviews
@@ -1112,15 +1097,15 @@ projects:
     category: data-viz
     labels: ["jupyter"]
     npm_id: '@pyviz/jupyterlab_pyviz'
-  - name: Chartify
-    github_id: spotify/chartify
-    pypi_id: chartify
-    conda_id: conda-forge/chartify
-    category: data-viz
   - name: cartopy
     github_id: SciTools/cartopy
     pypi_id: cartopy
     conda_id: conda-forge/cartopy
+    category: data-viz
+  - name: pygwalker
+    github_id: kanaries/pygwalker
+    pypi_id: pygwalker
+    conda_id: conda-forge/pygwalker
     category: data-viz
   - name: D-Tale
     github_id: man-group/dtale
@@ -1134,7 +1119,6 @@ projects:
     pypi_id: fiftyone
     category: data-viz
     labels: ["tensorflow", "pytorch", "jupyter"]
-    description: Visualize, create, and debug image and video datasets and model predictions.
   - name: Seaborn
     github_id: mwaskom/seaborn
     pypi_id: seaborn
@@ -1162,6 +1146,11 @@ projects:
     github_id: has2k1/plotnine
     pypi_id: plotnine
     conda_id: conda-forge/plotnine
+    category: data-viz
+  - name: mpltern
+    github_id: yuzie007/mpltern
+    pypi_id: mpltern
+    conda_id: conda-forge/mpltern
     category: data-viz
   - name: python-ternary
     github_id: marcharper/python-ternary
@@ -1192,12 +1181,6 @@ projects:
     pypi_id: datashader
     conda_id: conda-forge/datashader
     category: data-viz
-  - name: vega
-    github_id: vega/ipyvega
-    pypi_id: vega
-    conda_id: conda-forge/vega
-    category: data-viz
-    labels: ["jupyter"]
   - name: missingno
     github_id: ResidentMario/missingno
     pypi_id: missingno
@@ -1213,18 +1196,12 @@ projects:
     pypi_id: wordcloud
     conda_id: conda-forge/wordcloud
     category: data-viz
-  - name: ydata-profiling
-    github_id: ydataai/ydata-profiling
-    pypi_id: ydata-profiling
-    conda_id: conda-forge/ydata-profiling
+  - name: fg-data-profiling
+    github_id: Data-Centric-AI-Community/fg-data-profiling
+    pypi_id: fg-data-profiling
+    conda_id: conda-forge/fg-data-profiling
     category: data-viz
     labels: ["jupyter", "pandas"]
-  - name: PandasGUI
-    github_id: adamerose/pandasgui
-    pypi_id: pandasgui
-    conda_id: conda-forge/pandasgui
-    category: data-viz
-    labels: ["pandas"]
   - name: Sweetviz
     github_id: fbdesignpro/sweetviz
     pypi_id: sweetviz
@@ -1234,11 +1211,6 @@ projects:
     github_id: ContextLab/hypertools
     pypi_id: hypertools
     category: data-viz
-  - name: Pandas-Bokeh
-    github_id: PatrikHlobil/Pandas-Bokeh
-    pypi_id: pandas-bokeh
-    category: data-viz
-    labels: ["pandas"]
   - name: VisPy
     github_id: vispy/vispy
     pypi_id: vispy
@@ -1257,18 +1229,6 @@ projects:
     github_id: WestHealth/pyvis
     pypi_id: pyvis
     category: data-viz
-  - name: pythreejs
-    github_id: jupyter-widgets/pythreejs
-    pypi_id: pythreejs
-    conda_id: conda-forge/pythreejs
-    category: data-viz
-    labels: ["jupyter"]
-    npm_id: jupyter-threejs
-  - name: Facets Overview
-    github_id: pair-code/facets
-    pypi_id: facets-overview
-    category: data-viz
-    labels: ["jupyter"]
   - name: Perspective
     github_id: finos/perspective
     pypi_id: perspective-python
@@ -1292,11 +1252,6 @@ projects:
     pypi_id: opentsne
     conda_id: conda-forge/opentsne
     category: data-viz
-  - name: HiPlot
-    github_id: facebookresearch/hiplot
-    pypi_id: hiplot
-    conda_id: conda-forge/hiplot
-    category: data-viz
   - name: PyQtGraph
     github_id: pyqtgraph/pyqtgraph
     pypi_id: pyqtgraph
@@ -1306,6 +1261,7 @@ projects:
     github_id: tpvasconcelos/ridgeplot
     pypi_id: ridgeplot
     category: data-viz
+
   - name: What-If Tool
     github_id: PAIR-code/what-if-tool
     pypi_id: witwidget
@@ -1317,12 +1273,6 @@ projects:
     pypi_id: lit-nlp
     conda_id: conda-forge/lit-nlp
     category: interpretability
-  - name: CausalNex
-    github_id: quantumblacklabs/causalnex
-    pypi_id: causalnex
-    category: interpretability
-    labels: ["pytorch", "sklearn"]
-    license: Apache-2.0
   - name: causalml
     github_id: uber/causalml
     pypi_id: causalml
@@ -1510,11 +1460,6 @@ projects:
   - name: LOFO
     github_id: aerdem4/lofo-importance
     pypi_id: lofo-importance
-    category: interpretability
-  - name: Skater
-    github_id: oracle/Skater
-    pypi_id: skater
-    conda_id: conda-forge/skater
     category: interpretability
   - name: XAI
     github_id: EthicalML/xai
@@ -2713,11 +2658,6 @@ projects:
     github_id: pytorch/torchrec
     category: recommender-systems
     pypi_id: torchrec
-  - name: Collie
-    github_id: ShopRunner/collie
-    pypi_id: collie
-    category: recommender-systems
-    labels: ["pytorch"]
   - name: scikit-surprise
     github_id: NicolasHug/Surprise
     pypi_id: scikit-surprise
