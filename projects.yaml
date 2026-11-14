@@ -34,21 +34,30 @@ categories:
   - category: "data-pipelines"
     title: "Data Pipelines & Streaming"
     subtitle: "Libraries for data batch- and stream-processing, workflow automation, job scheduling, and other data pipeline tasks."
-  - category: "ml-frameworks"
-    title: "Machine Learning Frameworks"
-    subtitle: "General-purpose machine learning and deep learning frameworks."
   - category: "data-viz"
     title: "Data Visualization"
     subtitle: "General-purpose and task-specific data visualization libraries."
+  - category: "ml-frameworks"
+    title: "Machine Learning Frameworks"
+    subtitle: "General-purpose machine learning and deep learning frameworks."
   - category: "nlp"
     title: "Text Data & NLP"
     subtitle: "Libraries for processing, cleaning, and analyzing text data as well as libraries for NLP tasks such as classification, fuzzy matching, language translation, text generation, and conversational AI."
+  - category: "nn-search"
+    title: "Vector Similarity Search (ANN)"
+    subtitle: "Libraries for Approximate Nearest Neighbor Search and Vector Indexing/Similarity Search."
   - category: "agents"
     title: "LLM & AI Agents"
     subtitle: "Libraries for building LLM applications and AI agent frameworks."
   - category: "image"
     title: "Image Data"
     subtitle: "Libraries for image & video processing, manipulation, and augmentation as well as libraries for computer vision tasks such as facial recognition, object detection, and classification."
+  - category: "ocr"
+    title: "Optical Character Recognition"
+    subtitle: "Libraries for optical character recognition (OCR) and text extraction from images or videos."
+  - category: "medical-data"
+    title: "Medical Data"
+    subtitle: "Libraries for processing and analyzing medical data such as MRIs, EEGs, genomic data, and other medical imaging formats."
   - category: "graph"
     title: "Graph Data"
     subtitle: "Libraries for graph processing, clustering, embedding, and machine learning tasks."
@@ -64,15 +73,9 @@ categories:
   - category: "time-series-data"
     title: "Time Series Data"
     subtitle: "Libraries for forecasting, anomaly detection, feature extraction, and machine learning on time-series and sequential data."
-  - category: "medical-data"
-    title: "Medical Data"
-    subtitle: "Libraries for processing and analyzing medical data such as MRIs, EEGs, genomic data, and other medical imaging formats."
   - category: "tabular"
     title: "Tabular Data"
     subtitle: "Libraries for processing tabular and structured data."
-  - category: "ocr"
-    title: "Optical Character Recognition"
-    subtitle: "Libraries for optical character recognition (OCR) and text extraction from images or videos."
   - category: "reinforcement-learning"
     title: "Reinforcement Learning"
     subtitle: "Libraries for building and evaluating reinforcement learning & agent-based systems."
@@ -97,9 +100,6 @@ categories:
   - category: "distributed-ml"
     title: "Distributed Machine Learning"
     subtitle: "Libraries that provide capabilities to distribute and parallelize machine learning tasks across large-scale compute infrastructure."
-  - category: "nn-search"
-    title: "Vector Similarity Search (ANN)"
-    subtitle: "Libraries for Approximate Nearest Neighbor Search and Vector Indexing/Similarity Search."
   - category: "probabilistics"
     title: "Probabilistics & Statistics"
     subtitle: "Libraries providing capabilities for probabilistic programming/reasoning, bayesian inference, gaussian processes, or statistics."
@@ -2042,10 +2042,7 @@ projects:
   - name: azureml-examples
     github_id: Azure/azureml-examples
     category: ml-experiments
-  - name: PFRL
-    github_id: pfnet/pfrl
-    pypi_id: pfrl
-    category: reinforcement-learning
+
   - name: Gymnasium
     github_id: Farama-Foundation/Gymnasium
     pypi_id: gymnasium
@@ -2055,6 +2052,18 @@ projects:
   - name: trl
     github_id: huggingface/trl
     pypi_id: trl
+    category: reinforcement-learning
+  - name: tianshou
+    github_id: thu-ml/tianshou
+    pypi_id: tianshou
+    conda_id: conda-forge/tianshou
+    labels: ["pytorch"]
+    category: reinforcement-learning
+  - name: rl
+    github_id: pytorch/rl
+    pypi_id: torchrl
+    conda_id: conda-forge/torchrl
+    labels: ["pytorch"]
     category: reinforcement-learning
   - name: Pearl
     github_id: facebookresearch/Pearl
@@ -2083,21 +2092,6 @@ projects:
     pypi_id: parl
     category: reinforcement-learning
     labels: ["paddle"]
-  - name: TensorLayerx
-    github_id: tensorlayer/tensorlayerx
-    pypi_id: tensorlayerx
-    category: reinforcement-learning
-    labels: ["tensorflow"]
-  - name: TF-Agents
-    github_id: tensorflow/agents
-    pypi_id: tf-agents
-    category: reinforcement-learning
-    labels: ["tensorflow"]
-  - name: keras-rl
-    github_id: keras-rl/keras-rl
-    pypi_id: keras-rl
-    category: reinforcement-learning
-    labels: ["tensorflow"]
   - name: Maze
     github_id: enlite-ai/maze
     pypi_id: maze-rl
@@ -2105,11 +2099,6 @@ projects:
     category: reinforcement-learning
     labels: ["pytorch"]
     license: Custom
-  - name: garage
-    github_id: rlworkgroup/garage
-    pypi_id: garage
-    category: reinforcement-learning
-    labels: ["tensorflow"]
   - name: stable-baselines3
     github_id: DLR-RM/stable-baselines3
     pypi_id: stable-baselines3
@@ -2124,6 +2113,7 @@ projects:
     conda_id: conda-forge/dm-acme
     category: reinforcement-learning
     labels: ["tensorflow"]
+
   - name: Nilearn
     github_id: nilearn/nilearn
     pypi_id: nilearn
@@ -2146,23 +2136,28 @@ projects:
     pypi_id: nibabel
     conda_id: conda-forge/nibabel
     category: medical-data
-  - name: MedPy
-    github_id: loli/medpy
-    pypi_id: MedPy
-    conda_id: conda-forge/medpy
-    category: medical-data
   - name: MONAILabel
     github_id: Project-MONAI/MONAILabel
     pypi_id: monailabel-weekly
-    category: medical-data
-  - name: DeepNeuro
-    github_id: QTIM-Lab/DeepNeuro
-    pypi_id: deepneuro
     category: medical-data
   - name: nnDetection
     github_id: MIC-DKFZ/nnDetection
     category: medical-data
     labels: ["pytorch"]
+  - name: torchio
+    github_id: TorchIO-project/torchio
+    pypi_id: torchio
+    conda_id: conda-forge/torchio
+    category: medical-data
+  - name: SimpleITK
+    github_id: SimpleITK/SimpleITK
+    pypi_id: simpleitk
+    conda_id: conda-forge/simpleitk
+    category: medical-data
+  - name: nnUNet
+    github_id: MIC-DKFZ/nnUNet
+    pypi_id: nnunetv2
+    category: medical-data
   - name: NIPYPE
     github_id: nipy/nipype
     pypi_id: nipype
@@ -2173,11 +2168,6 @@ projects:
     github_id: Tencent/MedicalNet
     category: medical-data
     license: MIT
-  - name: NIPY
-    github_id: nipy/nipy
-    pypi_id: nipy
-    conda_id: conda-forge/nipy
-    category: medical-data
   - name: Brainiak
     github_id: brainiak/brainiak
     pypi_id: brainiak
@@ -2208,6 +2198,7 @@ projects:
     pypi_id: dipy
     conda_id: conda-forge/dipy
     category: medical-data
+
   - name: pyRiemann
     github_id: pyRiemann/pyRiemann
     pypi_id: pyriemann
@@ -2359,11 +2350,26 @@ projects:
     github_id: uber/fiber
     pypi_id: fiber
     category: distributed-ml
+
   - name: pytorch_tabular
     github_id: manujosephv/pytorch_tabular
     pypi_id: pytorch_tabular
     category: tabular
     labels: ["pytorch"]
+  - name: pytorch-widedeep
+    github_id: jrzaurin/pytorch-widedeep
+    pypi_id: pytorch-widedeep
+    category: tabular
+    labels: ["pytorch"]
+  - name: pytorch-frame
+    github_id: pyg-team/pytorch-frame
+    pypi_id: torch-points3d
+    category: tabular
+    labels: ["pytorch"]
+  - name: tabicl
+    github_id: soda-inria/tabicl
+    pypi_id: tabicl
+    category: tabular
   - name: miceforest
     github_id: AnotherSamWilson/miceforest
     pypi_id: miceforest
@@ -2378,11 +2384,17 @@ projects:
     pypi_id: sdv
     conda_id: conda-forge/sdv
     category: tabular
-  - name: ydata-synthetic
-    github_id: ydataai/ydata-synthetic
-    pypi_id: ydata-synthetic
-    conda_id: conda-forge/ydata-synthetic
+  - name: synthcity
+    github_id: vanderschaarlab/synthcity
+    pypi_id: synthcity
+    conda_id: conda-forge/synthcity
     category: tabular
+  - name: fg-data-synthetic
+    github_id: Data-Centric-AI-Community/fg-data-synthetic
+    pypi_id: fg-data-synthetic
+    conda_id: conda-forge/fg-data-synthetic
+    category: tabular
+
   - name: Prophet
     github_id: facebook/prophet
     pypi_id: fbprophet
@@ -2400,11 +2412,6 @@ projects:
     conda_id: conda-forge/tsfresh
     category: time-series-data
     labels: ["sklearn"]
-  - name: tslumen
-    github_id: hsbc/tslumen
-    pypi_id: tslumen
-    conda_id: conda-forge/tslumen
-    category: time-series-data
   - name: tsai
     github_id: timeseriesAI/tsai
     pypi_id: tsai
@@ -2424,6 +2431,11 @@ projects:
     github_id: Nixtla/statsforecast
     pypi_id: statsforecast
     conda_id: conda-forge/statsforecast
+    category: time-series-data
+  - name: mlforecast
+    github_id: Nixtla/mlforecast
+    pypi_id: mlforecast
+    conda_id: conda-forge/mlforecast
     category: time-series-data
   - name: orbit
     github_id: uber/orbit
@@ -2493,15 +2505,12 @@ projects:
     github_id: X-DataInitiative/tick
     pypi_id: tick
     category: time-series-data
-  - name: luminol
-    github_id: linkedin/luminol
-    pypi_id: luminol
-    category: time-series-data
   - name: ADTK
     github_id: arundo/adtk
     pypi_id: adtk
     conda_id: conda-forge/adtk
     category: time-series-data
+
   - name: ANN Benchmarks
     github_id: erikbern/ann-benchmarks
     category: nn-search
@@ -2555,11 +2564,7 @@ projects:
     github_id: kakao/n2
     pypi_id: n2
     category: nn-search
-  - name: TF Ranking
-    github_id: tensorflow/ranking
-    pypi_id: tensorflow_ranking
-    category: recommender-systems
-    labels: ["tensorflow"]
+
   - name: RecBole
     github_id: RUCAIBox/RecBole
     pypi_id: recbole
@@ -2571,10 +2576,6 @@ projects:
     pypi_id: tensorflow-recommenders
     category: recommender-systems
     labels: ["tensorflow"]
-  - name: OpenRec
-    github_id: ylongqi/openrec
-    pypi_id: openrec
-    category: recommender-systems
   - name: torchrec
     github_id: pytorch/torchrec
     category: recommender-systems
@@ -2583,6 +2584,11 @@ projects:
     github_id: NicolasHug/Surprise
     pypi_id: scikit-surprise
     conda_id: conda-forge/scikit-surprise
+    category: recommender-systems
+  - name: lkpy
+    github_id: lenskit/lkpy
+    pypi_id: lenskit
+    conda_id: conda-forge/lenskit
     category: recommender-systems
   - name: lightfm
     github_id: lyst/lightfm
@@ -2594,11 +2600,6 @@ projects:
     pypi_id: implicit
     conda_id: conda-forge/implicit
     category: recommender-systems
-  - name: Spotlight
-    github_id: maciejkula/spotlight
-    conda_id: maciejkula/spotlight
-    category: recommender-systems
-    labels: ["pytorch"]
   - name: Case Recommender
     github_id: caserec/CaseRecommender
     pypi_id: caserecommender
