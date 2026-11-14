@@ -460,10 +460,6 @@ projects:
     github_id: BerriAI/litellm
     pypi_id: litellm
     category: nlp
-  - name: Texthero
-    github_id: jbesomi/texthero
-    pypi_id: texthero
-    category: nlp
   - name: spaCy
     github_id: explosion/spaCy
     pypi_id: spacy
@@ -474,37 +470,41 @@ projects:
     pypi_id: gensim
     conda_id: conda-forge/gensim
     category: nlp
+  - name: BERTopic
+    github_id: MaartenGr/BERTopic
+    pypi_id: bertopic
+    conda_id: conda-forge/bertopic
+    category: nlp
+  - name: KeyBERT
+    github_id: MaartenGr/KeyBERT
+    pypi_id: keybert
+    conda_id: conda-forge/keybert
+    category: nlp
   - name: sentence-transformers
     github_id: UKPLab/sentence-transformers
     pypi_id: sentence-transformers
     conda_id: conda-forge/sentence-transformers
     category: nlp
     labels: ["pytorch"]
-  - name: thefuzz
-    github_id: seatgeek/thefuzz
-    pypi_id: thefuzz
-    conda_id: conda-forge/thefuzz
+  - name: RapidFuzz
+    github_id: rapidfuzz/RapidFuzz
+    pypi_id: rapidfuzz
+    conda_id: conda-forge/rapidfuzz
     category: nlp
   - name: nltk
     github_id: nltk/nltk
     pypi_id: nltk
     conda_id: conda-forge/nltk
     category: nlp
-    description: Suite of libraries and programs for symbolic and statistical natural language processing for English.
-  - name: torchtext
-    github_id: pytorch/text
-    pypi_id: torchtext
-    category: nlp
-    labels: ["pytorch"]
   - name: textacy
     github_id: chartbeat-labs/textacy
     pypi_id: textacy
     conda_id: conda-forge/textacy
     category: nlp
-  - name: flashtext
-    github_id: vi3k6i5/flashtext
-    pypi_id: flashtext
-    conda_id: conda-forge/flashtext
+  - name: flashtext2
+    github_id: shner-elmo/flashtext2
+    pypi_id: flashtext2
+    conda_id: conda-forge/flashtext2
     category: nlp
   - name: scattertext
     github_id: JasonKessler/scattertext
@@ -534,17 +534,13 @@ projects:
     github_id: comet-ml/opik
     pypi_id: opik
     category: nlp
-  - name: english-words
-    github_id: dwyl/english-words
-    pypi_id: english-words
+  - name: wordfreq
+    github_id: rspeer/wordfreq
+    pypi_id: wordfreq
     category: nlp
   - name: textaugment
     github_id: dsfsi/textaugment
     pypi_id: textaugment
-    category: nlp
-  - name: lightseq
-    github_id: bytedance/lightseq
-    pypi_id: lightseq
     category: nlp
   - name: sentencepiece
     github_id: google/sentencepiece
@@ -567,10 +563,6 @@ projects:
     category: nlp
     labels: ["pytorch"]
     pypi_id: deepke
-  - name: promptsource
-    github_id: bigscience-workshop/promptsource
-    category: nlp
-    pypi_id: promptsource
   - name: stanza
     github_id: stanfordnlp/stanza
     pypi_id: stanza
@@ -602,15 +594,6 @@ projects:
     pypi_id: finetune
     category: nlp
     labels: ["tensorflow", "sklearn"]
-  - name: fast-bert
-    github_id: utterworks/fast-bert
-    pypi_id: fast-bert
-    category: nlp
-  - name: fastText
-    github_id: facebookresearch/fastText
-    pypi_id: fasttext
-    conda_id: conda-forge/fasttext
-    category: nlp
   - name: Rasa
     github_id: RasaHQ/rasa
     pypi_id: rasa
@@ -621,20 +604,9 @@ projects:
     pypi_id: deeppavlov
     category: nlp
     labels: ["tensorflow"]
-  - name: OpenNMT
-    github_id: OpenNMT/OpenNMT-py
-    pypi_id: OpenNMT-py
-    category: nlp
-    labels: ["pytorch"]
-  - name: Sockeye
-    github_id: awslabs/sockeye
-    pypi_id: sockeye
-    category: nlp
-    labels: ["pytorch"]
-  - name: fairseq
-    github_id: facebookresearch/fairseq
-    pypi_id: fairseq
-    conda_id: conda-forge/fairseq
+  - name: eole
+    github_id: eole-nlp/eole
+    pypi_id: eole
     category: nlp
     labels: ["pytorch"]
   - name: TensorFlow Text
@@ -642,11 +614,6 @@ projects:
     pypi_id: tensorflow-text
     category: nlp
     labels: ["tensorflow"]
-  - name: YouTokenToMe
-    github_id: vkcom/youtokentome
-    pypi_id: youtokentome
-    conda_id: conda-forge/youtokentome
-    category: nlp
   - name: CLTK
     github_id: cltk/cltk
     pypi_id: cltk
@@ -656,10 +623,10 @@ projects:
     pypi_id: jellyfish
     conda_id: conda-forge/jellyfish
     category: nlp
-  - name: Dedupe
-    github_id: dedupeio/dedupe
-    pypi_id: dedupe
-    conda_id: conda-forge/dedupe
+  - name: splink
+    github_id: moj-analytical-services/splink
+    pypi_id: splink
+    conda_id: conda-forge/splink
     category: nlp
   - name: Sumy
     github_id: miso-belica/sumy
