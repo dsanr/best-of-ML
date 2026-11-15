@@ -2810,6 +2810,7 @@ projects:
     github_id: backprop-ai/backprop
     pypi_id: backprop
     category: model-serialisation
+
   - name: FATE
     github_id: FederatedAI/FATE
     pypi_id: ETAF
@@ -2818,6 +2819,42 @@ projects:
     github_id: OpenMined/PipelineDP
     category: privacy-ml
     pypi_id: pipeline-dp
+  - name: differential-privacy
+    github_id: google/differential-privacy
+    pypi_id: dp-accounting
+    category: privacy-ml
+  - name: differential-privacy-library
+    github_id: IBM/differential-privacy-library
+    pypi_id: diffprivlib
+    category: privacy-ml
+  - name: PyDP
+    github_id: OpenMined/PyDP
+    pypi_id: python-dp
+    category: privacy-ml
+  - name: Flower
+    github_id: flwrlabs/flower
+    pypi_id: flwr
+    category: privacy-ml
+  - name: NVFlare
+    github_id: NVIDIA/NVFlare
+    pypi_id: nvflare
+    category: privacy-ml
+  - name: SecretFlow
+    github_id: secretflow/secretflow
+    pypi_id: secretflow
+    category: privacy-ml
+  - name: Concrete ML
+    github_id: zama-ai/concrete-ml
+    pypi_id: concrete-ml
+    category: privacy-ml
+  - name: TenSEAL
+    github_id: OpenMined/TenSEAL
+    pypi_id: tenseal
+    category: privacy-ml
+  - name: OpenFHE
+    github_id: openfheorg/openfhe-python
+    pypi_id: openfhe
+    category: privacy-ml
   - name: PySyft
     github_id: OpenMined/PySyft
     pypi_id: syft
@@ -2828,22 +2865,13 @@ projects:
     pypi_id: tensorflow-privacy
     category: privacy-ml
     labels: ["tensorflow"]
-  - name: TFEncrypted
-    github_id: tf-encrypted/tf-encrypted
-    pypi_id: tf-encrypted
-    category: privacy-ml
-    labels: ["tensorflow"]
-  - name: CrypTen
-    github_id: facebookresearch/CrypTen
-    pypi_id: crypten
-    category: privacy-ml
-    labels: ["pytorch"]
   - name: Opacus
     github_id: pytorch/opacus
     pypi_id: opacus
     conda_id: conda-forge/opacus
     category: privacy-ml
     labels: ["pytorch"]
+
   - name: gpustat
     github_id: wookayin/gpustat
     pypi_id: gpustat
