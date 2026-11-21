@@ -692,6 +692,7 @@ projects:
     github_id: weaviate/weaviate
     pypi_id: weaviate-client
     category: nn-search
+    license: BSD-3-Clause
   - name: Milvus
     github_id: milvus-io/milvus
     pypi_id: pymilvus
@@ -704,6 +705,10 @@ projects:
   - name: chroma
     github_id: chroma-core/chroma
     pypi_id: chromadb
+    category: nn-search
+  - name: lancedb
+    github_id: lancedb/lancedb
+    pypi_id: lancedb
     category: nn-search
   - name: Faiss
     github_id: facebookresearch/faiss
@@ -741,9 +746,13 @@ projects:
     github_id: langchain-ai/langgraph
     pypi_id: langgraph
     category: agents
-  - name: autogen
-    github_id: microsoft/autogen
-    pypi_id: autogen-agentchat
+  - name: deepagents
+    github_id: langchain-ai/deepagents
+    pypi_id: deepagents
+    category: agents
+  - name: agent-framework
+    github_id: microsoft/agent-framework
+    pypi_id: agent-framework
     category: agents
   - name: ag2
     github_id: ag2ai/ag2
@@ -759,6 +768,22 @@ projects:
   - name: haystack
     github_id: deepset-ai/haystack
     pypi_id: haystack-ai
+    category: agents
+  - name: pydantic-ai
+    github_id: pydantic/pydantic-ai
+    pypi_id: pydantic-ai
+    category: agents
+  - name: dspy
+    github_id: stanfordnlp/dspy
+    pypi_id: dspy
+    category: agents
+  - name: openai-agents-python
+    github_id: openai/openai-agents-python
+    pypi_id: openai-agents
+    category: agents
+  - name: google-adk-python
+    github_id: google/adk-python
+    pypi_id: google-adk
     category: agents
   - name: agno
     github_id: agno-agi/agno
@@ -2880,11 +2905,6 @@ projects:
     category: gpu-utilities
     pypi_id: merlin-core
 
-  - name: AdaBound
-    github_id: Luolc/AdaBound
-    pypi_id: adabound
-    category: pytorch-utils
-    labels: ["pytorch"]
   - name: tnt
     github_id: pytorch/tnt
     pypi_id: torchtnt
@@ -2915,17 +2935,6 @@ projects:
   - name: KD-Lib
     github_id: SforAiDl/KD_Lib
     pypi_id: KD-Lib
-    category: pytorch-utils
-    labels: ["pytorch"]
-  - name: madgrad
-    github_id: facebookresearch/madgrad
-    pypi_id: madgrad
-    category: pytorch-utils
-    labels: ["pytorch"]
-  - name: accelerate
-    github_id: huggingface/accelerate
-    pypi_id: accelerate
-    conda_id: conda-forge/accelerate
     category: pytorch-utils
     labels: ["pytorch"]
   - name: lightning-flash
@@ -2966,11 +2975,6 @@ projects:
     conda_id: conda-forge/torchmetrics
     category: pytorch-utils
     labels: ["pytorch"]
-  - name: facenet-pytorch
-    github_id: timesler/facenet-pytorch
-    pypi_id: facenet-pytorch
-    category: pytorch-utils
-    labels: ["pytorch"]
   - name: Higher
     github_id: facebookresearch/higher
     pypi_id: higher
@@ -2997,12 +3001,6 @@ projects:
     pypi_id: torch-struct
     category: pytorch-utils
     labels: ["pytorch"]
-  - name: TabNet
-    github_id: dreamquark-ai/tabnet
-    pypi_id: pytorch-tabnet
-    conda_id: conda-forge/pytorch-tabnet
-    category: pytorch-utils
-    labels: ["pytorch"]
   - name: torchdiffeq
     github_id: rtqichen/torchdiffeq
     pypi_id: torchdiffeq
@@ -3016,20 +3014,9 @@ projects:
     category: pytorch-utils
     labels: ["pytorch"]
 
-  - name: Saliency
-    github_id: PAIR-code/saliency
-    pypi_id: saliency
-    category: tensorflow-utils
-    labels: ["tensorflow"]
   - name: TF Compression
     github_id: tensorflow/compression
     pypi_id: tensorflow-compression
-    category: tensorflow-utils
-    labels: ["tensorflow"]
-  - name: tensorflow-hub
-    github_id: tensorflow/hub
-    pypi_id: tensorflow-hub
-    conda_id: conda-forge/tensorflow-hub
     category: tensorflow-utils
     labels: ["tensorflow"]
   - name: TensorFlow I/O
@@ -3085,17 +3072,6 @@ projects:
     conda_id: conda-forge/evojax
     pypi_id: evojax
 
-  - name: sklearn-contrib-lightning
-    github_id: scikit-learn-contrib/lightning
-    pypi_id: sklearn-contrib-lightning
-    conda_id: conda-forge/sklearn-contrib-lightning
-    category: sklearn-utils
-    labels: ["sklearn"]
-  - name: scikit-multilearn
-    github_id: scikit-multilearn/scikit-multilearn
-    pypi_id: scikit-multilearn
-    category: sklearn-utils
-    labels: ["sklearn"]
   - name: MLxtend
     github_id: rasbt/mlxtend
     pypi_id: mlxtend
@@ -3125,11 +3101,6 @@ projects:
     pypi_id: deslib
     category: sklearn-utils
     labels: ["sklearn"]
-  - name: dabl
-    github_id: dabl/dabl
-    pypi_id: dabl
-    category: sklearn-utils
-    labels: ["sklearn"]
   - name: imbalanced-learn
     github_id: scikit-learn-contrib/imbalanced-learn
     pypi_id: imbalanced-learn
@@ -3150,11 +3121,6 @@ projects:
     github_id: koaning/scikit-lego
     pypi_id: scikit-lego
     conda_id: conda-forge/scikit-lego
-    category: sklearn-utils
-    labels: ["sklearn"]
-  - name: iterative-stratification
-    github_id: trent-b/iterative-stratification
-    pypi_id: iterative-stratification
     category: sklearn-utils
     labels: ["sklearn"]
   - name: scikit-tda
