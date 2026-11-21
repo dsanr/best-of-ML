@@ -86,14 +86,20 @@ categories:
     title: "Privacy Machine Learning"
     subtitle: "Libraries for encrypted and privacy-preserving machine learning using methods like federated learning & differential privacy."
   - category: "hyperopt"
-    title: "Hyperparameter Optimization & AutoML"
-    subtitle: "Libraries for hyperparameter optimization, automl and neural architecture search."
+    title: "Hyperparameter Optimization"
+    subtitle: "Libraries for hyperparameter optimization and neural architecture search."
+  - category: "auto-ml"
+    title: "AutoML"
+    subtitle: "Libraries for automated machine learning."
   - category: "interpretability"
     title: "Model Interpretability"
     subtitle: "Libraries to visualize, explain, debug, evaluate, and interpret machine learning models."
   - category: "ml-experiments"
-    title: "Workflow & Experiment Tracking"
-    subtitle: "Libraries to organize, track, and visualize machine learning experiments."
+    title: "Experiment Tracking"
+    subtitle: "Libraries to track, manage, and reproduce machine learning experiments."
+  - category: "workflow"
+    title: "Workflow Orchestration"
+    subtitle: "Libraries to orchestrate, automate, and manage machine learning workflows and pipelines."
   - category: "model-serialisation"
     title: "Model Serialization & Deployment"
     subtitle: "Libraries to serialize models to files, convert between a variety of model formats, and optimize models for deployment."
@@ -101,7 +107,7 @@ categories:
     title: "Distributed Machine Learning"
     subtitle: "Libraries that provide capabilities to distribute and parallelize machine learning tasks across large-scale compute infrastructure."
   - category: "probabilistics"
-    title: "Probabilistics & Statistics"
+    title: "Probabilistic Modeling & Statistics"
     subtitle: "Libraries providing capabilities for probabilistic programming/reasoning, bayesian inference, gaussian processes, or statistics."
   - category: "adversarial"
     title: "Adversarial Robustness"
@@ -358,6 +364,13 @@ projects:
     pypi_id: ngboost
     conda_id: conda-forge/ngboost
     category: ml-frameworks
+  - name: pyRiemann
+    github_id: pyRiemann/pyRiemann
+    pypi_id: pyriemann
+    conda_id: conda-forge/pyriemann
+    docs_url: https://pyriemann.readthedocs.io/en/latest/
+    category: ml-frameworks
+    labels: ["sklearn"]
   - name: mlpack
     github_id: mlpack/mlpack
     pypi_id: mlpack
@@ -657,6 +670,61 @@ projects:
     pypi_id: ciphey
     dockerhub_id: remnux/ciphey
     category: nlp
+
+
+  - name: ANN Benchmarks
+    github_id: erikbern/ann-benchmarks
+    category: nn-search
+    resource: true
+  - name: Annoy
+    github_id: spotify/annoy
+    pypi_id: annoy
+    conda_id: conda-forge/python-annoy
+    category: nn-search
+  - name: voyager
+    github_id: spotify/voyager
+    pypi_id: voyager
+    category: nn-search
+  - name: weaviate
+    github_id: weaviate/weaviate
+    pypi_id: weaviate-client
+    category: nn-search
+  - name: Milvus
+    github_id: milvus-io/milvus
+    pypi_id: pymilvus
+    dockerhub_id: milvusdb/milvus
+    category: nn-search
+  - name: qdrant
+    github_id: qdrant/qdrant
+    pypi_id: qdrant-client
+    category: nn-search
+  - name: chroma
+    github_id: chroma-core/chroma
+    pypi_id: chromadb
+    category: nn-search
+  - name: Faiss
+    github_id: facebookresearch/faiss
+    pypi_id: pymilvus
+    conda_id: conda-forge/faiss
+    category: nn-search
+  - name: hnswlib
+    github_id: nmslib/hnswlib
+    pypi_id: hnswlib
+    conda_id: conda-forge/hnswlib
+    category: nn-search
+  - name: PyNNDescent
+    github_id: lmcinnes/pynndescent
+    pypi_id: pynndescent
+    conda_id: conda-forge/pynndescent
+    category: nn-search
+  - name: NGT
+    github_id: yahoojapan/NGT
+    pypi_id: ngt
+    category: nn-search
+  - name: N2
+    github_id: kakao/n2
+    pypi_id: n2
+    category: nn-search
 
   - name: langchain
     github_id: langchain-ai/langchain
@@ -1444,6 +1512,166 @@ projects:
     category: interpretability
     labels: ["tensorflow", "pytorch"]
 
+  - name: pytorch_tabular
+    github_id: manujosephv/pytorch_tabular
+    pypi_id: pytorch_tabular
+    category: tabular
+    labels: ["pytorch"]
+  - name: pytorch-widedeep
+    github_id: jrzaurin/pytorch-widedeep
+    pypi_id: pytorch-widedeep
+    category: tabular
+    labels: ["pytorch"]
+  - name: pytorch-frame
+    github_id: pyg-team/pytorch-frame
+    pypi_id: torch-points3d
+    category: tabular
+    labels: ["pytorch"]
+  - name: tabicl
+    github_id: soda-inria/tabicl
+    pypi_id: tabicl
+    category: tabular
+  - name: miceforest
+    github_id: AnotherSamWilson/miceforest
+    pypi_id: miceforest
+    conda_id: conda-forge/miceforest
+    category: tabular
+  - name: upgini
+    github_id: upgini/upgini
+    pypi_id: upgini
+    category: tabular
+  - name: SDV
+    github_id: sdv-dev/SDV
+    pypi_id: sdv
+    conda_id: conda-forge/sdv
+    category: tabular
+  - name: synthcity
+    github_id: vanderschaarlab/synthcity
+    pypi_id: synthcity
+    conda_id: conda-forge/synthcity
+    category: tabular
+  - name: fg-data-synthetic
+    github_id: Data-Centric-AI-Community/fg-data-synthetic
+    pypi_id: fg-data-synthetic
+    conda_id: conda-forge/fg-data-synthetic
+    category: tabular
+
+  - name: Prophet
+    github_id: facebook/prophet
+    pypi_id: fbprophet
+    conda_id: conda-forge/prophet
+    category: time-series-data
+  - name: Darts
+    github_id: unit8co/darts
+    pypi_id: u8darts
+    conda_id: conda-forge/u8darts-all
+    dockerhub_id: unit8/darts
+    category: time-series-data
+  - name: tsfresh
+    github_id: blue-yonder/tsfresh
+    pypi_id: tsfresh
+    conda_id: conda-forge/tsfresh
+    category: time-series-data
+    labels: ["sklearn"]
+  - name: tsai
+    github_id: timeseriesAI/tsai
+    pypi_id: tsai
+    conda_id: conda-forge/tsai
+    category: time-series-data
+  - name: pytorch-forecasting
+    github_id: jdb78/pytorch-forecasting
+    pypi_id: pytorch-forecasting
+    conda_id: conda-forge/pytorch-forecasting
+    category: time-series-data
+  - name: NeuralProphet
+    github_id: ourownstory/neural_prophet
+    pypi_id: neuralprophet
+    category: time-series-data
+    labels: ["pytorch"]
+  - name: StatsForecast
+    github_id: Nixtla/statsforecast
+    pypi_id: statsforecast
+    conda_id: conda-forge/statsforecast
+    category: time-series-data
+  - name: mlforecast
+    github_id: Nixtla/mlforecast
+    pypi_id: mlforecast
+    conda_id: conda-forge/mlforecast
+    category: time-series-data
+  - name: orbit
+    github_id: uber/orbit
+    pypi_id: orbit-ml
+    conda_id: conda-forge/orbit-ml
+    category: time-series-data
+  - name: NeuralForecast
+    github_id: Nixtla/neuralforecast
+    pypi_id: neuralforecast
+    conda_id: conda-forge/neuralforecast
+    category: time-series-data
+  - name: tslearn
+    github_id: tslearn-team/tslearn
+    pypi_id: tslearn
+    conda_id: conda-forge/tslearn
+    category: time-series-data
+    labels: ["sklearn"]
+  - name: greykite
+    github_id: linkedin/greykite
+    pypi_id: greykite
+    category: time-series-data
+  - name: TSFEL
+    github_id: fraunhoferportugal/tsfel
+    pypi_id: tsfel
+    category: time-series-data
+  - name: tsflex
+    github_id: predict-idlab/tsflex
+    pypi_id: tsflex
+    conda_id: conda-forge/tsflex
+    category: time-series-data
+  - name: sktime
+    github_id: alan-turing-institute/sktime
+    pypi_id: sktime
+    conda_id: conda-forge/sktime-all-extras
+    category: time-series-data
+    labels: ["sklearn"]
+  - name: skforecast
+    github_id: JoaquinAmatRodrigo/skforecast
+    pypi_id: skforecast
+    category: time-series-data
+    labels: ["sklearn"]
+  - name: GluonTS
+    github_id: awslabs/gluon-ts
+    pypi_id: gluonts
+    conda_id: anaconda/gluonts
+    category: time-series-data
+    labels: ["pytorch"]
+  - name: pydlm
+    github_id: wwrechard/pydlm
+    pypi_id: pydlm
+    category: time-series-data
+  - name: luminaire
+    github_id: zillow/luminaire
+    pypi_id: luminaire
+    category: time-series-data
+  - name: Orion
+    github_id: sintel-dev/Orion
+    pypi_id: orion-ml
+    category: time-series-data
+  - name: STUMPY
+    github_id: TDAmeritrade/stumpy
+    pypi_id: stumpy
+    conda_id: conda-forge/stumpy
+    category: time-series-data
+    license: BSD-3-Clause
+  - name: tick
+    github_id: X-DataInitiative/tick
+    pypi_id: tick
+    category: time-series-data
+  - name: ADTK
+    github_id: arundo/adtk
+    pypi_id: adtk
+    conda_id: conda-forge/adtk
+    category: time-series-data
+
   - name: Paddle Graph Learning
     github_id: PaddlePaddle/PGL
     pypi_id: pgl
@@ -1751,369 +1979,6 @@ projects:
     category: financial-data
     labels: ["pytorch"]
 
-  - name: Hyperopt
-    github_id: hyperopt/hyperopt
-    pypi_id: hyperopt
-    conda_id: conda-forge/hyperopt
-    category: hyperopt
-  - name: Talos
-    github_id: autonomio/talos
-    pypi_id: talos
-    category: hyperopt
-    labels: ["tensorflow"]
-  - name: scikit-optimize
-    github_id: scikit-optimize/scikit-optimize
-    pypi_id: scikit-optimize
-    conda_id: conda-forge/scikit-optimize
-    category: hyperopt
-  - name: Optuna
-    github_id: optuna/optuna
-    pypi_id: optuna
-    conda_id: conda-forge/optuna
-    category: hyperopt
-  - name: Keras Tuner
-    github_id: keras-team/keras-tuner
-    pypi_id: keras-tuner
-    conda_id: conda-forge/keras-tuner
-    category: hyperopt
-    labels: ["tensorflow"]
-  - name: Hyperactive
-    github_id: SimonBlanke/Hyperactive
-    pypi_id: hyperactive
-    category: hyperopt
-  - name: PyCaret
-    github_id: pycaret/pycaret
-    pypi_id: pycaret
-    conda_id: conda-forge/pycaret
-    category: hyperopt
-  - name: TPOT
-    github_id: EpistasisLab/tpot
-    pypi_id: tpot
-    conda_id: conda-forge/tpot
-    category: hyperopt
-    labels: ["sklearn"]
-  - name: lazypredict
-    github_id: shankarpandala/lazypredict
-    pypi_id: lazypredict
-    conda_id: conda-forge/lazypredict
-    category: hyperopt
-    labels: ["sklearn"]
-  - name: Sklearn-genetic-opt
-    github_id: rodrigo-arenas/Sklearn-genetic-opt
-    pypi_id: sklearn-genetic-opt
-    category: hyperopt
-  - name: NNI
-    github_id: microsoft/nni
-    pypi_id: nni
-    category: hyperopt
-  - name: AutoKeras
-    github_id: keras-team/autokeras
-    pypi_id: autokeras
-    category: hyperopt
-    labels: ["tensorflow"]
-  - name: mljar-supervised
-    github_id: mljar/mljar-supervised
-    pypi_id: mljar-supervised
-    conda_id: conda-forge/mljar-supervised
-    category: hyperopt
-  - name: Neuraxle
-    github_id: Neuraxio/Neuraxle
-    pypi_id: neuraxle
-    category: hyperopt
-  - name: AdaNet
-    github_id: tensorflow/adanet
-    pypi_id: adanet
-    category: hyperopt
-    labels: ["tensorflow"]
-  - name: auto-sklearn
-    github_id: automl/auto-sklearn
-    pypi_id: auto-sklearn
-    conda_id: conda-forge/auto-sklearn
-    category: hyperopt
-    labels: ["sklearn"]
-  - name: SMAC3
-    github_id: automl/SMAC3
-    pypi_id: smac
-    conda_id: conda-forge/smac
-    category: hyperopt
-  - name: orion
-    github_id: Epistimio/orion
-    pypi_id: orion
-    category: hyperopt
-  - name: Bayesian Optimization
-    github_id: fmfn/BayesianOptimization
-    pypi_id: bayesian-optimization
-    category: hyperopt
-  - name: FEDOT
-    github_id: nccr-itmo/FEDOT
-    category: hyperopt
-    pypi_id: fedot
-  - name: lightwood
-    github_id: mindsdb/lightwood
-    category: hyperopt
-    labels: ["pytorch"]
-    pypi_id: lightwood
-  - name: opytimizer
-    github_id: gugarosa/opytimizer
-    category: hyperopt
-    pypi_id: opytimizer
-  - name: Sherpa
-    github_id: sherpa-ai/sherpa
-    pypi_id: parameter-sherpa
-    category: hyperopt
-  - name: HyperparameterHunter
-    github_id: HunterMcGushion/hyperparameter_hunter
-    pypi_id: hyperparameter-hunter
-    category: hyperopt
-  - name: Ax
-    github_id: facebook/Ax
-    pypi_id: ax-platform
-    conda_id: conda-forge/ax-platform
-    category: hyperopt
-    labels: ["pytorch"]
-  - name: nevergrad
-    github_id: facebookresearch/nevergrad
-    pypi_id: nevergrad
-    conda_id: conda-forge/nevergrad
-    category: hyperopt
-  - name: featuretools
-    github_id: alteryx/featuretools
-    pypi_id: featuretools
-    conda_id: conda-forge/featuretools
-    category: hyperopt
-  - name: Test Tube
-    github_id: williamFalcon/test-tube
-    pypi_id: test_tube
-    category: hyperopt
-  - name: Auto Tune Models
-    github_id: HDI-Project/ATM
-    pypi_id: atm
-    category: hyperopt
-  - name: BoTorch
-    github_id: pytorch/botorch
-    pypi_id: botorch
-    conda_id: conda-forge/botorch
-    category: hyperopt
-    labels: ["pytorch"]
-  - name: AutoGluon
-    github_id: autogluon/autogluon
-    pypi_id: autogluon
-    docs_url: https://auto.gluon.ai
-    dockerhub_id: autogluon/autogluon
-    category: hyperopt
-    labels: ["pytorch", "sklearn"]
-  - name: AlphaPy
-    github_id: ScottfreeLLC/AlphaPy
-    pypi_id: alphapy
-    category: hyperopt
-  - name: Auptimizer
-    github_id: LGE-ARC-AdvancedAI/auptimizer
-    pypi_id: auptimizer
-    category: hyperopt
-  - name: DVC
-    github_id: iterative/dvc
-    pypi_id: dvc
-    conda_id: conda-forge/dvc
-    category: ml-experiments
-    brew_id: dvc
-    apt_id: dvc
-    yum_id: dvc
-  - name: ml-metadata
-    github_id: google/ml-metadata
-    pypi_id: ml-metadata
-    category: ml-experiments
-  - name: gokart
-    github_id: m3dev/gokart
-    pypi_id: gokart
-    category: ml-experiments
-  - name: traintool
-    github_id: jrieke/traintool
-    pypi_id: traintool
-    category: ml-experiments
-    labels: ["pytorch", "tensorflow", "sklearn"]
-  - name: Neptune.ai
-    github_id: neptune-ai/neptune-client
-    pypi_id: neptune-client
-    conda_id: conda-forge/neptune-client
-    category: ml-experiments
-  - name: chitra
-    github_id: gradsflow/chitra
-    pypi_id: chitra
-    conda_id: conda-forge/chitra
-    category: ml-experiments
-  - name: aim
-    github_id: aimhubio/aim
-    pypi_id: aim
-    conda_id: conda-forge/aim
-    category: ml-experiments
-  - name: wandb client
-    github_id: wandb/client
-    pypi_id: wandb
-    conda_id: conda-forge/wandb
-    category: ml-experiments
-  - name: livelossplot
-    github_id: stared/livelossplot
-    pypi_id: livelossplot
-    category: ml-experiments
-    labels: ["jupyter"]
-  - name: Studio.ml
-    github_id: studioml/studio
-    pypi_id: studioml
-    category: ml-experiments
-  - name: Labml
-    github_id: labmlai/labml
-    pypi_id: labml
-    category: ml-experiments
-  - name: ClearML
-    github_id: allegroai/clearml
-    pypi_id: clearml
-    dockerhub_id: allegroai/trains
-    category: ml-experiments
-  - name: snakemake
-    github_id: snakemake/snakemake
-    pypi_id: snakemake
-    conda_id: bioconda/snakemake
-    category: ml-experiments
-  - name: sacred
-    github_id: IDSIA/sacred
-    pypi_id: sacred
-    conda_id: conda-forge/sacred
-    category: ml-experiments
-  - name: datmo
-    github_id: datmo/datmo
-    pypi_id: datmo
-    category: ml-experiments
-  - name: mlflow
-    github_id: mlflow/mlflow
-    pypi_id: mlflow
-    conda_id: conda-forge/mlflow
-    category: ml-experiments
-  - name: Metaflow
-    github_id: Netflix/metaflow
-    pypi_id: metaflow
-    conda_id: conda-forge/metaflow
-    category: ml-experiments
-  - name: knockknock
-    github_id: huggingface/knockknock
-    pypi_id: knockknock
-    conda_id: conda-forge/knockknock
-    category: ml-experiments
-  - name: kaggle
-    github_id: Kaggle/kaggle-api
-    pypi_id: kaggle
-    conda_id: conda-forge/kaggle
-    category: ml-experiments
-  - name: Guild AI
-    github_id: guildai/guildai
-    pypi_id: guildai
-    category: ml-experiments
-  - name: VisualDL
-    github_id: PaddlePaddle/VisualDL
-    pypi_id: visualdl
-    category: ml-experiments
-    labels: ["paddle"]
-  - name: Tensorboard
-    github_id: tensorflow/tensorboard
-    pypi_id: tensorboard
-    conda_id: conda-forge/tensorboard
-    category: ml-experiments
-    labels: ["tensorflow"]
-  - name: tensorboardX
-    github_id: lanpa/tensorboardX
-    pypi_id: tensorboardX
-    conda_id: conda-forge/tensorboardx
-    category: ml-experiments
-  - name: Catalyst
-    github_id: catalyst-team/catalyst
-    pypi_id: catalyst
-    category: ml-experiments
-    labels: ["pytorch"]
-  - name: SageMaker SDK
-    github_id: aws/sagemaker-python-sdk
-    pypi_id: sagemaker
-    conda_id: conda-forge/sagemaker-python-sdk
-    category: ml-experiments
-  - name: SKLL
-    github_id: EducationalTestingService/skll
-    pypi_id: skll
-    conda_id: conda-forge/skll
-    category: ml-experiments
-    labels: ["sklearn"]
-  - name: azureml-examples
-    github_id: Azure/azureml-examples
-    category: ml-experiments
-
-  - name: Gymnasium
-    github_id: Farama-Foundation/Gymnasium
-    pypi_id: gymnasium
-    conda_id: conda-forge/gymnasium
-    category: reinforcement-learning
-    license: MIT
-  - name: trl
-    github_id: huggingface/trl
-    pypi_id: trl
-    category: reinforcement-learning
-  - name: tianshou
-    github_id: thu-ml/tianshou
-    pypi_id: tianshou
-    conda_id: conda-forge/tianshou
-    labels: ["pytorch"]
-    category: reinforcement-learning
-  - name: rl
-    github_id: pytorch/rl
-    pypi_id: torchrl
-    conda_id: conda-forge/torchrl
-    labels: ["pytorch"]
-    category: reinforcement-learning
-  - name: Pearl
-    github_id: facebookresearch/Pearl
-    pypi_id: pearl
-    category: reinforcement-learning
-  - name: Dopamine
-    github_id: google/dopamine
-    pypi_id: dopamine-rl
-    category: reinforcement-learning
-    labels: ["tensorflow"]
-  - name: rliable
-    github_id: google-research/rliable
-    pypi_id: rliable
-    category: reinforcement-learning
-  - name: RLax
-    github_id: deepmind/rlax
-    pypi_id: rlax
-    category: reinforcement-learning
-    labels: ["jax"]
-  - name: FinRL
-    github_id: AI4Finance-Foundation/FinRL
-    pypi_id: finrl
-    category: reinforcement-learning
-  - name: PARL
-    github_id: PaddlePaddle/PARL
-    pypi_id: parl
-    category: reinforcement-learning
-    labels: ["paddle"]
-  - name: Maze
-    github_id: enlite-ai/maze
-    pypi_id: maze-rl
-    dockerhub_id: enliteai/maze
-    category: reinforcement-learning
-    labels: ["pytorch"]
-    license: Custom
-  - name: stable-baselines3
-    github_id: DLR-RM/stable-baselines3
-    pypi_id: stable-baselines3
-    category: reinforcement-learning
-  - name: ViZDoom
-    github_id: mwydmuch/ViZDoom
-    pypi_id: vizdoom
-    category: reinforcement-learning
-  - name: Acme
-    github_id: deepmind/acme
-    pypi_id: dm-acme
-    conda_id: conda-forge/dm-acme
-    category: reinforcement-learning
-    labels: ["tensorflow"]
-
   - name: Nilearn
     github_id: nilearn/nilearn
     pypi_id: nilearn
@@ -2198,430 +2063,6 @@ projects:
     pypi_id: dipy
     conda_id: conda-forge/dipy
     category: medical-data
-
-  - name: pyRiemann
-    github_id: pyRiemann/pyRiemann
-    pypi_id: pyriemann
-    conda_id: conda-forge/pyriemann
-    docs_url: https://pyriemann.readthedocs.io/en/latest/
-    category: ml-frameworks
-    labels: ["sklearn"]
-  - name: BigDL
-    github_id: intel-analytics/BigDL
-    pypi_id: bigdl
-    category: distributed-ml
-    maven_id: com.intel.analytics.bigdl:bigdl-SPARK_2.4
-  - name: BytePS
-    github_id: bytedance/byteps
-    pypi_id: byteps
-    dockerhub_id: bytepsimage/tensorflow
-    category: distributed-ml
-    license: Apache-2.0
-  - name: DeepSpeed
-    github_id: microsoft/DeepSpeed
-    pypi_id: deepspeed
-    dockerhub_id: deepspeed/deepspeed
-    category: distributed-ml
-    labels: ["pytorch"]
-  - name: moolib
-    github_id: facebookresearch/moolib
-    category: distributed-ml
-    labels: ["pytorch"]
-  - name: ColossalAI
-    github_id: hpcaitech/colossalai
-    category: distributed-ml
-  - name: bluefog
-    github_id: Bluefog-Lib/bluefog
-    category: distributed-ml
-    labels: ["pytorch"]
-    pypi_id: bluefog
-  - name: SynapseML
-    github_id: microsoft/SynapseML
-    pypi_id: synapseml
-    category: distributed-ml
-  - name: mesh-transformer-jax
-    github_id: kingoflolz/mesh-transformer-jax
-    category: distributed-ml
-    labels: ["jax"]
-  - name: parallelformers
-    github_id: tunib-ai/parallelformers
-    pypi_id: parallelformers
-    category: distributed-ml
-  - name: dask
-    github_id: dask/dask
-    pypi_id: dask
-    conda_id: conda-forge/dask
-    category: distributed-ml
-    helm_id: stable/dask
-  - name: H2O-3
-    github_id: h2oai/h2o-3
-    pypi_id: h2o
-    category: distributed-ml
-    license: Apache-2.0
-  - name: dask-ml
-    github_id: dask/dask-ml
-    pypi_id: dask-ml
-    conda_id: conda-forge/dask-ml
-    category: distributed-ml
-  - name: FairScale
-    github_id: facebookresearch/fairscale
-    pypi_id: fairscale
-    conda_id: conda-forge/fairscale
-    category: distributed-ml
-    labels: ["pytorch"]
-    license: BSD-3-Clause
-  - name: petastorm
-    github_id: uber/petastorm
-    pypi_id: petastorm
-    category: distributed-ml
-  - name: dask.distributed
-    github_id: dask/distributed
-    pypi_id: distributed
-    conda_id: conda-forge/distributed
-    category: distributed-ml
-  - name: Submit it
-    github_id: facebookincubator/submitit
-    pypi_id: submitit
-    conda_id: conda-forge/submitit
-    category: distributed-ml
-  - name: Hivemind
-    github_id: learning-at-home/hivemind
-    pypi_id: hivemind
-    category: distributed-ml
-  - name: Ray
-    github_id: ray-project/ray
-    pypi_id: ray
-    conda_id: conda-forge/ray-tune
-    category: distributed-ml
-  - name: BigDL
-    github_id: intel-analytics/BigDL
-    pypi_id: bigdl
-    category: distributed-ml
-    labels: ["spark"]
-  - name: mpi4py
-    github_id: mpi4py/mpi4py
-    pypi_id: mpi4py
-    conda_id: conda-forge/mpi4py
-    category: distributed-ml
-  - name: horovod
-    github_id: horovod/horovod
-    pypi_id: horovod
-    category: distributed-ml
-    helm_id: stable/horovod
-  - name: ipyparallel
-    github_id: ipython/ipyparallel
-    pypi_id: ipyparallel
-    conda_id: conda-forge/ipyparallel
-    category: distributed-ml
-    labels: ["jupyter"]
-  - name: launchpad
-    github_id: deepmind/launchpad
-    pypi_id: dm-launchpad
-    category: distributed-ml
-    labels: ["tensorflow"]
-  - name: TensorFlowOnSpark
-    github_id: yahoo/TensorFlowOnSpark
-    pypi_id: tensorflowonspark
-    conda_id: conda-forge/tensorflowonspark
-    category: distributed-ml
-    labels: ["tensorflow", "spark"]
-  - name: Elephas
-    github_id: danielenricocahall/elephas
-    pypi_id: elephas
-    conda_id: conda-forge/elephas
-    category: distributed-ml
-    labels: ["keras", "spark"]
-  - name: Apache Singa
-    github_id: apache/singa
-    conda_id: nusdbsystem/singa
-    dockerhub_id: apache/singa
-    category: distributed-ml
-  - name: DEAP
-    github_id: deap/deap
-    pypi_id: deap
-    conda_id: conda-forge/deap
-    category: distributed-ml
-  - name: MMLSpark
-    github_id: microsoft/SynapseML
-    pypi_id: mmlspark
-    category: distributed-ml
-    labels: ["spark"]
-  - name: Fiber
-    github_id: uber/fiber
-    pypi_id: fiber
-    category: distributed-ml
-
-  - name: pytorch_tabular
-    github_id: manujosephv/pytorch_tabular
-    pypi_id: pytorch_tabular
-    category: tabular
-    labels: ["pytorch"]
-  - name: pytorch-widedeep
-    github_id: jrzaurin/pytorch-widedeep
-    pypi_id: pytorch-widedeep
-    category: tabular
-    labels: ["pytorch"]
-  - name: pytorch-frame
-    github_id: pyg-team/pytorch-frame
-    pypi_id: torch-points3d
-    category: tabular
-    labels: ["pytorch"]
-  - name: tabicl
-    github_id: soda-inria/tabicl
-    pypi_id: tabicl
-    category: tabular
-  - name: miceforest
-    github_id: AnotherSamWilson/miceforest
-    pypi_id: miceforest
-    conda_id: conda-forge/miceforest
-    category: tabular
-  - name: upgini
-    github_id: upgini/upgini
-    pypi_id: upgini
-    category: tabular
-  - name: SDV
-    github_id: sdv-dev/SDV
-    pypi_id: sdv
-    conda_id: conda-forge/sdv
-    category: tabular
-  - name: synthcity
-    github_id: vanderschaarlab/synthcity
-    pypi_id: synthcity
-    conda_id: conda-forge/synthcity
-    category: tabular
-  - name: fg-data-synthetic
-    github_id: Data-Centric-AI-Community/fg-data-synthetic
-    pypi_id: fg-data-synthetic
-    conda_id: conda-forge/fg-data-synthetic
-    category: tabular
-
-  - name: Prophet
-    github_id: facebook/prophet
-    pypi_id: fbprophet
-    conda_id: conda-forge/prophet
-    category: time-series-data
-  - name: Darts
-    github_id: unit8co/darts
-    pypi_id: u8darts
-    conda_id: conda-forge/u8darts-all
-    dockerhub_id: unit8/darts
-    category: time-series-data
-  - name: tsfresh
-    github_id: blue-yonder/tsfresh
-    pypi_id: tsfresh
-    conda_id: conda-forge/tsfresh
-    category: time-series-data
-    labels: ["sklearn"]
-  - name: tsai
-    github_id: timeseriesAI/tsai
-    pypi_id: tsai
-    conda_id: conda-forge/tsai
-    category: time-series-data
-  - name: pytorch-forecasting
-    github_id: jdb78/pytorch-forecasting
-    pypi_id: pytorch-forecasting
-    conda_id: conda-forge/pytorch-forecasting
-    category: time-series-data
-  - name: NeuralProphet
-    github_id: ourownstory/neural_prophet
-    pypi_id: neuralprophet
-    category: time-series-data
-    labels: ["pytorch"]
-  - name: StatsForecast
-    github_id: Nixtla/statsforecast
-    pypi_id: statsforecast
-    conda_id: conda-forge/statsforecast
-    category: time-series-data
-  - name: mlforecast
-    github_id: Nixtla/mlforecast
-    pypi_id: mlforecast
-    conda_id: conda-forge/mlforecast
-    category: time-series-data
-  - name: orbit
-    github_id: uber/orbit
-    pypi_id: orbit-ml
-    conda_id: conda-forge/orbit-ml
-    category: time-series-data
-  - name: NeuralForecast
-    github_id: Nixtla/neuralforecast
-    pypi_id: neuralforecast
-    conda_id: conda-forge/neuralforecast
-    category: time-series-data
-  - name: tslearn
-    github_id: tslearn-team/tslearn
-    pypi_id: tslearn
-    conda_id: conda-forge/tslearn
-    category: time-series-data
-    labels: ["sklearn"]
-  - name: greykite
-    github_id: linkedin/greykite
-    pypi_id: greykite
-    category: time-series-data
-  - name: TSFEL
-    github_id: fraunhoferportugal/tsfel
-    pypi_id: tsfel
-    category: time-series-data
-  - name: tsflex
-    github_id: predict-idlab/tsflex
-    pypi_id: tsflex
-    conda_id: conda-forge/tsflex
-    category: time-series-data
-  - name: sktime
-    github_id: alan-turing-institute/sktime
-    pypi_id: sktime
-    conda_id: conda-forge/sktime-all-extras
-    category: time-series-data
-    labels: ["sklearn"]
-  - name: skforecast
-    github_id: JoaquinAmatRodrigo/skforecast
-    pypi_id: skforecast
-    category: time-series-data
-    labels: ["sklearn"]
-  - name: GluonTS
-    github_id: awslabs/gluon-ts
-    pypi_id: gluonts
-    conda_id: anaconda/gluonts
-    category: time-series-data
-    labels: ["pytorch"]
-  - name: pydlm
-    github_id: wwrechard/pydlm
-    pypi_id: pydlm
-    category: time-series-data
-  - name: luminaire
-    github_id: zillow/luminaire
-    pypi_id: luminaire
-    category: time-series-data
-  - name: Orion
-    github_id: sintel-dev/Orion
-    pypi_id: orion-ml
-    category: time-series-data
-  - name: STUMPY
-    github_id: TDAmeritrade/stumpy
-    pypi_id: stumpy
-    conda_id: conda-forge/stumpy
-    category: time-series-data
-    license: BSD-3-Clause
-  - name: tick
-    github_id: X-DataInitiative/tick
-    pypi_id: tick
-    category: time-series-data
-  - name: ADTK
-    github_id: arundo/adtk
-    pypi_id: adtk
-    conda_id: conda-forge/adtk
-    category: time-series-data
-
-  - name: ANN Benchmarks
-    github_id: erikbern/ann-benchmarks
-    category: nn-search
-    resource: true
-  - name: Annoy
-    github_id: spotify/annoy
-    pypi_id: annoy
-    conda_id: conda-forge/python-annoy
-    category: nn-search
-  - name: voyager
-    github_id: spotify/voyager
-    pypi_id: voyager
-    category: nn-search
-  - name: weaviate
-    github_id: weaviate/weaviate
-    pypi_id: weaviate-client
-    category: nn-search
-  - name: Milvus
-    github_id: milvus-io/milvus
-    pypi_id: pymilvus
-    dockerhub_id: milvusdb/milvus
-    category: nn-search
-  - name: qdrant
-    github_id: qdrant/qdrant
-    pypi_id: qdrant-client
-    category: nn-search
-  - name: chroma
-    github_id: chroma-core/chroma
-    pypi_id: chromadb
-    category: nn-search
-  - name: Faiss
-    github_id: facebookresearch/faiss
-    pypi_id: pymilvus
-    conda_id: conda-forge/faiss
-    category: nn-search
-  - name: hnswlib
-    github_id: nmslib/hnswlib
-    pypi_id: hnswlib
-    conda_id: conda-forge/hnswlib
-    category: nn-search
-  - name: PyNNDescent
-    github_id: lmcinnes/pynndescent
-    pypi_id: pynndescent
-    conda_id: conda-forge/pynndescent
-    category: nn-search
-  - name: NGT
-    github_id: yahoojapan/NGT
-    pypi_id: ngt
-    category: nn-search
-  - name: N2
-    github_id: kakao/n2
-    pypi_id: n2
-    category: nn-search
-
-  - name: RecBole
-    github_id: RUCAIBox/RecBole
-    pypi_id: recbole
-    conda_id: aibox/recbole
-    category: recommender-systems
-    labels: ["pytorch"]
-  - name: TF Recommenders
-    github_id: tensorflow/recommenders
-    pypi_id: tensorflow-recommenders
-    category: recommender-systems
-    labels: ["tensorflow"]
-  - name: torchrec
-    github_id: pytorch/torchrec
-    category: recommender-systems
-    pypi_id: torchrec
-  - name: scikit-surprise
-    github_id: NicolasHug/Surprise
-    pypi_id: scikit-surprise
-    conda_id: conda-forge/scikit-surprise
-    category: recommender-systems
-  - name: lkpy
-    github_id: lenskit/lkpy
-    pypi_id: lenskit
-    conda_id: conda-forge/lenskit
-    category: recommender-systems
-  - name: lightfm
-    github_id: lyst/lightfm
-    pypi_id: lightfm
-    conda_id: conda-forge/lightfm
-    category: recommender-systems
-  - name: implicit
-    github_id: benfred/implicit
-    pypi_id: implicit
-    conda_id: conda-forge/implicit
-    category: recommender-systems
-  - name: Case Recommender
-    github_id: caserec/CaseRecommender
-    pypi_id: caserecommender
-    category: recommender-systems
-    labels: ["sklearn"]
-  - name: recmetrics
-    github_id: statisticianinstilettos/recmetrics
-    pypi_id: recmetrics
-    category: recommender-systems
-  - name: rs_metrics
-    github_id: Darel13712/rs_metrics
-    pypi_id: rs_metrics
-    category: recommender-systems
-  - name: Recommenders
-    github_id: microsoft/recommenders
-    pypi_id: recommenders
-    category: recommender-systems
-  - name: Cornac
-    github_id: PreferredAI/cornac
-    pypi_id: cornac
-    conda_id: conda-forge/cornac
-    category: recommender-systems
 
   - name: tts-generation-webui
     github_id: rsxdalv/tts-generation-webui
@@ -2740,76 +2181,135 @@ projects:
     category: audio
     labels: ["tensorflow"]
 
-  - name: onnx
-    github_id: onnx/onnx
-    pypi_id: onnx
-    conda_id: conda-forge/onnx
-    category: model-serialisation
-  - name: TorchServe
-    github_id: pytorch/serve
-    pypi_id: torchserve
-    conda_id: pytorch/torchserve
-    dockerhub_id: pytorch/torchserve
-    category: model-serialisation
+  - name: RecBole
+    github_id: RUCAIBox/RecBole
+    pypi_id: recbole
+    conda_id: aibox/recbole
+    category: recommender-systems
     labels: ["pytorch"]
-  - name: Larq Compute Engine
-    github_id: larq/compute-engine
-    pypi_id: larq-compute-engine
-    category: model-serialisation
-  - name: hls4ml
-    github_id: fastmachinelearning/hls4ml
-    category: model-serialisation
-    labels: ["tensorflow", "pytorch"]
-    conda_id: conda-forge/hls4ml
-    pypi_id: hls4ml
-  - name: modelkit
-    github_id: Cornerstone-OnDemand/modelkit
-    category: model-serialisation
-    pypi_id: modelkit
-  - name: OMLT
-    github_id: cog-imperial/omlt
-    category: model-serialisation
-    pypi_id: omlt
-  - name: ml-ane-transformers
-    github_id: apple/ml-ane-transformers
-    category: model-serialisation
+  - name: TF Recommenders
+    github_id: tensorflow/recommenders
+    pypi_id: tensorflow-recommenders
+    category: recommender-systems
+    labels: ["tensorflow"]
+  - name: torchrec
+    github_id: pytorch/torchrec
+    category: recommender-systems
+    pypi_id: torchrec
+  - name: scikit-surprise
+    github_id: NicolasHug/Surprise
+    pypi_id: scikit-surprise
+    conda_id: conda-forge/scikit-surprise
+    category: recommender-systems
+  - name: lkpy
+    github_id: lenskit/lkpy
+    pypi_id: lenskit
+    conda_id: conda-forge/lenskit
+    category: recommender-systems
+  - name: lightfm
+    github_id: lyst/lightfm
+    pypi_id: lightfm
+    conda_id: conda-forge/lightfm
+    category: recommender-systems
+  - name: implicit
+    github_id: benfred/implicit
+    pypi_id: implicit
+    conda_id: conda-forge/implicit
+    category: recommender-systems
+  - name: Case Recommender
+    github_id: caserec/CaseRecommender
+    pypi_id: caserecommender
+    category: recommender-systems
+    labels: ["sklearn"]
+  - name: recmetrics
+    github_id: statisticianinstilettos/recmetrics
+    pypi_id: recmetrics
+    category: recommender-systems
+  - name: rs_metrics
+    github_id: Darel13712/rs_metrics
+    pypi_id: rs_metrics
+    category: recommender-systems
+  - name: Recommenders
+    github_id: microsoft/recommenders
+    pypi_id: recommenders
+    category: recommender-systems
+  - name: Cornac
+    github_id: PreferredAI/cornac
+    pypi_id: cornac
+    conda_id: conda-forge/cornac
+    category: recommender-systems
+
+
+  - name: Gymnasium
+    github_id: Farama-Foundation/Gymnasium
+    pypi_id: gymnasium
+    conda_id: conda-forge/gymnasium
+    category: reinforcement-learning
+    license: MIT
+  - name: trl
+    github_id: huggingface/trl
+    pypi_id: trl
+    category: reinforcement-learning
+  - name: tianshou
+    github_id: thu-ml/tianshou
+    pypi_id: tianshou
+    conda_id: conda-forge/tianshou
     labels: ["pytorch"]
-    pypi_id: ane-transformers
-  - name: Core ML Tools
-    github_id: apple/coremltools
-    pypi_id: coremltools
-    conda_id: conda-forge/coremltools
-    category: model-serialisation
-  - name: m2cgen
-    github_id: BayesWitnesses/m2cgen
-    pypi_id: m2cgen
-    category: model-serialisation
-  - name: Hummingbird
-    github_id: microsoft/hummingbird
-    pypi_id: hummingbird-ml
-    conda_id: conda-forge/hummingbird-ml
-    category: model-serialisation
-  - name: BentoML
-    github_id: bentoml/BentoML
-    pypi_id: bentoml
-    category: model-serialisation
-  - name: Gradio
-    github_id: gradio-app/gradio
-    pypi_id: gradio
-    category: model-serialisation
-  - name: Streamlit
-    github_id: streamlit/streamlit
-    pypi_id: streamlit
-    category: model-serialisation
-  - name: huggingface_hub
-    github_id: huggingface/huggingface_hub
-    pypi_id: huggingface_hub
-    conda_id: conda-forge/huggingface_hub
-    category: model-serialisation
-  - name: backprop
-    github_id: backprop-ai/backprop
-    pypi_id: backprop
-    category: model-serialisation
+    category: reinforcement-learning
+  - name: rl
+    github_id: pytorch/rl
+    pypi_id: torchrl
+    conda_id: conda-forge/torchrl
+    labels: ["pytorch"]
+    category: reinforcement-learning
+  - name: Pearl
+    github_id: facebookresearch/Pearl
+    pypi_id: pearl
+    category: reinforcement-learning
+  - name: Dopamine
+    github_id: google/dopamine
+    pypi_id: dopamine-rl
+    category: reinforcement-learning
+    labels: ["tensorflow"]
+  - name: rliable
+    github_id: google-research/rliable
+    pypi_id: rliable
+    category: reinforcement-learning
+  - name: RLax
+    github_id: deepmind/rlax
+    pypi_id: rlax
+    category: reinforcement-learning
+    labels: ["jax"]
+  - name: FinRL
+    github_id: AI4Finance-Foundation/FinRL
+    pypi_id: finrl
+    category: reinforcement-learning
+  - name: PARL
+    github_id: PaddlePaddle/PARL
+    pypi_id: parl
+    category: reinforcement-learning
+    labels: ["paddle"]
+  - name: Maze
+    github_id: enlite-ai/maze
+    pypi_id: maze-rl
+    dockerhub_id: enliteai/maze
+    category: reinforcement-learning
+    labels: ["pytorch"]
+    license: Custom
+  - name: stable-baselines3
+    github_id: DLR-RM/stable-baselines3
+    pypi_id: stable-baselines3
+    category: reinforcement-learning
+  - name: ViZDoom
+    github_id: mwydmuch/ViZDoom
+    pypi_id: vizdoom
+    category: reinforcement-learning
+  - name: Acme
+    github_id: deepmind/acme
+    pypi_id: dm-acme
+    conda_id: conda-forge/dm-acme
+    category: reinforcement-learning
+    labels: ["tensorflow"]
 
   - name: FATE
     github_id: FederatedAI/FATE
@@ -2872,6 +2372,526 @@ projects:
     category: privacy-ml
     labels: ["pytorch"]
 
+  - name: featuretools
+    github_id: alteryx/featuretools
+    pypi_id: featuretools
+    conda_id: conda-forge/featuretools
+    category: hyperopt
+
+  - name: Hyperopt
+    github_id: hyperopt/hyperopt
+    pypi_id: hyperopt
+    conda_id: conda-forge/hyperopt
+    category: hyperopt
+  - name: Talos
+    github_id: autonomio/talos
+    pypi_id: talos
+    category: hyperopt
+    labels: ["tensorflow"]
+  - name: Optuna
+    github_id: optuna/optuna
+    pypi_id: optuna
+    conda_id: conda-forge/optuna
+    category: hyperopt
+  - name: Keras Tuner
+    github_id: keras-team/keras-tuner
+    pypi_id: keras-tuner
+    conda_id: conda-forge/keras-tuner
+    category: hyperopt
+    labels: ["tensorflow"]
+  - name: Hyperactive
+    github_id: SimonBlanke/Hyperactive
+    pypi_id: hyperactive
+    category: hyperopt
+  - name: Sklearn-genetic-opt
+    github_id: rodrigo-arenas/Sklearn-genetic-opt
+    pypi_id: sklearn-genetic-opt
+    category: hyperopt
+  - name: mljar-supervised
+    github_id: mljar/mljar-supervised
+    pypi_id: mljar-supervised
+    conda_id: conda-forge/mljar-supervised
+    category: hyperopt
+  - name: Neuraxle
+    github_id: Neuraxio/Neuraxle
+    pypi_id: neuraxle
+    category: hyperopt
+  - name: SMAC3
+    github_id: automl/SMAC3
+    pypi_id: smac
+    conda_id: conda-forge/smac
+    category: hyperopt
+  - name: orion
+    github_id: Epistimio/orion
+    pypi_id: orion
+    category: hyperopt
+  - name: Bayesian Optimization
+    github_id: fmfn/BayesianOptimization
+    pypi_id: bayesian-optimization
+    category: hyperopt
+  - name: opytimizer
+    github_id: recogna-lab/opytimizer
+    category: hyperopt
+    pypi_id: opytimizer
+  - name: Ax
+    github_id: facebook/Ax
+    pypi_id: ax-platform
+    conda_id: conda-forge/ax-platform
+    category: hyperopt
+    labels: ["pytorch"]
+  - name: nevergrad
+    github_id: facebookresearch/nevergrad
+    pypi_id: nevergrad
+    conda_id: conda-forge/nevergrad
+    category: hyperopt
+  - name: BoTorch
+    github_id: pytorch/botorch
+    pypi_id: botorch
+    conda_id: conda-forge/botorch
+    category: hyperopt
+    labels: ["pytorch"]
+
+# Auto ML
+  - name: PyCaret
+    github_id: pycaret/pycaret
+    pypi_id: pycaret
+    conda_id: conda-forge/pycaret
+    category: auto-ml
+  - name: TPOT
+    github_id: EpistasisLab/tpot
+    pypi_id: tpot
+    conda_id: conda-forge/tpot
+    category: auto-ml
+    labels: ["sklearn"]
+  - name: lazypredict
+    github_id: shankarpandala/lazypredict
+    pypi_id: lazypredict
+    conda_id: conda-forge/lazypredict
+    category: auto-ml
+    labels: ["sklearn"]
+  - name: AutoKeras
+    github_id: keras-team/autokeras
+    pypi_id: autokeras
+    category: auto-ml
+    labels: ["tensorflow"]
+  - name: FEDOT
+    github_id: nccr-itmo/FEDOT
+    category: auto-ml
+    pypi_id: fedot
+  - name: lightwood
+    github_id: mindsdb/lightwood
+    category: auto-ml
+    labels: ["pytorch"]
+    pypi_id: lightwood
+  - name: AutoGluon
+    github_id: autogluon/autogluon
+    pypi_id: autogluon
+    docs_url: https://auto.gluon.ai
+    dockerhub_id: autogluon/autogluon
+    category: auto-ml
+    labels: ["pytorch", "sklearn"]
+  - name: FLAML
+    github_id: microsoft/FLAML
+    pypi_id: flaml
+    conda_id: conda-forge/flaml
+    category: auto-ml
+  - name: AlphaPy
+    github_id: ScottfreeLLC/AlphaPy
+    pypi_id: alphapy
+    category: auto-ml
+
+# Experiment Tracking & Reproducibility
+  - name: mlflow
+    github_id: mlflow/mlflow
+    pypi_id: mlflow
+    conda_id: conda-forge/mlflow
+    category: ml-experiments
+  - name: aim
+    github_id: aimhubio/aim
+    pypi_id: aim
+    conda_id: conda-forge/aim
+    category: ml-experiments
+  - name: wandb client
+    github_id: wandb/client
+    pypi_id: wandb
+    conda_id: conda-forge/wandb
+    category: ml-experiments
+  - name: ClearML
+    github_id: allegroai/clearml
+    pypi_id: clearml
+    dockerhub_id: allegroai/trains
+    category: ml-experiments
+  - name: ml-metadata
+    github_id: google/ml-metadata
+    pypi_id: ml-metadata
+    category: ml-experiments
+  - name: tensorboardX
+    github_id: lanpa/tensorboardX
+    pypi_id: tensorboardX
+    conda_id: conda-forge/tensorboardx
+    category: ml-experiments
+  - name: Tensorboard
+    github_id: tensorflow/tensorboard
+    pypi_id: tensorboard
+    conda_id: conda-forge/tensorboard
+    category: ml-experiments
+    labels: ["tensorflow"]
+  - name: livelossplot
+    github_id: stared/livelossplot
+    pypi_id: livelossplot
+    category: ml-experiments
+    labels: ["jupyter"]
+  - name: sacred
+    github_id: IDSIA/sacred
+    pypi_id: sacred
+    conda_id: conda-forge/sacred
+    category: ml-experiments
+  - name: Guild AI
+    github_id: guildai/guildai
+    pypi_id: guildai
+    category: ml-experiments
+  - name: VisualDL
+    github_id: PaddlePaddle/VisualDL
+    pypi_id: visualdl
+    category: ml-experiments
+    labels: ["paddle"]
+  - name: SKLL
+    github_id: EducationalTestingService/skll
+    pypi_id: skll
+    conda_id: conda-forge/skll
+    category: ml-experiments
+    labels: ["sklearn"]
+  - name: Labml
+    github_id: labmlai/labml
+    pypi_id: labml
+    category: ml-experiments
+
+# ML Workflow Orchestration & Pipelines
+  - name: flyte
+    github_id: flyteorg/flyte
+    pypi_id: flyte
+    conda_id: conda-forge/flyte
+    category: workflow
+  - name: zenml
+    github_id: zenml-io/zenml
+    pypi_id: zenml
+    conda_id: conda-forge/zenml
+    category: workflow
+  - name: Kubeflow Pipelines
+    github_id: kubeflow/pipelines
+    pypi_id: kfp
+    conda_id: conda-forge/kfp
+    category: workflow
+  - name: DVC
+    github_id: iterative/dvc
+    pypi_id: dvc
+    conda_id: conda-forge/dvc
+    category: workflow
+  - name: gokart
+    github_id: m3dev/gokart
+    pypi_id: gokart
+    category: workflow
+  - name: snakemake
+    github_id: snakemake/snakemake
+    pypi_id: snakemake
+    conda_id: bioconda/snakemake
+    category: workflow
+  - name: Metaflow
+    github_id: Netflix/metaflow
+    pypi_id: metaflow
+    conda_id: conda-forge/metaflow
+    category: workflow
+  - name: chitra
+    github_id: gradsflow/chitra
+    pypi_id: chitra
+    conda_id: conda-forge/chitra
+    category: workflow
+
+
+# Model Serialization & Interoperability
+  - name: onnx
+    github_id: onnx/onnx
+    pypi_id: onnx
+    conda_id: conda-forge/onnx
+    category: model-serialisation
+  - name: m2cgen
+    github_id: BayesWitnesses/m2cgen
+    pypi_id: m2cgen
+    category: model-serialisation
+  - name: Core ML Tools
+    github_id: apple/coremltools
+    pypi_id: coremltools
+    conda_id: conda-forge/coremltools
+    category: model-serialisation
+
+# Model Serving & Deployment
+  - name: Larq Compute Engine
+    github_id: larq/compute-engine
+    pypi_id: larq-compute-engine
+    category: model-serialisation
+  - name: hls4ml
+    github_id: fastmachinelearning/hls4ml
+    category: model-serialisation
+    labels: ["tensorflow", "pytorch"]
+    conda_id: conda-forge/hls4ml
+    pypi_id: hls4ml
+  - name: modelkit
+    github_id: Cornerstone-OnDemand/modelkit
+    category: model-serialisation
+    pypi_id: modelkit
+  - name: ml-ane-transformers
+    github_id: apple/ml-ane-transformers
+    category: model-serialisation
+    labels: ["pytorch"]
+    pypi_id: ane-transformers
+  - name: Hummingbird
+    github_id: microsoft/hummingbird
+    pypi_id: hummingbird-ml
+    conda_id: conda-forge/hummingbird-ml
+    category: model-serialisation
+  - name: BentoML
+    github_id: bentoml/BentoML
+    pypi_id: bentoml
+    category: model-serialisation
+  - name: Gradio
+    github_id: gradio-app/gradio
+    pypi_id: gradio
+    category: model-serialisation
+  - name: Streamlit
+    github_id: streamlit/streamlit
+    pypi_id: streamlit
+    category: model-serialisation
+  - name: OMLT
+    github_id: cog-imperial/omlt
+    category: model-serialisation
+    pypi_id: omlt
+
+
+# Distributed Computing & Machine Learning
+# Distributed Deep Learning & Training
+  - name: DeepSpeed
+    github_id: microsoft/DeepSpeed
+    pypi_id: deepspeed
+    dockerhub_id: deepspeed/deepspeed
+    category: distributed-ml
+    labels: ["pytorch"]
+  - name: horovod
+    github_id: horovod/horovod
+    pypi_id: horovod
+    category: distributed-ml
+    helm_id: stable/horovod
+  - name: Megatron-LM
+    github_id: NVIDIA/Megatron-LM
+    pypi_id: megatron-core
+    category: distributed-ml
+  - name: ColossalAI
+    github_id: hpcaitech/colossalai
+    category: distributed-ml
+  - name: SynapseML
+    github_id: microsoft/SynapseML
+    pypi_id: synapseml
+    category: distributed-ml
+  - name: dask
+    github_id: dask/dask
+    pypi_id: dask
+    conda_id: conda-forge/dask
+    category: distributed-ml
+    helm_id: stable/dask
+  - name: H2O-3
+    github_id: h2oai/h2o-3
+    pypi_id: h2o
+    category: distributed-ml
+    license: Apache-2.0
+  - name: dask-ml
+    github_id: dask/dask-ml
+    pypi_id: dask-ml
+    conda_id: conda-forge/dask-ml
+    category: distributed-ml
+  - name: petastorm
+    github_id: uber/petastorm
+    pypi_id: petastorm
+    category: distributed-ml
+  - name: dask.distributed
+    github_id: dask/distributed
+    pypi_id: distributed
+    conda_id: conda-forge/distributed
+    category: distributed-ml
+  - name: Submit it
+    github_id: facebookincubator/submitit
+    pypi_id: submitit
+    conda_id: conda-forge/submitit
+    category: distributed-ml
+  - name: Hivemind
+    github_id: learning-at-home/hivemind
+    pypi_id: hivemind
+    category: distributed-ml
+  - name: Ray
+    github_id: ray-project/ray
+    pypi_id: ray
+    conda_id: conda-forge/ray-tune
+    category: distributed-ml
+  - name: mpi4py
+    github_id: mpi4py/mpi4py
+    pypi_id: mpi4py
+    conda_id: conda-forge/mpi4py
+    category: distributed-ml
+  - name: ipyparallel
+    github_id: ipython/ipyparallel
+    pypi_id: ipyparallel
+    conda_id: conda-forge/ipyparallel
+    category: distributed-ml
+    labels: ["jupyter"]
+  - name: Elephas
+    github_id: danielenricocahall/elephas
+    pypi_id: elephas
+    conda_id: conda-forge/elephas
+    category: distributed-ml
+    labels: ["keras", "spark"]
+  - name: Apache Singa
+    github_id: apache/singa
+    conda_id: nusdbsystem/singa
+    dockerhub_id: apache/singa
+    category: distributed-ml
+  - name: DEAP
+    github_id: deap/deap
+    pypi_id: deap
+    conda_id: conda-forge/deap
+    category: distributed-ml
+  - name: MMLSpark
+    github_id: microsoft/SynapseML
+    pypi_id: mmlspark
+    category: distributed-ml
+    labels: ["spark"]
+
+
+
+  - name: Baal
+    github_id: baal-org/baal
+    pypi_id: baal
+    conda_id: conda-forge/baal
+    category: probabilistics
+  - name: Funsor
+    github_id: pyro-ppl/funsor
+    pypi_id: funsor
+    category: probabilistics
+    labels: ["pytorch"]
+  - name: pomegranate
+    github_id: jmschrei/pomegranate
+    pypi_id: pomegranate
+    conda_id: conda-forge/pomegranate
+    category: probabilistics
+  - name: Pyro
+    github_id: pyro-ppl/pyro
+    pypi_id: pyro-ppl
+    conda_id: conda-forge/pyro-ppl
+    category: probabilistics
+    labels: ["pytorch"]
+  - name: Numpyro
+    github_id: pyro-ppl/numpyro
+    pypi_id: numpyro
+    conda_id: conda-forge/numpyro
+    category: probabilistics
+    labels: ["jax"]
+  - name: GPyTorch
+    github_id: cornellius-gp/gpytorch
+    pypi_id: gpytorch
+    conda_id: conda-forge/gpytorch
+    category: probabilistics
+    labels: ["pytorch"]
+  - name: bambi
+    github_id: bambinos/bambi
+    pypi_id: bambi
+    conda_id: conda-forge/bambi
+    category: probabilistics
+  - name: emcee
+    github_id: dfm/emcee
+    category: probabilistics
+    conda_id: conda-forge/emcee
+    pypi_id: emcee
+  - name: hmmlearn
+    github_id: hmmlearn/hmmlearn
+    pypi_id: hmmlearn
+    conda_id: conda-forge/hmmlearn
+    category: probabilistics
+    labels: ["sklearn"]
+  - name: formulaic
+    github_id: matthewwardrop/formulaic
+    pypi_id: formulaic
+    category: probabilistics
+  - name: tensorflow-probability
+    github_id: tensorflow/probability
+    pypi_id: tensorflow-probability
+    conda_id: conda-forge/tensorflow-probability
+    category: probabilistics
+    labels: ["tensorflow"]
+  - name: pgmpy
+    github_id: pgmpy/pgmpy
+    pypi_id: pgmpy
+    category: probabilistics
+  - name: torch-uncertainty
+    github_id: ENSTA-U2IS-AI/torch-uncertainty
+    pypi_id: torch-uncertainty
+    category: probabilistics
+  - name: GPflow
+    github_id: GPflow/GPflow
+    pypi_id: gpflow
+    conda_id: conda-forge/gpflow
+    category: probabilistics
+    labels: ["tensorflow"]
+  - name: tinygp
+    github_id: dfm/tinygp
+    pypi_id: tinygp
+    conda_id: conda-forge/tinygp
+    category: probabilistics
+    labels: ["jax"]
+  - name: PyStan
+    github_id: stan-dev/pystan
+    pypi_id: pystan
+    conda_id: conda-forge/pystan
+    category: probabilistics
+  - name: pymc
+    github_id: pymc-devs/pymc
+    pypi_id: pymc
+    conda_id: conda-forge/pymc
+    category: probabilistics
+  - name: SALib
+    github_id: SALib/SALib
+    pypi_id: salib
+    conda_id: conda-forge/salib
+    category: probabilistics
+  - name: pingouin
+    github_id: raphaelvallat/pingouin
+    pypi_id: pingouin
+    conda_id: conda-forge/pingouin
+    category: probabilistics
+  - name: scikit-posthocs
+    github_id: maximtrp/scikit-posthocs
+    pypi_id: scikit-posthocs
+    conda_id: conda-forge/scikit-posthocs
+    category: probabilistics
+    labels: ["sklearn"]
+
+  - name: ART
+    github_id: Trusted-AI/adversarial-robustness-toolbox
+    pypi_id: adversarial-robustness-toolbox
+    conda_id: conda-forge/adversarial-robustness-toolbox
+    category: adversarial
+  - name: TextAttack
+    github_id: QData/TextAttack
+    pypi_id: textattack
+    conda_id: conda-forge/textattack
+    category: adversarial
+  - name: Foolbox
+    github_id: bethgelab/foolbox
+    pypi_id: foolbox
+    conda_id: conda-forge/foolbox
+    category: adversarial
+  - name: AutoAttack
+    github_id: fra31/auto-attack
+    pypi_id: auto-attack
+    category: adversarial
+
+
   - name: gpustat
     github_id: wookayin/gpustat
     pypi_id: gpustat
@@ -2923,128 +2943,7 @@ projects:
     github_id: NVIDIA-Merlin/Merlin
     category: gpu-utilities
     pypi_id: merlin-core
-  - name: BlazingSQL
-    github_id: BlazingDB/blazingsql
-    conda_id: blazingsql/blazingsql-protocol
-    category: gpu-utilities
-  - name: Baal
-    github_id: baal-org/baal
-    pypi_id: baal
-    conda_id: conda-forge/baal
-    category: probabilistics
-  - name: Funsor
-    github_id: pyro-ppl/funsor
-    pypi_id: funsor
-    category: probabilistics
-    labels: ["pytorch"]
-  - name: pomegranate
-    github_id: jmschrei/pomegranate
-    pypi_id: pomegranate
-    conda_id: conda-forge/pomegranate
-    category: probabilistics
-  - name: Pyro
-    github_id: pyro-ppl/pyro
-    pypi_id: pyro-ppl
-    conda_id: conda-forge/pyro-ppl
-    category: probabilistics
-    labels: ["pytorch"]
-  - name: GPyTorch
-    github_id: cornellius-gp/gpytorch
-    pypi_id: gpytorch
-    conda_id: conda-forge/gpytorch
-    category: probabilistics
-    labels: ["pytorch"]
-  - name: bambi
-    github_id: bambinos/bambi
-    pypi_id: bambi
-    conda_id: conda-forge/bambi
-    category: probabilistics
-  - name: emcee
-    github_id: dfm/emcee
-    category: probabilistics
-    conda_id: conda-forge/emcee
-    pypi_id: emcee
-  - name: hmmlearn
-    github_id: hmmlearn/hmmlearn
-    pypi_id: hmmlearn
-    conda_id: conda-forge/hmmlearn
-    category: probabilistics
-    labels: ["sklearn"]
-  - name: formulaic
-    github_id: matthewwardrop/formulaic
-    pypi_id: formulaic
-    category: probabilistics
-  - name: tensorflow-probability
-    github_id: tensorflow/probability
-    pypi_id: tensorflow-probability
-    conda_id: conda-forge/tensorflow-probability
-    category: probabilistics
-    labels: ["tensorflow"]
-  - name: pgmpy
-    github_id: pgmpy/pgmpy
-    pypi_id: pgmpy
-    category: probabilistics
-  - name: torch-uncertainty
-    github_id: ENSTA-U2IS-AI/torch-uncertainty
-    pypi_id: torch-uncertainty
-    category: probabilistics
-  - name: GPflow
-    github_id: GPflow/GPflow
-    pypi_id: gpflow
-    conda_id: conda-forge/gpflow
-    category: probabilistics
-    labels: ["tensorflow"]
-  - name: PyStan
-    github_id: stan-dev/pystan
-    pypi_id: pystan
-    conda_id: conda-forge/pystan
-    category: probabilistics
-  - name: pymc
-    github_id: pymc-devs/pymc
-    pypi_id: pymc
-    conda_id: conda-forge/pymc
-    category: probabilistics
-  - name: SALib
-    github_id: SALib/SALib
-    pypi_id: salib
-    conda_id: conda-forge/salib
-    category: probabilistics
-  - name: pingouin
-    github_id: raphaelvallat/pingouin
-    pypi_id: pingouin
-    conda_id: conda-forge/pingouin
-    category: probabilistics
-  - name: scikit-posthocs
-    github_id: maximtrp/scikit-posthocs
-    pypi_id: scikit-posthocs
-    conda_id: conda-forge/scikit-posthocs
-    category: probabilistics
-    labels: ["sklearn"]
-  - name: ART
-    github_id: Trusted-AI/adversarial-robustness-toolbox
-    pypi_id: adversarial-robustness-toolbox
-    conda_id: conda-forge/adversarial-robustness-toolbox
-    category: adversarial
-  - name: Foolbox
-    github_id: bethgelab/foolbox
-    pypi_id: foolbox
-    conda_id: conda-forge/foolbox
-    category: adversarial
-  - name: TextAttack
-    github_id: QData/TextAttack
-    pypi_id: textattack
-    conda_id: conda-forge/textattack
-    category: adversarial
-  - name: CleverHans
-    github_id: cleverhans-lab/cleverhans
-    pypi_id: cleverhans
-    conda_id: conda-forge/cleverhans
-    category: adversarial
-    labels: ["tensorflow"]
-  - name: textflint
-    github_id: textflint/textflint
-    pypi_id: textflint
-    category: adversarial
+
   - name: AdaBound
     github_id: Luolc/AdaBound
     pypi_id: adabound
@@ -3111,10 +3010,10 @@ projects:
     labels: ["pytorch"]
   - name: detecto
     github_id: alankbi/detecto
-    category: pytorch-utils
-    labels: ["pytorch"]
     conda_id: conda-forge/detecto
     pypi_id: detecto
+    category: pytorch-utils
+    labels: ["pytorch"]
   - name: torch-scatter
     github_id: rusty1s/pytorch_scatter
     pypi_id: torch-scatter
@@ -3180,6 +3079,7 @@ projects:
     conda_id: conda-forge/torchsde
     category: pytorch-utils
     labels: ["pytorch"]
+
   - name: Saliency
     github_id: PAIR-code/saliency
     pypi_id: saliency
@@ -3232,6 +3132,7 @@ projects:
     pypi_id: tensorflow-model-optimization
     category: tensorflow-utils
     labels: ["tensorflow"]
+
   - name: equinox
     github_id: patrick-kidger/equinox
     pypi_id: equinox
@@ -3247,6 +3148,7 @@ projects:
     labels: ["jax"]
     conda_id: conda-forge/evojax
     pypi_id: evojax
+
   - name: sklearn-contrib-lightning
     github_id: scikit-learn-contrib/lightning
     pypi_id: sklearn-contrib-lightning
@@ -3336,6 +3238,7 @@ projects:
     conda_id: conda-forge/prince-factor-analysis
     category: sklearn-utils
     labels: ["sklearn"]
+
   - name: best-of-web-python - Web Scraping
     github_id: ml-tooling/best-of-web-python
     category: web-scraping
@@ -3510,4 +3413,17 @@ projects:
     category: others
   - name: traingenerator
     github_id: jrieke/traingenerator
-
+  - name: kaggle
+    github_id: Kaggle/kaggle-api
+    pypi_id: kaggle
+    conda_id: conda-forge/kaggle
+  - name: azureml-examples
+    github_id: Azure/azureml-examples
+  - name: SageMaker SDK
+    github_id: aws/sagemaker-python-sdk
+    pypi_id: sagemaker
+    conda_id: conda-forge/sagemaker-python-sdk
+  - name: huggingface_hub
+    github_id: huggingface/huggingface_hub
+    pypi_id: huggingface_hub
+    conda_id: conda-forge/huggingface_hub
