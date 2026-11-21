@@ -104,8 +104,11 @@ categories:
     title: "Model Serialization & Deployment"
     subtitle: "Libraries to serialize models to files, convert between a variety of model formats, and optimize models for deployment."
   - category: "distributed-ml"
-    title: "Distributed Machine Learning"
+    title: "Distributed Computing & Machine Learning "
     subtitle: "Libraries that provide capabilities to distribute and parallelize machine learning tasks across large-scale compute infrastructure."
+  - category: "distributed-dl"
+    title: "Distributed Deep Learning & Training"
+    subtitle: "Libraries that provide capabilities to distribute and parallelize deep learning tasks across large-scale compute infrastructure."
   - category: "probabilistics"
     title: "Probabilistic Modeling & Statistics"
     subtitle: "Libraries providing capabilities for probabilistic programming/reasoning, bayesian inference, gaussian processes, or statistics."
@@ -1143,6 +1146,7 @@ projects:
     pypi_id: matplotlib
     conda_id: conda-forge/matplotlib
     category: data-viz
+    license: PSF-2.0
     show: true
   - name: Altair
     github_id: altair-viz/altair
@@ -1297,11 +1301,6 @@ projects:
     conda_id: conda-forge/yellowbrick
     category: interpretability
     labels: ["sklearn"]
-  - name: FlashTorch
-    github_id: MisaOgura/flashtorch
-    pypi_id: flashtorch
-    category: interpretability
-    labels: ["pytorch"]
   - name: DoWhy
     github_id: py-why/dowhy
     pypi_id: dowhy
@@ -1325,11 +1324,6 @@ projects:
     github_id: understandable-machine-intelligence-lab/quantus
     category: interpretability
     pypi_id: quantus
-  - name: PDPbox
-    github_id: SauceCat/PDPbox
-    pypi_id: pdpbox
-    conda_id: conda-forge/pdpbox
-    category: interpretability
   - name: shapash
     github_id: MAIF/shapash
     pypi_id: shapash
@@ -1346,11 +1340,6 @@ projects:
     conda_id: conda-forge/ecco
     category: interpretability
     labels: ["pytorch"]
-  - name: interpret-text
-    github_id: interpretml/interpret-text
-    pypi_id: interpret-text
-    category: interpretability
-    labels: ["jupyter"]
   - name: imodels
     github_id: csinva/imodels
     pypi_id: imodels
@@ -1365,12 +1354,6 @@ projects:
     pypi_id: lime
     conda_id: conda-forge/lime
     category: interpretability
-  - name: scikit-plot
-    github_id: reiinakano/scikit-plot
-    pypi_id: scikit-plot
-    conda_id: conda-forge/scikit-plot
-    category: interpretability
-    labels: ["sklearn"]
   - name: pyLDAvis
     github_id: bmabey/pyLDAvis
     pypi_id: pyldavis
@@ -1402,26 +1385,11 @@ projects:
     github_id: SeldonIO/alibi
     pypi_id: alibi
     category: interpretability
-  - name: keract
-    github_id: philipperemy/keract
-    pypi_id: keract
-    category: interpretability
-    labels: ["tensorflow"]
-  - name: tf-explain
-    github_id: sicara/tf-explain
-    pypi_id: tf-explain
-    category: interpretability
-    labels: ["tensorflow"]
   - name: InterpretML
     github_id: interpretml/interpret
     pypi_id: interpret
     category: interpretability
     labels: ["jupyter"]
-  - name: sklearn-evaluation
-    github_id: edublancas/sklearn-evaluation
-    pypi_id: sklearn-evaluation
-    category: interpretability
-    labels: ["sklearn"]
   - name: Captum
     github_id: pytorch/captum
     pypi_id: captum
@@ -1452,29 +1420,11 @@ projects:
     pypi_id: fairness-indicators
     category: interpretability
     labels: ["tensorflow", "jupyter"]
-  - name: model-card-toolkit
-    github_id: tensorflow/model-card-toolkit
-    pypi_id: model-card-toolkit
-    category: interpretability
   - name: Model Analysis
     github_id: tensorflow/model-analysis
     pypi_id: tensorflow-model-analysis
     category: interpretability
     labels: ["tensorflow", "jupyter"]
-  - name: bias-detector
-    github_id: intuit/bias-detector
-    pypi_id: bias-detector
-    category: interpretability
-  - name: iNNvestigate
-    github_id: albermax/innvestigate
-    pypi_id: innvestigate
-    category: interpretability
-    labels: ["tensorflow"]
-    license: BSD-2-Clause
-  - name: LOFO
-    github_id: aerdem4/lofo-importance
-    pypi_id: lofo-importance
-    category: interpretability
   - name: XAI
     github_id: EthicalML/xai
     pypi_id: xai
@@ -1484,13 +1434,13 @@ projects:
     pypi_id: tf-keras-vis
     category: interpretability
     labels: ["tensorflow"]
+  - name: nnsight
+    github_id: ndif-team/nnsight
+    pypi_id: nnsight
+    category: interpretability
   - name: Explainability 360
     github_id: Trusted-AI/AIX360
     pypi_id: aix360
-    category: interpretability
-  - name: Anchor
-    github_id: marcotcr/anchor
-    pypi_id: anchor_exp
     category: interpretability
   - name: Attribution Priors
     github_id: suinleelab/attributionpriors
@@ -2463,6 +2413,11 @@ projects:
     conda_id: conda-forge/tpot
     category: auto-ml
     labels: ["sklearn"]
+  - name: H2O-3
+    github_id: h2oai/h2o-3
+    pypi_id: h2o
+    category: auto-ml
+    license: Apache-2.0
   - name: lazypredict
     github_id: shankarpandala/lazypredict
     pypi_id: lazypredict
@@ -2668,28 +2623,9 @@ projects:
 
 
 # Distributed Computing & Machine Learning
-# Distributed Deep Learning & Training
-  - name: DeepSpeed
-    github_id: microsoft/DeepSpeed
-    pypi_id: deepspeed
-    dockerhub_id: deepspeed/deepspeed
-    category: distributed-ml
-    labels: ["pytorch"]
-  - name: horovod
-    github_id: horovod/horovod
-    pypi_id: horovod
-    category: distributed-ml
-    helm_id: stable/horovod
-  - name: Megatron-LM
-    github_id: NVIDIA/Megatron-LM
-    pypi_id: megatron-core
-    category: distributed-ml
-  - name: ColossalAI
-    github_id: hpcaitech/colossalai
-    category: distributed-ml
-  - name: SynapseML
-    github_id: microsoft/SynapseML
-    pypi_id: synapseml
+  - name: Ray
+    github_id: ray-project/ray
+    pypi_id: ray
     category: distributed-ml
   - name: dask
     github_id: dask/dask
@@ -2697,43 +2633,19 @@ projects:
     conda_id: conda-forge/dask
     category: distributed-ml
     helm_id: stable/dask
-  - name: H2O-3
-    github_id: h2oai/h2o-3
-    pypi_id: h2o
-    category: distributed-ml
-    license: Apache-2.0
   - name: dask-ml
     github_id: dask/dask-ml
     pypi_id: dask-ml
     conda_id: conda-forge/dask-ml
     category: distributed-ml
-  - name: petastorm
-    github_id: uber/petastorm
-    pypi_id: petastorm
-    category: distributed-ml
-  - name: dask.distributed
-    github_id: dask/distributed
-    pypi_id: distributed
-    conda_id: conda-forge/distributed
-    category: distributed-ml
-  - name: Submit it
-    github_id: facebookincubator/submitit
-    pypi_id: submitit
-    conda_id: conda-forge/submitit
-    category: distributed-ml
-  - name: Hivemind
-    github_id: learning-at-home/hivemind
-    pypi_id: hivemind
-    category: distributed-ml
-  - name: Ray
-    github_id: ray-project/ray
-    pypi_id: ray
-    conda_id: conda-forge/ray-tune
-    category: distributed-ml
   - name: mpi4py
     github_id: mpi4py/mpi4py
     pypi_id: mpi4py
     conda_id: conda-forge/mpi4py
+    category: distributed-ml
+  - name: SynapseML
+    github_id: microsoft/SynapseML
+    pypi_id: synapseml
     category: distributed-ml
   - name: ipyparallel
     github_id: ipython/ipyparallel
@@ -2741,29 +2653,53 @@ projects:
     conda_id: conda-forge/ipyparallel
     category: distributed-ml
     labels: ["jupyter"]
-  - name: Elephas
-    github_id: danielenricocahall/elephas
-    pypi_id: elephas
-    conda_id: conda-forge/elephas
-    category: distributed-ml
-    labels: ["keras", "spark"]
+
+# Distributed Deep Learning & Training
+  - name: DeepSpeed
+    github_id: microsoft/DeepSpeed
+    pypi_id: deepspeed
+    dockerhub_id: deepspeed/deepspeed
+    category: distributed-dl
+    labels: ["pytorch"]
+  - name: Megatron-LM
+    github_id: NVIDIA/Megatron-LM
+    pypi_id: megatron-core
+    category: distributed-dl
+  - name: ColossalAI
+    github_id: hpcaitech/colossalai
+    pypi_id: colossalai
+    category: distributed-dl
+  - name: accelerate
+    github_id: huggingface/accelerate
+    pypi_id: accelerate
+    category: distributed-dl
+  - name: torchtitan
+    github_id: pytorch/torchtitan
+    pypi_id: torchtitan
+    category: distributed-dl
+  - name: petastorm
+    github_id: uber/petastorm
+    pypi_id: petastorm
+    category: distributed-dl
+  - name: dask.distributed
+    github_id: dask/distributed
+    pypi_id: distributed
+    conda_id: conda-forge/distributed
+    category: distributed-dl
+  - name: Submit it
+    github_id: facebookincubator/submitit
+    pypi_id: submitit
+    conda_id: conda-forge/submitit
+    category: distributed-dl
+  - name: Hivemind
+    github_id: learning-at-home/hivemind
+    pypi_id: hivemind
+    category: distributed-dl
   - name: Apache Singa
     github_id: apache/singa
     conda_id: nusdbsystem/singa
     dockerhub_id: apache/singa
-    category: distributed-ml
-  - name: DEAP
-    github_id: deap/deap
-    pypi_id: deap
-    conda_id: conda-forge/deap
-    category: distributed-ml
-  - name: MMLSpark
-    github_id: microsoft/SynapseML
-    pypi_id: mmlspark
-    category: distributed-ml
-    labels: ["spark"]
-
-
+    category: distributed-dl
 
   - name: Baal
     github_id: baal-org/baal
@@ -3427,3 +3363,7 @@ projects:
     github_id: huggingface/huggingface_hub
     pypi_id: huggingface_hub
     conda_id: conda-forge/huggingface_hub
+  - name: DEAP
+    github_id: deap/deap
+    pypi_id: deap
+    conda_id: conda-forge/deap
