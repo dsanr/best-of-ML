@@ -94,6 +94,9 @@ categories:
   - category: "interpretability"
     title: "Model Interpretability"
     subtitle: "Libraries to visualize, explain, debug, evaluate, and interpret machine learning models."
+  - category: "causal-inference"
+    title: "Causal Inference"
+    subtitle: "Libraries for identifying and estimating causal relationships in data."
   - category: "ml-experiments"
     title: "Experiment Tracking"
     subtitle: "Libraries to track, manage, and reproduce machine learning experiments."
@@ -230,6 +233,36 @@ projects:
     github_id: awesomedata/awesome-public-datasets
     category: "data-science"
 
+  - name: best-of-web-python - Web Scraping
+    github_id: ml-tooling/best-of-web-python
+    category: web-scraping
+    description: Collection of web-scraping and crawling libraries.
+    resource: true
+    homepage: https://github.com/ml-tooling/best-of-web-python#web-scraping--crawling
+  - name: best-of-python - Data Extraction
+    github_id: ml-tooling/best-of-python
+    category: data-loading
+    description: Collection of data-loading and -extraction libraries.
+    resource: true
+    homepage: https://github.com/ml-tooling/best-of-python#data-loading--extraction
+  - name: best-of-python - DB Clients
+    github_id: ml-tooling/best-of-python
+    category: db-clients
+    description: Collection of database clients for python.
+    resource: true
+    homepage: https://github.com/ml-tooling/best-of-python#database-clients
+  - name: best-of-python - Data Containers
+    github_id: ml-tooling/best-of-python
+    category: data-containers
+    description: Collection of data-container, dataframe, and pandas-utility libraries.
+    resource: true
+    homepage: https://github.com/ml-tooling/best-of-python#data-containers--dataframes
+  - name: best-of-python - Data Pipelines
+    github_id: ml-tooling/best-of-python
+    category: data-pipelines
+    description: Libraries for data batch- and stream-processing, workflow automation, job scheduling, and other data pipeline tasks.
+    resource: true
+    homepage: https://github.com/ml-tooling/best-of-python#data-pipelines--streaming
 
   - name: Tensorflow
     github_id: tensorflow/tensorflow
@@ -1316,10 +1349,6 @@ projects:
     pypi_id: lit-nlp
     conda_id: conda-forge/lit-nlp
     category: interpretability
-  - name: causalml
-    github_id: uber/causalml
-    pypi_id: causalml
-    category: interpretability
   - name: yellowbrick
     github_id: DistrictDataLabs/yellowbrick
     pypi_id: yellowbrick
@@ -1486,6 +1515,48 @@ projects:
     pypi_id: dice-ml
     category: interpretability
     labels: ["tensorflow", "pytorch"]
+
+  - name: causalml
+    github_id: uber/causalml
+    pypi_id: causalml
+    category: causal-inference
+  - name: CausalPy
+    github_id: pymc-labs/CausalPy
+    pypi_id: causalpy
+    category: causal-inference
+  - name: tigramite
+    github_id: jakobrunge/tigramite
+    pypi_id: tigramite
+    category: causal-inference
+  - name: lingam
+    github_id: cdt15/lingam
+    pypi_id: lingam
+    category: causal-inference
+  - name: DoubleML
+    github_id: DoubleML/doubleml-for-py
+    pypi_id: doubleml
+    category: causal-inference
+  - name: DoWhy
+    github_id: py-why/dowhy
+    pypi_id: dowhy
+    conda_id: conda-forge/dowhy
+    category: causal-inference
+  - name: EconML
+    github_id: py-why/EconML
+    pypi_id: econml
+    category: causal-inference
+  - name: causal-learn
+    github_id: py-why/causal-learn
+    pypi_id: causal-learn
+    category: causal-inference
+  - name: pgmpy
+    github_id: pgmpy/pgmpy
+    pypi_id: pgmpy
+    category: causal-inference
+  - name: BiomedSciAI/causallib
+    github_id: BiomedSciAI/causallib
+    pypi_id: causallib
+    category: causal-inference
 
   - name: pytorch_tabular
     github_id: manujosephv/pytorch_tabular
@@ -2347,12 +2418,6 @@ projects:
     category: privacy-ml
     labels: ["pytorch"]
 
-  - name: featuretools
-    github_id: alteryx/featuretools
-    pypi_id: featuretools
-    conda_id: conda-forge/featuretools
-    category: hyperopt
-
   - name: Hyperopt
     github_id: hyperopt/hyperopt
     pypi_id: hyperopt
@@ -2785,10 +2850,6 @@ projects:
     conda_id: conda-forge/tensorflow-probability
     category: probabilistics
     labels: ["tensorflow"]
-  - name: pgmpy
-    github_id: pgmpy/pgmpy
-    pypi_id: pgmpy
-    category: probabilistics
   - name: torch-uncertainty
     github_id: ENSTA-U2IS-AI/torch-uncertainty
     pypi_id: torch-uncertainty
@@ -2913,12 +2974,6 @@ projects:
   - name: Poutyne
     github_id: GRAAL-Research/poutyne
     pypi_id: poutyne
-    category: pytorch-utils
-    labels: ["pytorch"]
-  - name: pytorch-optimizer
-    github_id: jettify/pytorch-optimizer
-    pypi_id: torch_optimizer
-    conda_id: conda-forge/torch-optimizer
     category: pytorch-utils
     labels: ["pytorch"]
   - name: PML
@@ -3065,13 +3120,28 @@ projects:
     github_id: ucl-bug/jaxdf
     category: jax-utils
     labels: ["jax"]
-  - name: evojax
-    github_id: google/evojax
-    category: jax-utils
-    labels: ["jax"]
-    conda_id: conda-forge/evojax
-    pypi_id: evojax
 
+  - name: featuretools
+    github_id: alteryx/featuretools
+    pypi_id: featuretools
+    conda_id: conda-forge/featuretools
+    category: sklearn-utils
+  - name: Feature Engine
+    github_id: feature-engine/feature_engine
+    pypi_id: feature_engine
+    conda_id: conda-forge/feature_engine
+    category: sklearn-utils
+  - name: gplearn
+    github_id: trevorstephens/gplearn
+    pypi_id: gplearn
+    conda_id: conda-forge/gplearn
+    category: sklearn-utils
+    labels: ["sklearn"]
+  - name: skrub
+    github_id: skrub-data/skrub
+    pypi_id: skrub
+    conda_id: conda-forge/skrub
+    category: sklearn-utils
   - name: MLxtend
     github_id: rasbt/mlxtend
     pypi_id: mlxtend
@@ -3141,45 +3211,9 @@ projects:
     category: sklearn-utils
     labels: ["sklearn"]
 
-  - name: best-of-web-python - Web Scraping
-    github_id: ml-tooling/best-of-web-python
-    category: web-scraping
-    description: Collection of web-scraping and crawling libraries.
-    resource: true
-    homepage: https://github.com/ml-tooling/best-of-web-python#web-scraping--crawling
-  - name: best-of-python - Data Extraction
-    github_id: ml-tooling/best-of-python
-    category: data-loading
-    description: Collection of data-loading and -extraction libraries.
-    resource: true
-    homepage: https://github.com/ml-tooling/best-of-python#data-loading--extraction
-  - name: best-of-python - DB Clients
-    github_id: ml-tooling/best-of-python
-    category: db-clients
-    description: Collection of database clients for python.
-    resource: true
-    homepage: https://github.com/ml-tooling/best-of-python#database-clients
-  - name: best-of-python - Data Containers
-    github_id: ml-tooling/best-of-python
-    category: data-containers
-    description: Collection of data-container, dataframe, and pandas-utility libraries.
-    resource: true
-    homepage: https://github.com/ml-tooling/best-of-python#data-containers--dataframes
-  - name: best-of-python - Data Pipelines
-    github_id: ml-tooling/best-of-python
-    category: data-pipelines
-    description: Libraries for data batch- and stream-processing, workflow automation, job scheduling, and other data pipeline tasks.
-    resource: true
-    homepage: https://github.com/ml-tooling/best-of-python#data-pipelines--streaming
-
-
   - name: alibi-detect
     github_id: SeldonIO/alibi-detect
     pypi_id: alibi-detect
-  - name: Feature Engine
-    github_id: feature-engine/feature_engine
-    pypi_id: feature_engine
-    conda_id: conda-forge/feature_engine
   - name: pandas-ai
     github_id: gventuri/pandas-ai
     category: others
@@ -3212,11 +3246,6 @@ projects:
     github_id: sympy/sympy
     pypi_id: sympy
     conda_id: conda-forge/sympy
-  - name: gplearn
-    github_id: trevorstephens/gplearn
-    pypi_id: gplearn
-    conda_id: conda-forge/gplearn
-    labels: ["sklearn"]
   - name: pyjanitor
     github_id: pyjanitor-devs/pyjanitor
     pypi_id: pyjanitor
@@ -3313,8 +3342,6 @@ projects:
     github_id: kLabUM/rrcf
     pypi_id: rrcf
     category: others
-  - name: traingenerator
-    github_id: jrieke/traingenerator
   - name: kaggle
     github_id: Kaggle/kaggle-api
     pypi_id: kaggle
